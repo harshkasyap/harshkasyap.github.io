@@ -6,6 +6,9 @@ import {
 
 // Featured
 import Index from './views/Index';
+import Timeline from './views/Timeline';
+import SpecialLady from './views/SpecialLady';
+import Photos from './views/Photos';
 import About from './views/About';
 import Projects from './views/Projects';
 import Resume from './views/Resume';
@@ -21,6 +24,9 @@ ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
       <Route exact path="/" component={Index} />
+      <Route path="/timeline" component={Timeline} />
+      <Route path="/speciallady" component={SpecialLady} />
+      <Route path="/photos" component={Photos} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
       <Route path="/stats" component={Stats} />

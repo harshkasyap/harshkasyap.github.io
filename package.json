@@ -1,5 +1,5 @@
 {
-  "name": "mldangelo.com",
+  "name": "harshkasyap.github.io",
   "homepage": "https://github.com/harshkasyap/harshkasyap.github.io",
   "version": "1.0.1",
   "private": true,
@@ -12,7 +12,7 @@
     "dev": "nodemon server/server.js --ignore app/ --ignore test/ --exec babel-node",
     "parse-routes": "node -r @babel/register parseRoutes.js",
     "predeploy": "npm run build && cp -r public/* dist/ && cp dist/index.html dist/404.html && npm run parse-routes",
-    "deploy": "gh-pages -d dist && cp -r dist/* ."
+    "deploy": "cp sample.env .env && gh-pages -d dist && rm -rf *.min.js && cp -r dist/* ."
   },
   "dependencies": {
     "@babel/cli": "^7.4.4",
@@ -55,11 +55,12 @@
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "raw-loader": "^3.0.0",
-    "react": "^16.8.6",
+    "react": "^16.9.0",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-helmet": "^5.2.1",
+    "react-live-clock": "^3.1.0",
     "react-markdown": "^4.0.8",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",

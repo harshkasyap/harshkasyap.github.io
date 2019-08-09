@@ -1,4 +1,5 @@
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
+import faFilePdf from '@fortawesome/fontawesome-free-regular/faFilePdf';
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebookF';
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
 import faLinkedinIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
@@ -6,42 +7,44 @@ import faAngellist from '@fortawesome/fontawesome-free-brands/faAngellist';
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
+import strings from '../static/language/strings'
+
 const data = [
   {
-    link: 'https://github.com/mldangelo',
+    link: strings.resumeOverleaf,
+    label: 'Overleaf',
+    icon: faFilePdf,
+  },
+  {
+    link: strings.githubId,
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://facebook.com/d',
-    label: 'Facebook',
-    icon: faFacebook,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
+    link: strings.instagramId,
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: strings.facebookId,
+    label: 'Facebook',
+    icon: faFacebook,
+  },
+  {
+    link: strings.linkedinId,
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/dangelosaurus',
+    link: strings.twitterId,
     label: 'Twitter',
     icon: faTwitter,
-  },
+  }/* ,
   {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'mailto:' + strings.email,
     label: 'Email',
     icon: faEnvelope,
-  },
+  }, */
 ];
 
 export default data;

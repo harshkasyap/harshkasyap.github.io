@@ -1,13 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import Helmet from 'react-helmet';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import Main from '../layouts/Main';
-
-import data from '../data/contact';
-
-import strings from '../static/language/strings'
+import strings from '../../static/language/strings'
 
 // Validates the first half of an email address.
 const validateText = (text) => {
@@ -80,35 +73,20 @@ const Contact = () => {
   }, isActive ? delay : null);
 
   return (
-    <Main>
-      <Helmet title="Contact" />
-      <article className="post" id="contact">
-        <header>
-          <div className="title">
-            <h2><Link to="/contact">Contact</Link></h2>
-          </div>
-        </header>
-        <div className="email-at">
-          <p>Feel free to get in touch. You can email me at: </p>
-          <div
-            className="inline-container"
-            style={validateText(message) ? {} : { color: 'red' }}
-            onMouseEnter={() => setIsActive(false)}
-            onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
-          >
-            <a href={validateText(message) ? `mailto:${strings.email}` : ''}>
-              <span>{message}</span>
-              <span>@iamnotjoking.com</span>
-            </a>
-          </div>
-        </div>
-        <ul className="icons">
-          {data.map(s => (
-            <li key={s.label}><a href={s.link}><FontAwesomeIcon icon={s.icon} /></a></li>
-          ))}
-        </ul>
-      </article>
-    </Main>
+    <div className="email-at">
+      <p>Feel free to get in touch. You can email me at: </p>
+      <div
+        className="inline-container"
+        style={validateText(message) ? {} : { color: 'red' }}
+        onMouseEnter={() => setIsActive(false)}
+        onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
+      >
+        <a href={validateText(message) ? `mailto:${strings.email}` : ''}>
+          <span>{message}</span>
+          <span>@iamnotjoking.com</span>
+        </a>
+      </div>
+    </div>
   );
 };
 

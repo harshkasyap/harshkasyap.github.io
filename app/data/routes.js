@@ -1,9 +1,23 @@
+import strings from '../static/language/strings'
+
 const data = [
   {
     path: '/',
-    label: 'Michael D\'Angelo',
+    label: strings.name,
     index: true,
   },
+  {
+    path: '/timeline',
+    label: 'TimeLine',
+  },
+  {
+    path: '/speciallady',
+    label: 'The Special Lady',
+  },
+  {
+    path: '/photos',
+    label: 'Photography',
+  }/* ,
   {
     path: '/about',
     label: 'About',
@@ -23,7 +37,7 @@ const data = [
   {
     path: '/contact',
     label: 'Contact',
-  },
+  }, */
 ];
 
 export default data;

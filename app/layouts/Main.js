@@ -7,6 +7,8 @@ import ReactGA from 'react-ga';
 import Header from '../components/Template/Header';
 import Nav from '../components/Template/Nav';
 
+import strings from '../static/language/strings'
+
 if (NODE_ENV === 'production') {
   ReactGA.initialize(GA_ID);
 }
@@ -28,7 +30,7 @@ class Main extends Component {
   render() {
     return (
       <div id="wrapper">
-        <Helmet titleTemplate="%s | Michael D'Angelo" defaultTitle="Michael D'Angelo" />
+        <Helmet titleTemplate={"%s | " + strings.name} defaultTitle={strings.name} />
         <Header />
         <div id="main">
           {this.props.children}
