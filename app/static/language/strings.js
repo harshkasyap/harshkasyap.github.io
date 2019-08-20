@@ -14,7 +14,7 @@ const strings = {
   resumeOverleaf: "https://www.overleaf.com/read/gqqmzykjkcgg",
   websiteGitRepo: "https://github.com/harshkasyap/harshkasyap.github.io",
   timeZone: "Asia/KolKata",
-  aboutMe: "Hi, I am Harsh. I like doing time-pass, and this is a by-product of that. So, internet surfing is my primary work, hobby and life. I also do some productive works like sleeping, cooking, playing, cycling, reading books and watching movies. Through this page, I will travel with you along my little art and science that I pursue."
+  aboutMe: "Hi, I am Harsh. You already know my age and your time. If you are still interested in knowing me, my works and collections which I have learnt, heard, seen from you over the years, Then I will travel with you along my little art and science that I pursue through this page."
 }
 
 export default strings
