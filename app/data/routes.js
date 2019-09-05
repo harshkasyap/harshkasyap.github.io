@@ -15,6 +15,10 @@ const data = [
     label: 'The Special Lady',
   },
   {
+    path: '/mypieces',
+    label: 'My Pieces',
+  },
+  {
     path: '/photos',
     label: 'Gallery',
   }
