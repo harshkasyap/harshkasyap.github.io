@@ -18,11 +18,11 @@ for(let i = length; i > 0; i--){
 
 const Projects = () => (
   <Main>
-    <Helmet title="Photography" />
+    <Helmet title="Gallery" />
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/projects">Photography</Link></h2>
+          <h2>Gallery</h2>
           <p>A selection of photos, clicked or collected!</p>
         </div>
       </header>

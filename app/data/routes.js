@@ -16,28 +16,8 @@ const data = [
   },
   {
     path: '/photos',
-    label: 'Photography',
-  }/* ,
-  {
-    path: '/about',
-    label: 'About',
-  },
-  {
-    path: '/resume',
-    label: 'Resume',
-  },
-  {
-    path: '/projects',
-    label: 'Projects',
-  },
-  {
-    path: '/stats',
-    label: 'Stats',
-  },
-  {
-    path: '/contact',
-    label: 'Contact',
-  }, */
+    label: 'Gallery',
+  }
 ];
 
 export default data;

@@ -1,7 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react';
 
 import Table from './Table';
-import personalData from '../../data/stats';
 
 import strings from '../../static/language/strings'
 
