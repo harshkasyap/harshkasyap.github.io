@@ -21,6 +21,10 @@ const data = [
   {
     path: '/photos',
     label: 'Gallery',
+  },
+  {
+    path: '/library',
+    label: 'Library',
   }
 ];
 
