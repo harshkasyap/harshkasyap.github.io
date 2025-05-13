@@ -5,6 +5,6 @@ title: Contact
 
 # Contact Me
 
-Email: harshkasyap@iitbhu.ac.in
+Email: harshkasyap@gmail.com
 
-Office: Department of Computer Science, IIT BHU
+Office: -

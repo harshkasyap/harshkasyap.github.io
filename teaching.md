@@ -5,9 +5,9 @@ title: Teaching
 
 # Teaching
 
-I have taught courses in:
-- Machine Learning
+I am/have taught following courses:
+<!-- Machine Learning
 - Operating Systems
-- Data Structures
+- Data Structures -->
 
 Proposed new course: *Machine Learning Security*

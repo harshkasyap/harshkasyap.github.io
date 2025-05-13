@@ -7,5 +7,6 @@ title: Research
 
 My research interests include:
 - Federated Learning
-- Privacy-Preserving Machine Learning
-- Secure Computation
+- Privacy-Preserving ML
+- Trustworthy AI
+- Private Data Sharing
