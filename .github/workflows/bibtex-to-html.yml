@@ -5,10 +5,12 @@ on:
     paths:
       - 'publication.bib'
       - '.github/workflows/bibtex-to-html.yml'
+      - 'bibtex_to_html.py'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -18,8 +20,9 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install bibtexparser
-        run: pip install bibtexparser
+      - name: Install Python dependencies
+        run: |
+          pip install pybtex bibtexparser
 
       - name: Convert BibTeX to HTML
         run: |
