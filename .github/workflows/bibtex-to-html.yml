@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install pybtex bibtexparser
+          pip install pybtex bibtexparser beautifulsoup4
 
       - name: Convert BibTeX to HTML
         run: |
