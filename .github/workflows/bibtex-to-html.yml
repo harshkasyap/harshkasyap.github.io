@@ -3,9 +3,7 @@ name: Convert BibTeX to HTML
 on:
   push:
     paths:
-      - 'publication.bib'
-      - '.github/workflows/bibtex-to-html.yml'
-      - 'bibtex_to_html.py'
+      - 'publications.bib'
 
 jobs:
   build:
@@ -26,7 +24,7 @@ jobs:
 
       - name: Convert BibTeX to HTML
         run: |
-          python bibtex_to_html.py publication.bib > _includes/publications.html
+          python bibtex_to_html.py publications.bib > _includes/publications.html
 
       - name: Commit HTML file
         run: |
