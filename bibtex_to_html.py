@@ -1,18 +1,24 @@
-
 from pybtex.database.input import bibtex
+from pybtex.database import Person
+import sys
 
 parser = bibtex.Parser()
-bib_data = parser.parse_file("publications.bib")
+bib_data = parser.parse_file(sys.argv[1])
 
-html_output = []
+print('<ul class="pub-list">')
+for key, entry in sorted(bib_data.entries.items(), reverse=True):
+    fields = entry.fields
+    authors = entry.persons['author']
+    author_names = ', '.join([str(a) for a in authors])
 
-for key, entry in sorted(bib_data.entries.items(), key=lambda x: x[1].fields.get('year', ''), reverse=True):
-    title = entry.fields.get("title", "").replace("{", "").replace("}", "")
-    authors = ", ".join([" ".join(person.first() + person.last()) for person in entry.persons["author"]])
-    year = entry.fields.get("year", "")
-    venue = entry.fields.get("booktitle", entry.fields.get("journal", ""))
-    
-    html_output.append(f"<p><strong>{title}</strong><br>{authors}<br><em>{venue}</em>, {year}</p>")
+    title = fields.get('title', 'No Title').replace('{', '').replace('}', '')
+    journal = fields.get('journal', fields.get('booktitle', ''))
+    year = fields.get('year', '')
+    doi = fields.get('doi', '')
+    url = fields.get('url', '')
 
-with open("publications.html", "w") as f:
-    f.write("\n".join(html_output))
+    link = f'<a href="https://doi.org/{doi}">{title}</a>' if doi else f'<a href="{url}">{title}</a>' if url else title
+
+    print(f"<li><strong>{link}</strong><br>")
+    print(f"{author_names}. <em>{journal}</em>, {year}.</li>")
+print('</ul>')
