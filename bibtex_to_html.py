@@ -1,49 +1,36 @@
-import os
-from pybtex.database import parse_file
-from bs4 import BeautifulSoup
+from pybtex.database.input import bibtex
+from collections import defaultdict
 
-def bibtex_to_html(bibtex_file, output_file):
-    # Parse the .bib file
-    bib_data = parse_file(bibtex_file)
+# Load the BibTeX file
+bib_data = bibtex.Parser().parse_file('publications.bib')
+
+# Initialize a dictionary to store publications by year
+publications_by_year = defaultdict(list)
+
+# Group the publications by year
+for entry in bib_data.entries.values():
+    year = entry.fields.get('year', 'Unknown Year')
+    title = entry.fields.get('title', 'No Title')
+    author = entry.persons.get('author', 'Unknown Author')
+    url = entry.fields.get('url', '')
     
-    # Open the output HTML file
-    with open(output_file, 'w') as out_file:
-        out_file.write('<div class="publication-cards">\n')
+    # Construct the publication details
+    publication_details = {
+        'title': title,
+        'author': author,
+        'url': url
+    }
+    
+    publications_by_year[year].append(publication_details)
 
-        # Loop over each entry in the BibTeX file
-        for entry in bib_data.entries.values():
-            title = entry.fields.get('title', 'No Title')
-            authors = entry.persons.get('author', [])
-            year = entry.fields.get('year', 'No Year')
-            journal = entry.fields.get('journal', 'No Journal')
-            url = entry.fields.get('url', '')
-            
-            # Format authors as a comma-separated string
-            author_names = ', '.join(str(author) for author in authors)
-            
-            # Generate the BibTeX entry for the copy button
-            bibtex_entry = f"@article{{{entry.key},\n    title={{ {title} }},\n    author={{ {author_names} }},\n    year={{ {year} }},\n    journal={{ {journal} }}\n}}"
-            
-            # HTML structure for each publication card
-            html_card = f'''
-            <div class="publication-card">
-                <h3 class="pub-title">{title}</h3>
-                <p class="pub-authors">{author_names}</p>
-                <p class="pub-year">{year}</p>
-                <p class="pub-journal">{journal}</p>
-                <button class="copy-bibtex" data-bibtex="{bibtex_entry}">Copy BibTeX</button>
-                {'<a href="' + url + '" class="paper-link" target="_blank">Read Paper</a>' if url else ''}
-            </div>\n
-            '''
-            
-            # Write the HTML card to the file
-            out_file.write(html_card)
-
-        out_file.write('</div>\n')
-
-# Define the paths for the BibTeX file and output HTML file
-bibtex_file = 'publications.bib'  # Input BibTeX file
-output_file = '_includes/publications.html'  # Output HTML file (for inclusion in Jekyll)
-
-# Generate the HTML file
-bibtex_to_html(bibtex_file, output_file)
+# Write HTML output grouped by year
+with open('_includes/publications.html', 'w') as f:
+    f.write('<h1>Publications</h1>')
+    
+    for year, publications in sorted(publications_by_year.items(), reverse=True):
+        f.write(f'<h2>{year}</h2>')
+        for pub in publications:
+            f.write(f'<p><strong>{pub["title"]}</strong><br>{pub["author"]}<br>')
+            if pub["url"]:
+                f.write(f'<a href="{pub["url"]}" target="_blank">Link to Paper</a><br>')
+            f.write('</p>')
