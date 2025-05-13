@@ -9,7 +9,7 @@ const data = [
   {
     path: '/timeline',
     label: 'TimeLine',
-  },
+  }/*,
   {
     path: '/speciallady',
     label: 'The Special Lady',
@@ -25,7 +25,7 @@ const data = [
   {
     path: '/library',
     label: 'Library',
-  }
+  }*/
 ];
 
 export default data;
