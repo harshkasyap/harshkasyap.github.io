@@ -43,7 +43,7 @@ def generate_bib():
                 entry['url'] = pub_filled['pub_url']
 
             # Add abstract if available
-            abstract = pub_filled.get('abstract')
+            abstract = bib.get('abstract')
             if abstract:
                 entry['note'] = abstract
 
