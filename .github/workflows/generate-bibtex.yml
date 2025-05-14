@@ -24,7 +24,7 @@ jobs:
 
       - name: Run BibTeX generation script
         run: |
-          python generate_pub_bibtex.py  # Run the Python script to generate publications.bib
+          python scripts/generate_pub_bibtex.py  # Run the Python script to generate publications.bib
 
       - name: Commit and push publications.bib
         run: |
