@@ -1,40 +1,66 @@
 from scholarly import scholarly
 import bibtexparser
-from datetime import datetime
+from bibtexparser.bwriter import BibTexWriter
+from bibtexparser.bibdatabase import BibDatabase
+import re
 
-# Search for a scholar's publications
-search_query = scholarly.search_author('Harsh Kasyap')  # Replace with your name or search query
-author = next(search_query)  # Retrieve the first author match
+def clean_id(title, i):
+    """Cleans and truncates the title to create a valid BibTeX ID."""
+    base = re.sub(r'\W+', '_', title.lower())
+    return base[:40] + f"_{i}"
 
-# Fetch author details
-author_details = scholarly.fill(author)
+def generate_bib():
+    try:
+        # Use Google Scholar ID for more reliable results
+        author = scholarly.search_author_id('1kGoXAUAAAAJ')  # Harsh Kasyap's ID
+        author_filled = scholarly.fill(author, sections=['publications'])
 
-# Open or create a BibTeX file to write the results
-bib_entries = []
+        entries = []
+        for i, pub in enumerate(author_filled['publications']):
+            pub_filled = scholarly.fill(pub)
 
-for pub in author_details['publications']:
-    publication = scholarly.fill(pub)
-    
-    # Create a BibTeX entry for each publication
-    bib_entry = {
-        'ENTRYTYPE': 'article',
-        'author': publication.get('author', 'Unknown Author'),
-        'title': publication.get('bib', {}).get('title', 'No Title'),
-        'journal': publication.get('bib', {}).get('journal', 'Unknown Journal'),
-        'year': publication.get('bib', {}).get('pub_year', 'Unknown Year'),
-        'url': publication.get('pub_url', ''),
-        'abstract': publication.get('bib', {}).get('abstract', 'No Abstract Available')
-    }
-    
-    # Format the entry as a BibTeX entry string
-    bib_entries.append(bib_entry)
+            bib = pub_filled.get('bib', {})
+            if not bib.get('title'):
+                continue  # Skip entries without a title
 
-# Convert the bib_entries to BibTeX format
-bib_database = bibtexparser.bibdatabase.BibDatabase()
-bib_database.entries = bib_entries
+            entry = {
+                'ENTRYTYPE': bib.get('pub_type', 'article'),
+                'ID': clean_id(bib['title'], i),
+            }
 
-# Output the BibTeX string to a file
-with open('publications.bib', 'w') as bibfile:
-    bibtexparser.dump(bib_database, bibfile)
+            # Add standard fields
+            for key in ['author', 'title', 'journal', 'year', 'volume', 'number', 'pages', 'publisher']:
+                if key in bib:
+                    entry[key] = bib[key]
 
-print("BibTeX file generated successfully.")
+            # Add URL if available
+            if 'eprint_url' in pub_filled:
+                entry['url'] = pub_filled['eprint_url']
+            elif 'pub_url' in pub_filled:
+                entry['url'] = pub_filled['pub_url']
+
+            # Add abstract if available
+            abstract = pub_filled.get('abstract')
+            if abstract:
+                entry['note'] = abstract
+
+            entries.append(entry)
+
+        # Write to BibTeX file
+        bib_database = BibDatabase()
+        bib_database.entries = entries
+
+        writer = BibTexWriter()
+        writer.indent = '    '
+        writer.order_entries_by = ('year', 'ID')
+
+        with open('publications.bib', 'w') as bibfile:
+            bibfile.write(writer.write(bib_database))
+
+        print("✅ publications.bib generated successfully.")
+
+    except Exception as e:
+        print(f"❌ Error: {e}")
+
+if __name__ == '__main__':
+    generate_bib()
