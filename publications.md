@@ -3,12 +3,7 @@ layout: default
 title: Publications
 ---
 
----
-layout: default
-title: Publications
----
-
-## Selected Publications
+## Publications
 
 {% capture bib_output %}
 {% include publications.html %}
