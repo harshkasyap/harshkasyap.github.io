@@ -54,7 +54,7 @@ def generate_bib():
         writer.indent = '    '
         writer.order_entries_by = ('year', 'ID')
 
-        with open('publications.bib', 'w') as bibfile:
+        with open('assets/data/publications.bib', 'w') as bibfile:
             bibfile.write(writer.write(bib_database))
 
         print("✅ publications.bib generated successfully.")
