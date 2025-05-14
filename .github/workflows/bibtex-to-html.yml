@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'assets/data/publications.bib'
+      - 'scripts/bibtex_to_html.py'
 
 jobs:
   build:
