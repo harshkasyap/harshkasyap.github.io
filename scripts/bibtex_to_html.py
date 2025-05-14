@@ -80,14 +80,15 @@ def generate_html(bib_data):
   </style>
   <script>
     function copyBibtex(id) {
-      const bib = document.getElementById(id);
-      navigator.clipboard.writeText(bib.textContent).then(() => {
-        const feedback = document.getElementById(id + '-copied');
-        feedback.style.display = 'inline';
-        setTimeout(() => {
-          feedback.style.display = 'none';
-        }, 1500);
-      });
+    const textarea = document.getElementById(id);
+    textarea.select();
+    document.execCommand('copy');
+
+    const feedback = document.getElementById(id + '-copied');
+    feedback.style.display = 'inline';
+    setTimeout(() => {
+        feedback.style.display = 'none';
+    }, 1500);
     }
   </script>
 ''']
@@ -100,14 +101,28 @@ def generate_html(bib_data):
         for i, (key, entry) in enumerate(entries):
             fields = entry.fields
             title = escape(fields.get('title', 'No Title'))
-            authors = ', '.join(str(person) for person in entry.persons.get('author', []))
-            abstract = escape(fields.get('note', fields.get('abstract', '')))
+            #authors = ', '.join(str(person) for person in entry.persons.get('author', []))
+                        # Authors, bolding your name
+            
+            authors = []
+            for person in entry.persons.get('author', []):
+                name_str = str(person)
+                if 'Harsh Kasyap' in name_str or 'Kasyap, Harsh' in name_str:
+                    name_str = f'<em>{escape(name_str)}</em>'
+                else:
+                    name_str = escape(name_str)
+                authors.append(name_str)
+            authors = ', '.join(authors)
+            
+            abstract = escape(fields.get('abstract', fields.get('abstract', '')))
             url = fields.get('url', '')
             bibtex_id = f'bibtex_{year}_{i}'
             bibtex_str = escape(entry.to_string('bibtex'))
 
+            venue = escape(fields.get('journal', fields.get('conference', '')))
+
             output.append('<details class="pub-entry">')
-            output.append(f'  <summary>{title}<br><em>{authors}</em></summary>')
+            output.append(f'  <summary>{title}<br>{venue}<br>{authors}</summary>')
             output.append('  <div>')
 
             if abstract:
@@ -119,10 +134,12 @@ def generate_html(bib_data):
             output.append(f'''
 <div style="position: relative;">
   <button class="copy-button" onclick="copyBibtex('{bibtex_id}')">Copy</button>
-  <pre><code id="{bibtex_id}">{bibtex_str}</code></pre>
+  <pre><code>{bibtex_str}</code></pre>
+  <textarea id="{bibtex_id}" style="position:absolute; left:-9999px;">{entry.to_string('bibtex')}</textarea>
   <span class="copy-feedback" id="{bibtex_id}-copied">✔ Copied!</span>
 </div>
 ''')
+
 
             output.append('  </div>')
             output.append('</details>')

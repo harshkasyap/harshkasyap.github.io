@@ -27,7 +27,7 @@ def generate_bib():
             }
 
             # Add standard fields
-            for key in ['author', 'title', 'journal', 'volume', 'number', 'pages', 'publisher']:
+            for key in ['author', 'title', 'journal', 'conference', 'volume', 'number', 'pages', 'publisher']:
                 if key in bib:
                     entry[key] = bib[key]
 
@@ -45,7 +45,7 @@ def generate_bib():
             # Add abstract if available
             abstract = bib.get('abstract')
             if abstract:
-                entry['note'] = abstract
+                entry['abstract'] = abstract
 
             entries.append(entry)
 

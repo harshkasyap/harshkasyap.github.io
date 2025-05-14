@@ -5,4 +5,4 @@ title: CV
 
 # Curriculum Vitae
 
-[Download my CV (PDF)](cv.pdf)
+[Link to my CV (Overleaf)](https://www.overleaf.com/read/bhtrzqkzxxmt#4d3042)
