@@ -31,6 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
           git add _includes/publications.html
           git commit -m "Auto-update publications.html from BibTeX" || echo "No changes to commit"
           git push
