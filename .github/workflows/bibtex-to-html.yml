@@ -24,7 +24,7 @@ jobs:
 
       - name: Convert BibTeX to HTML
         run: |
-          python bibtex_to_html.py assets/data/publications.bib > _includes/publications.html
+          python scripts/bibtex_to_html.py assets/data/publications.bib > _includes/publications.html
 
       - name: Commit HTML file
         run: |
