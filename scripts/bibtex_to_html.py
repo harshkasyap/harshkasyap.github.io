@@ -108,7 +108,7 @@ def generate_html(bib_data):
             for person in entry.persons.get('author', []):
                 name_str = str(person)
                 if 'Harsh Kasyap' in name_str or 'Kasyap, Harsh' in name_str:
-                    name_str = f'<em>{escape(name_str)}</em>'
+                    name_str = f'<em style="color:blue;">{escape(name_str)}</em>'
                 else:
                     name_str = escape(name_str)
                 authors.append(name_str)
@@ -122,7 +122,7 @@ def generate_html(bib_data):
             venue = escape(fields.get('journal', fields.get('conference', '')))
 
             output.append('<details class="pub-entry">')
-            output.append(f'<summary>{title}<br>{venue}<br>{authors}</summary>')
+            output.append(f' <summary>{title}<br><b style="color:red;>{venue}</b><br>{authors}</summary>')
             output.append('  <div>')
 
             if abstract:
