@@ -122,7 +122,7 @@ def generate_html(bib_data):
             venue = escape(fields.get('journal', fields.get('conference', '')))
 
             output.append('<details class="pub-entry">')
-            output.append(f' <summary>{title}<br><b style="color:red;>{venue}</b><br>{authors}</summary>')
+            output.append(f' <summary>{title}<br><em style="color:red;>{venue}</em><br>{authors}</summary>')
             output.append('  <div>')
 
             if abstract:
