@@ -11,7 +11,7 @@ title: "About me"
 
   <!-- Intro -->
   <!-- p style="margin-top: 1rem;"><strong>Assistant Professor</strong><br>IIT (BHU) Varanasi</p -->
-  <p><strong>Research Interests:</strong> Privacy-preserving ML, Trustworthy AI, Privacy Enhancing Technologies - Federated Learning</p>
+  <p><strong>Hi! I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking deeply, learning new things, and creating systems that (hopefully) make life a little better. Outside of all that, I’m drawn to art, nature, and quiet moments with quiet conversations.</strong></p>
 
   <!-- Quote Widget -->
   <div style="margin-top: 2rem;">

@@ -37,7 +37,6 @@ title: Timeline
 
   .timeline-entry.right {
     left: 50%;
-    margin-left: 4%;
     text-align: left;
   }
 
@@ -58,7 +57,7 @@ title: Timeline
   }
 
   .timeline-entry.right::after {
-    left: -40px;
+    left: -10px;
   }
 
   .content {
@@ -112,7 +111,7 @@ title: Timeline
   <div class="timeline-entry right">
     <div class="content">
       <div class="date">2012 – 2016</div>
-      <h3>Bachelors - VIIT Pune</h3>
+      <h3>Bachelors - VIIT Pune, Pune University</h3>
       <p>Undergraduate studies where I developed core computer science skills.</p>
     </div>
   </div>
@@ -135,6 +134,14 @@ title: Timeline
 
   <div class="timeline-entry left">
     <div class="content">
+      <div class="date">Nov-Dec 2023</div>
+      <h3>Visiting Ph.D - The University of Warwick, UK</h3>
+      <p>Visiting Student to The Secure Cyber Systems Research Group (SCSRG).</p>
+    </div>
+  </div>
+
+  <div class="timeline-entry right">
+    <div class="content">
       <div class="date">2023 – 2025</div>
       <h3>Research Associate – The Alan Turing Institute London</h3>
       <p>Contributed to International research projects on digital identity, privacy, and trustworthy ML.</p>
@@ -144,7 +151,7 @@ title: Timeline
   <div class="timeline-entry left">
     <div class="content">
       <div class="date">2024 – 2027</div>
-      <h3>Hinrary Research Fellow – The University of Warwick, UK</h3>
+      <h3>Honorary Research Fellow – The University of Warwick, UK</h3>
       <p>Visiting Academic to The Secure Cyber Systems Research Group (SCSRG).</p>
     </div>
   </div>
@@ -153,7 +160,7 @@ title: Timeline
     <div class="content">
       <div class="date">Joining July 2025</div>
       <h3>Assistant Professor, at IIT (BHU) Varanasi</h3>
-      <p>In Department of Computer Science and Engineering.</p>
+      <p>In the Department of Computer Science and Engineering.</p>
     </div>
   </div>
 
