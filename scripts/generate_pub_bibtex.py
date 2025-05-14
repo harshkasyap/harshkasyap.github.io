@@ -11,14 +11,12 @@ def clean_id(title, i):
 
 def generate_bib():
     try:
-        # Use Google Scholar ID for more reliable results
         author = scholarly.search_author_id('1kGoXAUAAAAJ')  # Harsh Kasyap's ID
         author_filled = scholarly.fill(author, sections=['publications'])
 
         entries = []
         for i, pub in enumerate(author_filled['publications']):
             pub_filled = scholarly.fill(pub)
-
             bib = pub_filled.get('bib', {})
             if not bib.get('title'):
                 continue  # Skip entries without a title
@@ -29,9 +27,14 @@ def generate_bib():
             }
 
             # Add standard fields
-            for key in ['author', 'title', 'journal', 'year', 'volume', 'number', 'pages', 'publisher']:
+            for key in ['author', 'title', 'journal', 'volume', 'number', 'pages', 'publisher']:
                 if key in bib:
                     entry[key] = bib[key]
+
+            # Year: from bib if available, else from publication_date
+            year = bib.get('pub_year')
+            if year:
+                entry['year'] = str(year)
 
             # Add URL if available
             if 'eprint_url' in pub_filled:

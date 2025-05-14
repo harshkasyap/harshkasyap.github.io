@@ -30,6 +30,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
+          git stash
           git pull --rebase
           git add assets/data/publications.bib
           git commit -m "Update publications.bib"
