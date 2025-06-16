@@ -11,7 +11,9 @@ title: "About me"
 
   <!-- Intro -->
   <!-- p style="margin-top: 1rem;"><strong>Assistant Professor</strong><br>IIT (BHU) Varanasi</p -->
-  <p><strong>Hi! I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking deeply, learning new things, and creating systems that (hopefully) make life a little better. Outside of all that, I’m drawn to art, nature, and quiet moments with quiet conversations.</strong></p>
+  <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, with an emphasis on federated learning security, homomorphic encryption, and post-quantum cryptography. I have worked on projects in collaboration with the Alan Turing Institute, HSBC, and the Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
+  
+  <p><strong>More - I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking deeply, learning new things, and creating systems that (hopefully) make life a little better. Outside of all that, I’m drawn to art, nature, and quiet moments with quiet conversations.</strong></p>
 
   <!-- Quote Widget -->
   <div style="margin-top: 2rem;">
