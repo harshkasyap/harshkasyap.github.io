@@ -30,6 +30,6 @@ title: "About me"
     </iframe>
   </div>
 
-  <p><strong>We harvest (reap) what we plant (seed) - study for knowledge, exercise for health, love for love and ...</strong></p>
+  <p style="color:red;"><strong>We harvest (reap) what we plant (seed) - study for knowledge, exercise for health, love for love and ...</strong></p>
 
 </div>
