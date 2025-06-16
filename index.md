@@ -29,6 +29,6 @@ title: "About me"
   </div>
   
 <p><strong>More - I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking, learning new things, and creating systems that (hopefully) make life a little better.</strong></p>
-  <p style="color:red;"><strong>We harvest (reap) what we plant (seed) - study for knowledge, exercise for health, love for love and ...</strong></p>
+  <p style="color:blue;"><strong>We harvest (reap) what we plant (seed) - study for knowledge, exercise for health, love for love and ...</strong></p>
 
 </div>
