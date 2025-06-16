@@ -10,7 +10,7 @@ title: "About me"
   <h1>Harsh Kasyap</h1>
 
   <!-- Intro -->
-  <p style="margin-top: 1rem; color:olive;"><strong>Assistant Professor</strong><br>Department of Computer Science and Engineering<br>IIT (BHU) Varanasi, India</p>
+  <p style="margin-top: 1rem; color:olive;"><strong>Assistant Professor<br>Department of Computer Science and Engineering<br>Indian Institute of Technology (BHU) Varanasi, India</strong></p>
   <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, including privacy enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation. Earlier, I worked as a research associate at the Alan Turing Institute, London, and University of Warwick, UK, in collaboration with HSBC, Bank of Italy, and Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
 
   <!-- Quote Widget -->
