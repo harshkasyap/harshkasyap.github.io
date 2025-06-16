@@ -10,10 +10,10 @@ title: "About me"
   <h1>Harsh Kasyap</h1>
 
   <!-- Intro -->
-  <p style="margin-top: 1rem;"><strong>Assistant Professor</strong><br>IIT (BHU) Varanasi</p>
-  <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, with an emphasis on privacy enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation. Before joining IIT (BHU), I worked as a research associate at the Alan Turing Institute, London, and the University of Warwick, UK, in collaboration with HSBC, the Bank of Italy, and the Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
+  <p style="margin-top: 1rem;"><strong>Assistant Professor</strong><br>Department of Computer Science and Engineering<br>IIT (BHU) Varanasi, India</p>
+  <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, including privacy enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation. Before joining IIT (BHU), I worked as a research associate at the Alan Turing Institute, London, and the University of Warwick, UK, in collaboration with HSBC, the Bank of Italy, and the Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
   
-  <p><strong>More - I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking deeply, learning new things, and creating systems that (hopefully) make life a little better. Outside of all that, I’m drawn to art, nature, and quiet moments with quiet conversations.</strong></p>
+  <p><strong>More - I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking, learning new things, and creating systems that (hopefully) make life a little better.</strong></p>
 
   <!-- Quote Widget -->
   <div style="margin-top: 2rem;">
