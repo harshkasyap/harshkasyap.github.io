@@ -11,7 +11,7 @@ title: "About me"
 
   <!-- Intro -->
   <p style="margin-top: 1rem; color:olive;"><strong>Assistant Professor<br>Department of Computer Science and Engineering<br>Indian Institute of Technology (BHU) Varanasi, India</strong></p>
-  <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation. I am also an Honorary Research Fellow at the University of Warwick, visiting the Secure Cyber Systems Research Group (SCSRG). Earlier, I worked as a research associate at the Alan Turing Institute, London, in collaboration with HSBC, Bank of Italy, and Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
+  <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation. I am also an Honorary Research Fellow at the University of Warwick, visiting Secure Cyber Systems Research Group (SCSRG). Earlier, I worked as a research associate at the Alan Turing Institute, London, in collaboration with HSBC, Bank of Italy, and Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
 
   <!-- Quote Widget -->
   <div style="margin-top: 2rem;">
