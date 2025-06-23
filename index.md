@@ -72,7 +72,7 @@ title: "About Me"
 
   <div class="section-title">🧠 Research Interests</div>
   <p class="highlight-text">
-    My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, zero-knowledge proofs, and secure multi-party computation. <a target="_blank" href="/research.html">More here.</a>
+    My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, zero-knowledge proofs, and secure multi-party computation. <a href="/research.html">More here.</a>
   </p>
 
   <div class="section-title">🏢 Additional Affiliations</div>
