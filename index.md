@@ -82,7 +82,7 @@ title: "About Me"
 
   <div class="section-title">🔬 Past Roles & Projects</div>
   <p class="highlight-text">
-    I was previously a Research Associate at the <strong>Alan Turing Institute, London</strong>, with <a target="_blank" href="https://www.turing.ac.uk/people/researchers/carsten-maple">Prof. Carsten Maple</a> and 
+    I was previously a Research Associate at the <strong>Alan Turing Institute, London</strong>, fortunate to work with <a target="_blank" href="https://www.turing.ac.uk/people/researchers/carsten-maple">Prof. Carsten Maple</a> and 
 <a target="_blank" href="http://dimacs.rutgers.edu/~graham/">Prof. Graham Cormode</a>. I contributed to impactful research with global organizations including:
   </p>
   <ul class="highlight-text">
