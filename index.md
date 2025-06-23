@@ -77,7 +77,7 @@ title: "About Me"
 
   <div class="section-title">🏢 Additional Affiliations</div>
   <p class="highlight-text">
-    I am also an <strong>Honorary Research Fellow</strong> (visiting academic) at the <strong>University of Warwick, UK</strong>, working closely with the Secure Cyber Systems Group in WMG.
+    I am also an <strong>Honorary Research Fellow</strong> (visiting academic) at the <strong>University of Warwick, UK</strong>, working closely with the Secure Cyber Systems Research Group (SCSRG) in WMG.
   </p>
 
   <div class="section-title">🔬 Past Roles & Projects</div>
