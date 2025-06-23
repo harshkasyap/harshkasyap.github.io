@@ -1,22 +1,108 @@
 ---
 layout: home
-title: "About me"
+title: "About Me"
 ---
 
-<div style="text-align:center; padding: 2rem;">
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .section {
+    max-width: 850px;
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+  .intro-card {
+    background: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    padding: 2rem;
+    text-align: center;
+  }
+  .intro-card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  .intro-card h1 {
+    margin-top: 1rem;
+    color: #007acc;
+    font-size: 2rem;
+  }
+  .intro-card p.position {
+    color: #333;
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+  .quote-widget {
+    margin-top: 2rem;
+  }
+  .section-title {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 2.5rem;
+    border-left: 5px solid #007acc;
+    padding-left: 1rem;
+    font-weight: bold;
+  }
+  .highlight-text {
+    color: #444;
+    line-height: 1.6;
+  }
+  .reflection {
+    color: #1d3557;
+    font-style: italic;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+  }
+</style>
 
-  <!-- Profile Photo -->
-  <img src="/assets/images/profile.JPG" alt="Harsh Kasyap" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
-  <h1>Harsh Kasyap</h1>
+<div class="section">
+  <div class="intro-card">
+    <img src="/assets/images/profile.JPG" alt="Harsh Kasyap">
+    <h1>Harsh Kasyap</h1>
+    <p class="position">
+      Assistant Professor<br>
+      Department of Computer Science and Engineering<br>
+      Indian Institute of Technology (BHU) Varanasi, India
+    </p>
+  </div>
 
-  <!-- Intro -->
-  <p style="margin-top: 1rem; color:olive;"><strong>Assistant Professor<br>Department of Computer Science and Engineering<br>Indian Institute of Technology (BHU) Varanasi, India</strong></p>
-  <p><strong>My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation. I am also an Honorary Research Fellow at the University of Warwick, UK, visiting the Secure Cyber Systems Research Group. Earlier, I worked as a research associate at the Alan Turing Institute, London, in collaboration with HSBC, Bank of Italy, and Bill & Melinda Gates Foundation. Prior to that, I obtained my Ph.D. from IIT Patna in 2023.</strong></p>
+  <div class="section-title">🧠 Research Interests</div>
+  <p class="highlight-text">
+    My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation.
+  </p>
 
-  <!-- Quote Widget -->
-  <div style="margin-top: 2rem;">
+  <div class="section-title">🏢 Additional Affiliations</div>
+  <p class="highlight-text">
+    I'm also an <strong>Honorary Research Fellow</strong> at the <strong>University of Warwick</strong>, UK, working closely with the Secure Cyber Systems Group.
+  </p>
+
+  <div class="section-title">🔬 Past Roles & Projects</div>
+  <p class="highlight-text">
+    I was previously a Research Associate at the <strong>Alan Turing Institute, London</strong>, contributing to impactful research with global organizations including:
+  </p>
+  <ul class="highlight-text">
+    <li><strong>HSBC</strong>: Secure fuzzy name matching using fully homomorphic encryption</li>
+    <li><strong>Bank of Italy</strong>: Cross-border secure data sharing</li>
+    <li><strong>Bill & Melinda Gates Foundation</strong>: Trustworthy digital identity infrastructure</li>
+  </ul>
+
+  <div class="section-title">🎓 Education</div>
+  <p class="highlight-text">
+    I received my Ph.D. in Computer Science from <strong>IIT Patna</strong> in 2023. My thesis focused on security and privacy in federated learning.
+  </p>
+
+  <div class="section-title">🌿 A Bit More About Me</div>
+  <p class="highlight-text">
+    I'm someone who’s always been curious about the world — how things work, why people do what they do, and how we can make sense of it all. I enjoy exploring nature, admiring architecture, and occasionally get lost in music or art. I love long walks, vibrant colors, and quiet thought.
+  </p>
+
+  <div class="section-title">💬 Daily Quote</div>
+  <div class="quote-widget">
     <iframe 
-      align="center"
       src="//widget.calendarlabs.com/v1/quot.php?cid=101&ver=1.2&uid=3445174731&c=random&l=en&cbg=FFFFFF&cb=1&cbc=000000&cf=calibri&cfg=000000&qfs=bi&qta=center&tfg=000000&tfs=bi&afc=000000&afs=i" 
       width="188" 
       height="210" 
@@ -27,8 +113,6 @@ title: "About me"
       allowtransparency="true">
     </iframe>
   </div>
-  
-<p><strong>More - I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking, learning new things, and creating systems that (hopefully) make life a little better.</strong></p>
-  <p style="color:blue;"><strong>We harvest (reap) what we plant (seed) - study for knowledge, exercise for health, love for love and ...</strong></p>
 
+  <p class="reflection">"We harvest (reap) what we plant (seed) — study for knowledge, exercise for health, love for love and ..."</p>
 </div>
