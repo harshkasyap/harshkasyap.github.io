@@ -20,7 +20,7 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 - Study in **cross-silo** (large institutions) and **cross-device** (edge devices) settings.
 
 ### 🔐 Privacy-Preserving Machine Learning
-- Leveraging **Differential Privacy**, **Homomorphic Encryption (HE)** and **Secure Multi-party Computation (MPC)** to train models on sensitive data without revealing inputs.
+- Leveraging **Differential Privacy**, **Homomorphic Encryption** and **Secure Multi-party Computation** to train models on sensitive data without revealing inputs.
 - Employing **Zero-knowledge Proofs** to ensure integrity on computations.
 
 ### ✅ Trustworthy AI
