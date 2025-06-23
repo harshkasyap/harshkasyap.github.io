@@ -17,20 +17,19 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 - Designing robust and adaptive FL algorithms that are secure against data and model poisoning attacks.
 - Exploring vulnerabilities in collaborative learning systems and proposing defenses against **Byzantine clients**.
 - Developing **inference attack models** to audit information leakage in federated setups.
+- Designing verifiable schemes to ensure the integrity of aggregation results.
 
 ### 🔐 Privacy-Preserving Machine Learning
 - Leveraging **Homomorphic Encryption (HE)** and **Secure Multi-party Computation (MPC)** to train models on sensitive data without revealing inputs.
-- Working on privacy-preserving **name-matching algorithms** in collaboration with HSBC using **Fully Homomorphic Encryption**.
 - Studying **differential privacy** and **membership inference risks** in ML pipelines.
+- Employing **Zero-knowledge Proofs** to ensure integrity.
 
 ### ✅ Trustworthy AI
 - Investigating **bias**, **fairness**, and **interpretability** of AI systems.
 - Creating tools to detect **overfitting**, **distributional shifts**, and **model leakage**.
-- Interested in **causal learning** for robust decision-making.
 
 ### 🔄 Private Data Sharing & Governance
 - Developing practical data-sharing systems across international boundaries, ensuring regulatory compliance.
-- Currently part of projects funded by the **Bill & Melinda Gates Foundation**, focusing on **digital identity infrastructure**.
 
 ---
 
