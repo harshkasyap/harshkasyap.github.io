@@ -82,13 +82,12 @@ title: "About Me"
 
   <div class="section-title">🔬 Past Roles & Projects</div>
   <p class="highlight-text">
-    I was previously (2023-25) a Research Associate at the <strong>Alan Turing Institute, London</strong>, fortunate to work with <a target="_blank" href="https://www.turing.ac.uk/people/researchers/carsten-maple">Prof. Carsten Maple</a> and 
-<a target="_blank" href="http://dimacs.rutgers.edu/~graham/">Prof. Graham Cormode</a>. I contributed to impactful research with global organizations including:
+    I was previously (2023-25) a <a target="_blank" href="https://www.turing.ac.uk/people/researchers/harsh-kasyap">Research Associate</a> at the <strong>Alan Turing Institute, London</strong>, fortunate to work with <a target="_blank" href="https://www.turing.ac.uk/people/researchers/carsten-maple">Prof. Carsten Maple</a> and 
+<a target="_blank" href="http://dimacs.rutgers.edu/~graham/">Prof. Graham Cormode</a>. I contributed to impactful research with global organizations particularly:
   </p>
   <ul class="highlight-text">
-    <li><strong>HSBC</strong>: Cross-border secure data sharing </li>
-    <li><strong>Bank of Italy</strong>: Fair Machine Learning</li>
-    <li><strong>Bill & Melinda Gates Foundation</strong>: Trustworthy digital identity infrastructure</li>
+    <li><strong>HSBC</strong>: <a target="_blank" href="https://www.turing.ac.uk/research/research-projects/practicable-data-sharing-across-borders">Practicable data sharing across borders</a> </li>
+    <li><strong>Bill & Melinda Gates Foundation</strong>: <a target="_blank" href="https://www.turing.ac.uk/research/research-projects/trustworthy-digital-infrastructure-identity-systems">Trustworthy Digital Infrastructure for Identity Systems</a></li>
   </ul>
 
   <div class="section-title">🎓 Education</div>
