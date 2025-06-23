@@ -63,7 +63,6 @@ title: "About Me"
   <div class="intro-card">
     <img src="/assets/images/profile.JPG" alt="Harsh Kasyap">
     <h1>Harsh Kasyap</h1>
-    <h3><a target="_blank" href="/assets/data/Harsh_CV.pdf">[📄 View My CV]</a></h3>
     <p class="position">
       Assistant Professor<br>
       Department of Computer Science and Engineering<br>
@@ -120,4 +119,6 @@ title: "About Me"
   </div>
 
   <p class="reflection">"We harvest (reap) what we plant (seed) — study for knowledge, exercise for health, love for love and ..."</p>
+
+  <h3><a target="_blank" href="/assets/data/Harsh_CV.pdf">[📄 View My CV]</a></h3>
 </div>
