@@ -16,6 +16,7 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 - Exploring vulnerabilities in collaborative learning systems and proposing solutions.
 - Developing inference attack models to audit information leakage in federated setups.
 - Designing verifiable schemes to ensure the integrity of aggregation results.
+- Optimising computational and communicational cost in real-time deployments.
 - Study in cross-silo (large institutions) and cross-device (edge devices) settings.
 
 ### 🔐 Privacy-Preserving Machine Learning
