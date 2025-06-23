@@ -82,7 +82,7 @@ title: "About Me"
 
   <div class="section-title">🔬 Past Roles & Projects</div>
   <p class="highlight-text">
-    I was previously a Research Associate at the <strong>Alan Turing Institute, London</strong>, contributing to impactful research with global organizations including:
+    I was previously a Research Associate at the <strong>Alan Turing Institute, London</strong>, with [Prof. Carsten Maple](https://www.turing.ac.uk/people/researchers/carsten-maple) and [Prof. Graham Cormode](http://dimacs.rutgers.edu/~graham/).l I contributed to impactful research with global organizations including:
   </p>
   <ul class="highlight-text">
     <li><strong>HSBC</strong>: Cross-border secure data sharing </li>
@@ -92,7 +92,7 @@ title: "About Me"
 
   <div class="section-title">🎓 Education</div>
   <p class="highlight-text">
-    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023. My thesis focused on security and privacy in federated learning.
+    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023, under the supervision of [Prof. Somanath Tripathy](https://www.iitp.ac.in/~som/). My thesis focused on security and privacy in federated learning.
   </p>
 
   <div class="section-title">🌿 A Bit More About Me</div>
