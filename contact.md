@@ -9,9 +9,7 @@ Email: harshkasyap@gmail.com
 
 Office: -
 
-[Link to my CV (Overleaf)](https://www.overleaf.com/read/bhtrzqkzxxmt#4d3042)
-
-<h2>Book a Meeting with Me</h2>
+<!h2>Book a Meeting with Me</h2>
 <p>I'm happy to chat! Choose a time that works for you below:</p>
 
 <iframe src="https://calendly.com/harshkasyap/30min" 
