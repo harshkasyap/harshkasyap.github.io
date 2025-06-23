@@ -85,19 +85,19 @@ title: "About Me"
     I was previously a Research Associate at the <strong>Alan Turing Institute, London</strong>, contributing to impactful research with global organizations including:
   </p>
   <ul class="highlight-text">
-    <li><strong>HSBC</strong>: Secure fuzzy name matching using fully homomorphic encryption</li>
-    <li><strong>Bank of Italy</strong>: Cross-border secure data sharing</li>
+    <li><strong>HSBC</strong>: Cross-border secure data sharing </li>
+    <li><strong>Bank of Italy</strong>: Fair Machine Learning</li>
     <li><strong>Bill & Melinda Gates Foundation</strong>: Trustworthy digital identity infrastructure</li>
   </ul>
 
   <div class="section-title">🎓 Education</div>
   <p class="highlight-text">
-    I received my Ph.D. in Computer Science from <strong>IIT Patna</strong> in 2023. My thesis focused on security and privacy in federated learning.
+    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023. My thesis focused on security and privacy in federated learning.
   </p>
 
   <div class="section-title">🌿 A Bit More About Me</div>
   <p class="highlight-text">
-    I'm someone who’s always been curious about the world — how things work, why people do what they do, and how we can make sense of it all. I enjoy exploring nature, admiring architecture, and occasionally get lost in music or art. I love long walks, vibrant colors, and quiet thought.
+    I'm someone who's always been curious about the world - how things work, why people do what they do, and how we can make sense of it all. I enjoy thinking, learning new things, and creating systems that (hopefully) make life a little better.
   </p>
 
   <div class="section-title">💬 Daily Quote</div>
