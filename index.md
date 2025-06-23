@@ -92,7 +92,7 @@ title: "About Me"
 
   <div class="section-title">🎓 Education</div>
   <p class="highlight-text">
-    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023, under the supervision of <a target="_blank" href="https://www.iitp.ac.in/~som/">Prof. Somanath Tripathy</a>. My thesis focused on security and privacy in federated learning. Prior to that, in 2016, I finished my Bachelor of Engineering at VIIT Pune, in Computer Engineering. I was working with <a target="_blank" href="https://www.viit.ac.in/component/jsn/shailesh-thaware?Itemid=&back=1">Prof. Shailesh Thaware</a>, for my undergraduate project on an Android-based attendance system.
+    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023, under the supervision of <a target="_blank" href="https://www.iitp.ac.in/~som/">Prof. Somanath Tripathy</a>. My thesis focused on security and privacy in federated learning. Prior to that, in 2016, I finished my Bachelor of Engineering at <strong>VIIT Pune</strong>, in Computer Engineering. I was working with <a target="_blank" href="https://www.viit.ac.in/component/jsn/shailesh-thaware?Itemid=&back=1">Prof. Shailesh Thaware</a>, for my undergraduate project on an Android-based attendance system.
   </p>
 
   <div class="section-title">💼 Industrial Experience</div>
