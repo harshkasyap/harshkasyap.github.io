@@ -5,7 +5,7 @@ title: Research
 
 # 🧪 Research
 
-I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learning**, with a strong focus on making machine learning systems secure, fair, and usable in real-world settings. My research spans both theoretical foundations and practical deployments, and I’m always looking for curious students and motivated collaborators to join in solving open problems.
+I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learning**, with a strong focus on making machine learning systems <em>secure, fair, and usable</em> in real-world settings. My research spans both theoretical foundations and practical deployments, and I’m always looking for curious students and motivated collaborators to join in solving open problems.
 
 ---
 
@@ -16,6 +16,7 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 - Exploring vulnerabilities in collaborative learning systems and proposing solutions.
 - Developing inference attack models to audit information leakage in federated setups.
 - Designing verifiable schemes to ensure the integrity of aggregation results.
+- Study in cross-silo (large institutions) and cross-device (edge devices) settings.
 
 ### 🔐 Privacy-Preserving Machine Learning
 - Leveraging **Homomorphic Encryption (HE)** and **Secure Multi-party Computation (MPC)** to train models on sensitive data without revealing inputs.
