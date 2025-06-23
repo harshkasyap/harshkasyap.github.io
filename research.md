@@ -12,14 +12,14 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 ## 🔍 Core Research Areas
 
 ### 🧠 Federated Learning (FL)
-- Designing robust and adaptive FL algorithms that are secure against data and model poisoning attacks.
-- Exploring vulnerabilities in collaborative learning systems and proposing defenses against **Byzantine clients**.
-- Developing **inference attack models** to audit information leakage in federated setups.
+- Designing adaptive FL algorithms that are secure against data and model poisoning attacks.
+- Exploring vulnerabilities in collaborative learning systems and proposing solutions.
+- Developing inference attack models to audit information leakage in federated setups.
 - Designing verifiable schemes to ensure the integrity of aggregation results.
 
 ### 🔐 Privacy-Preserving Machine Learning
 - Leveraging **Homomorphic Encryption (HE)** and **Secure Multi-party Computation (MPC)** to train models on sensitive data without revealing inputs.
-- Studying **differential privacy** and **membership inference risks** in ML pipelines.
+- Studying vulnerabilities in ML pipelines and proposing solutions for robustness, fairness, etc.
 - Employing **Zero-knowledge Proofs** to ensure integrity.
 
 ### ✅ Trustworthy AI
@@ -34,13 +34,6 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 ## 🎓 Openings for Students
 
 If you're a student interested in working with me on any of these topics — whether you're an undergraduate, master's, or PhD aspirant — feel free to [email me](mailto:harshkasyap@gmail.com).
-
-**Topics available for projects:**
-- Federated Learning Security and Defense  
-- HE/MPC-based Privacy Techniques  
-- Bias & Fairness in ML  
-- Privacy Attacks and Solutions  
-- Secure Systems for Finance/Medical/Biometric/Identity Data
 
 ---
 
