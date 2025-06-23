@@ -63,6 +63,7 @@ title: "About Me"
   <div class="intro-card">
     <img src="/assets/images/profile.JPG" alt="Harsh Kasyap">
     <h1>Harsh Kasyap</h1>
+    <h3>[📄 View My CV](/assets/data/Harsh_CV.pdf){:target="_blank"}</h3>
     <p class="position">
       Assistant Professor<br>
       Department of Computer Science and Engineering<br>
