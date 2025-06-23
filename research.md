@@ -34,7 +34,7 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 
 ## 🎓 Openings for Students
 
-If you're a student interested in working with me on any of these topics — whether you're an undergraduate, master's, or PhD aspirant — feel free to [email me](mailto:harshkasyap@gmail.com).
+If you're a student interested in working with me on any of these topics, whether you're an undergraduate, master's, or PhD aspirant, feel free to [email me](mailto:harshkasyap@gmail.com).
 
 ---
 
