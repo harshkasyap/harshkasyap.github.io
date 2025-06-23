@@ -12,12 +12,12 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 ## 🔍 Core Research Areas
 
 ### 🧠 Federated Learning (FL)
-- Designing adaptive FL algorithms that are secure against data and model poisoning attacks.
-- Exploring vulnerabilities in collaborative learning systems and proposing solutions.
-- Developing inference attack models to audit information leakage in federated setups.
-- Designing verifiable schemes to ensure the integrity of aggregation results.
-- Optimising computational and communicational cost in real-time deployments.
-- Study in cross-silo (large institutions) and cross-device (edge devices) settings.
+- Designing **adaptive FL algorithms** that are secure against data and model poisoning attacks.
+- Exploring **vulnerabilities** in collaborative learning systems and proposing solutions.
+- Developing **inference attack models** to audit information leakage in federated setups.
+- Designing **verifiable schemes** to ensure the integrity of aggregation results.
+- Optimising **computational and communicational** cost in real-time deployments.
+- Study in **cross-silo** (large institutions) and **cross-device** (edge devices) settings.
 
 ### 🔐 Privacy-Preserving Machine Learning
 - Leveraging **Differential Privacy**, **Homomorphic Encryption (HE)** and **Secure Multi-party Computation (MPC)** to train models on sensitive data without revealing inputs.
