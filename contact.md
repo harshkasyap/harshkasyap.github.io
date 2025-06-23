@@ -9,7 +9,7 @@ Email: harshkasyap@gmail.com
 
 Office: -
 
-<!h2>Book a Meeting with Me</h2>
+<!--h2>Book a Meeting with Me</h2>
 <p>I'm happy to chat! Choose a time that works for you below:</p>
 
 <iframe src="https://calendly.com/harshkasyap/30min" 
@@ -18,4 +18,4 @@ Office: -
         frameborder="0"
         scrolling="no"
         style="border: none;">
-</iframe>
+</iframe-->
