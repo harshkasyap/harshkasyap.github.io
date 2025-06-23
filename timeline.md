@@ -158,7 +158,7 @@ title: Timeline
 
   <div class="timeline-entry right">
     <div class="content">
-      <div class="date">Joining July 2025</div>
+      <div class="date">July 2025</div>
       <h3>Assistant Professor, at IIT (BHU) Varanasi</h3>
       <p>In the Department of Computer Science and Engineering.</p>
     </div>
