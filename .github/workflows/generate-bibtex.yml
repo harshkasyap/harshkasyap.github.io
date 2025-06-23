@@ -1,9 +1,7 @@
 name: Generate BibTeX from Scholarly
 
 on:
-  push:
-    branches:
-      - main  # Trigger this workflow manually // not when code is pushed to the main branch
+  workflow_dispatch:
 
 jobs:
   generate_bibtex:
