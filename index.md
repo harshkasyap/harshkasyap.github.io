@@ -93,8 +93,12 @@ title: "About Me"
 
   <div class="section-title">🎓 Education</div>
   <p class="highlight-text">
-    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023, under the supervision of <a target="_blank" href="https://www.iitp.ac.in/~som/">Prof. Somanath Tripathy</a>. My thesis focused on security and privacy in federated learning.
+    I received my Ph.D. in Computer Science from <strong>IIT Patna, India</strong> in 2023, under the supervision of <a target="_blank" href="https://www.iitp.ac.in/~som/">Prof. Somanath Tripathy</a>. My thesis focused on security and privacy in federated learning. Prior to that, in 2016, I finished my Bachelor of Engineering at VIIT Pune, in Computer Engineering. I was working with Prof. Shailesh Thaware for my undergraduate project on an Android-based attendance system.
   </p>
+
+  <div class="section-title">💼 Industrial Experience</div>
+  <p class="highlight-text">
+    Before diving into academia, I spent a couple of years (2016-2019) in industry, working as a Software Engineer at <strong>Diebold Nixdorf, Mumbai</strong>. I was part of the team, developing solutions for <em>cardless and contactless ATM transactions</em>, and streamlining <em>DevOps workflows</em> for large-scale financial systems. This experience gave me a solid foundation in building secure, real-world systems — something that continues to influence my research on trustworthy and privacy-preserving technologies.  </p>
 
   <div class="section-title">🌿 A Bit More About Me</div>
   <p class="highlight-text">
