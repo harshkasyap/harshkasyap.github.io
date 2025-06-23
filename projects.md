@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-# 🚀 Finished Projects
+# 🚀 Projects
 
 Below is a selection of academic and industry projects I have worked on prior to joining IIT (BHU) Varanasi, with a focus on **privacy-preserving technologies**, **secure systems**, and **applied machine learning**.
 
