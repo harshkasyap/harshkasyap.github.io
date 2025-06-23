@@ -72,12 +72,12 @@ title: "About Me"
 
   <div class="section-title">🧠 Research Interests</div>
   <p class="highlight-text">
-    My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, and secure multi-party computation.
+    My research focuses on trustworthy and privacy-preserving machine learning, including privacy-enhancing technologies (PETs) such as federated learning, homomorphic encryption, zero-knowledge proofs, and secure multi-party computation.
   </p>
 
   <div class="section-title">🏢 Additional Affiliations</div>
   <p class="highlight-text">
-    I'm also an <strong>Honorary Research Fellow</strong> at the <strong>University of Warwick</strong>, UK, working closely with the Secure Cyber Systems Group.
+    I am also an <strong>Honorary Research Fellow</strong> (visiting academic) at the <strong>University of Warwick, UK</strong>, working closely with the Secure Cyber Systems Group in WMG.
   </p>
 
   <div class="section-title">🔬 Past Roles & Projects</div>
