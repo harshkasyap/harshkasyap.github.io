@@ -34,15 +34,16 @@ I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learn
 
 ## 🎓 Openings for Students
 
-If you're a student interested in working with me on any of these topics, whether you're an undergraduate, master's, or PhD aspirant, feel free to [email me](mailto:harshkasyap@gmail.com).
+If you're a student [undergraduate, master's, or PhD aspirant] interested in working with me and making me learn, on closely aligned with any of the above topics, please feel free to [email me](mailto:harshkasyap@gmail.com), with a statement of purpose. 
 
 ---
 
 ## 🤝 Looking for Collaborators
 
-I’m always open to new collaborations — especially with:
-- Researchers working in security/cryptography/ML theory  
-- Industry partners interested in deploying privacy-aware ML  
+I’m looking forward to new collaborations, especially with:
+- Enthusiasts passionate about the startup ecosystem for innovation
+- Researchers working in TIPS [trust/identity/privacy/security]
+- Industry partners interested in deploying privacy-aware applications  
 - Interdisciplinary teams combining law, policy, and technology
 
 Let’s build safer and more inclusive AI systems together.
