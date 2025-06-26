@@ -68,6 +68,12 @@ title: "About Me"
       Department of Computer Science and Engineering<br>
       Indian Institute of Technology (BHU) Varanasi, India
     </p>
+
+    <p style="margin-top: 1rem;">
+    <a href="/timeline" style="text-decoration: none; color: #007acc; font-weight: bold;">
+      📅 View Timeline →
+    </a>
+  </p>
   </div>
 
   <div class="section-title">🧠 Research Interests</div>
