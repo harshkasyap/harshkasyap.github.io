@@ -36,6 +36,15 @@ title: Videos
 
 <div class="video-gallery">
   <div class="video-card">
+    <iframe class="video-embed" src="https://www.youtube.com/embed/psoAyKd3z84" allowfullscreen></iframe>
+  </div>
+  <div class="video-card">
+    <iframe class="video-embed" src="https://www.youtube.com/embed/adpZziC7M1k" allowfullscreen></iframe>
+  </div>
+  <div class="video-card">
+    <iframe class="video-embed" src="https://www.youtube.com/embed/Qqkt34A4BvI" allowfullscreen></iframe>
+  </div>
+  <div class="video-card">
     <iframe class="video-embed" src="https://www.youtube.com/embed/Gnu5Ev1nrqw" allowfullscreen></iframe>
   </div>
   <div class="video-card">
@@ -46,5 +55,8 @@ title: Videos
   </div>
   <div class="video-card">
     <iframe class="video-embed" src="https://www.youtube.com/embed/qKRPrLeyr0I" allowfullscreen></iframe>
+  </div>
+  <div class="video-card">
+    <iframe class="video-embed" src="https://www.youtube.com/embed/9_ThzYnjNxc" allowfullscreen></iframe>
   </div>
 </div>
