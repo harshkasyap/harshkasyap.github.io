@@ -55,12 +55,12 @@ body {
     <div class="icon">🎨</div>
     <div class="title">Paintings</div>
   </a>
-  <a href="/blogposts" class="card">
-    <div class="icon">✍️</div>
-    <div class="title">Blogposts</div>
-  </a>
   <a href="/videos" class="card">
     <div class="icon">🎥</div>
     <div class="title">Videos</div>
+  </a>
+  <a href="/blogposts" class="card">
+    <div class="icon">✍️</div>
+    <div class="title">Blogposts</div>
   </a>
 </div>
