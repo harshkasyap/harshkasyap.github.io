@@ -87,7 +87,7 @@ title: Poems
 </style>
 
 <div class="poem-grid">
-  {% for poem in site.includes.poems %}
+  {% for poem in site.data.poems %}
   <div class="poem-card">
     <h3>{{ poem.title }}</h3>
     <div class="poem-snippet">{{ poem.lines | newline_to_br }}</div>
@@ -97,7 +97,7 @@ title: Poems
 </div>
 
 <!-- Modals -->
-{% for poem in site.includes.poems %}
+{% for poem in site.data.poems %}
 <div id="modal-{{ forloop.index }}" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeModal('modal-{{ forloop.index }}')">&times;</span>
