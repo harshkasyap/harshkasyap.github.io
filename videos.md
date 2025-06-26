@@ -56,7 +56,4 @@ title: Videos
   <div class="video-card">
     <iframe class="video-embed" src="https://www.youtube.com/embed/qKRPrLeyr0I" allowfullscreen></iframe>
   </div>
-  <div class="video-card">
-    <iframe class="video-embed" src="https://www.youtube.com/embed/9_ThzYnjNxc" allowfullscreen></iframe>
-  </div>
 </div>
