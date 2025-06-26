@@ -20,9 +20,9 @@ title: Paintings
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 240px;
   flex-grow: 1;
-  max-height: 360px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .painting-card:hover {
@@ -32,18 +32,19 @@ title: Paintings
 
 .painting-card img {
   width: 100%;
-  height: 320px;
-  object-fit: cover;
-  display: block;
+  height: 260px;
+  object-fit: contain;
+  background-color: #f9f9f9;
+  padding: 0.5rem;
   border-bottom: 1px solid #eee;
 }
 
 .painting-title {
   text-align: center;
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.95rem;
   font-weight: 500;
-  color: #444;
+  color: #333;
 }
 </style>
 
