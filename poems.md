@@ -1,53 +1,52 @@
 ---
-layout: page
+layout: default
 title: Poems
-permalink: /poems/
 ---
 
 <style>
-.poem-container {
-  font-family: Georgia, serif;
-  margin: auto;
-  max-width: 800px;
+.poem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
   padding: 2rem;
-  line-height: 1.7;
-  background: #fcfcf4;
-  border-left: 5px solid #ccc;
 }
-.poem {
-  margin-bottom: 3rem;
+
+.poem-card {
+  background-color: #fffaf2;
+  border: 1px solid #f0e1d2;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
-.poem-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #007acc;
+
+.poem-card h3 {
   margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #4b3e2d;
 }
-.poem-body {
+
+.poem-card p {
+  font-size: 0.95rem;
   white-space: pre-wrap;
 }
 </style>
 
-<div class="poem-container">
-
-<div class="poem">
-  <div class="poem-title">Whispers of the Rain</div>
-  <div class="poem-body">
-    The clouds break soft in twilight's glow,  
-    A whisper floats where breezes go,  
-    The rain arrives with silver feet,  
-    And taps the world in rhythmic beat.
+<div class="poem-grid">
+  <div class="poem-card">
+    <h3>Whispering Trees</h3>
+    <p>
+The trees don't speak like men do,  
+But rustle their thoughts in winds through you...
+    </p>
   </div>
-</div>
 
-<div class="poem">
-  <div class="poem-title">Untitled</div>
-  <div class="poem-body">
-    I walked alone beneath the moon,  
-    With questions trailing all too soon,  
-    But in that silence, stars replied—  
-    You’re not alone, you're just outside.
+  <div class="poem-card">
+    <h3>Midnight Reflection</h3>
+    <p>
+A quiet night, a window moon,  
+A heart that hums a fading tune...
+    </p>
   </div>
-</div>
 
+  <!-- Add more poems similarly -->
 </div>
