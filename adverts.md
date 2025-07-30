@@ -18,7 +18,7 @@ title: Adverts
     </p>
 
     <p>
-      The project will expose you to novel data management algorithms, programming with FHE, and the basics of secure computing. Participants will collaborate with researchers from **New Jersey Institute of Technology** (USA), **VaultTree** (Ireland) and **IIT (BHU)** (India).
+      The project will expose you to novel data management algorithms, programming with FHE, and the basics of secure computing. Participants will collaborate with researchers from <strong>New Jersey Institute of Technology</strong> (USA), <strong>VaultTree</strong> (Ireland) and <strong> Indian Institite of Technology (BHU)</strong> (India).
     </p>
 
     <h3>Responsibilities</h3>
