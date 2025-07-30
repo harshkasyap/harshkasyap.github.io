@@ -70,7 +70,7 @@ title: Adverts
   </ul>
 
   <h4>Application:</h4>
-  <p>Send an email to <a href="mailto:hkasyap.cse@iitbhu.ac.in">hkasyap.cse@iitbhu.ac.in</a> with subject <code>Intern - Secure Machine Learning</code>. Include your CV, and a brief motivation statement.</p>
+  <p>Send an email to <a href="mailto:hkasyap.cse@iitbhu.ac.in">hkasyap.cse@iitbhu.ac.in</a> with subject <strong>Intern - Secure Machine Learning</strong>. Include your CV, and a brief motivation statement.</p>
 </div>
 
 <style>
