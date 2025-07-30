@@ -42,8 +42,8 @@ title: Adverts
     <p>
       <strong>Mentors:</strong><br>
       Dr. Shantanu Sharma (NJIT, USA) – <a href="mailto:shantanu.sharma@njit.edu">shantanu.sharma@njit.edu</a><br>
-      Anil Kumar Pradhan (Vaultree) – <a href="mailto:anil@vaultree.com">anil@vaultree.com</a><br>
-      Dr. Harsh Kasyap (IIT BHU) - <a href="mailto:hkasyap.cse@iitbhu.ac.in">hkasyap.cse@iitbhu.ac.in</a>
+      Anil Kumar Pradhan (Vaultree, Ireland) – <a href="mailto:anil@vaultree.com">anil@vaultree.com</a><br>
+      Dr. Harsh Kasyap (IIT (BHU), India) - <a href="mailto:hkasyap.cse@iitbhu.ac.in">hkasyap.cse@iitbhu.ac.in</a>
     </p>
   </div>
 
