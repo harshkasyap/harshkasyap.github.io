@@ -10,15 +10,15 @@ title: Adverts
   <div class="job-card">
     <h2>Internship Opportunity: Secure Computing using FHE</h2>
     <p><strong>Start Date:</strong> As soon as possible</p>
-    <p><strong>Duration:</strong> 6 months (extendable)</p>
+    <p><strong>Duration:</strong> 3 months (extendable with fellowship)</p>
 
     <h3>Description</h3>
     <p>
-      If you would like to participate in a research project to benchmark and develop secure schemes using FHE (Fully Homomorphic Schemes). We are looking for highly motivated undergraduate or graduate students to design and implement algorithms using Fully Homomorphic Encryption (FHE).
+      If you would like to participate in a research project to benchmark and develop secure schemes using FHE (Fully Homomorphic Schemes). We are looking for highly motivated undergraduate or graduate students to design and implement algorithms using Fully Homomorphic Encryption (FHE). These algorithms can vary across disciplines and projects including machine learning systems, database systems, etc.
     </p>
 
     <p>
-      The project will expose you to novel data management algorithms, programming with FHE, and the basics of secure computing. Participants will collaborate with researchers from <strong>New Jersey Institute of Technology</strong> (USA), <strong>VaultTree</strong> (Ireland) and <strong> Indian Institite of Technology (BHU)</strong> (India).
+      The project will expose you to novel data management algorithms, programming with FHE, and the basics of secure computing including privacy preserving machine learning. Participants will collaborate with researchers form academics and industries from <strong>New Jersey Institute of Technology</strong> (USA), <strong>VaultTree</strong> (Ireland) and <strong> Indian Institite of Technology (BHU)</strong> (India).
     </p>
 
     <h3>Responsibilities</h3>
