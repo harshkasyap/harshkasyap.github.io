@@ -49,6 +49,30 @@ title: Adverts
 
 </div>
 
+<div class="job-card">
+  <h2>Internship: Secure Machine Learning</h2>
+  <p><strong>Start Date:</strong> As soon as possible</p>
+  <p><strong>Duration:</strong> 3 months (extendable with fellowship)</p>
+  <p>Join a hands-on research project to evaluate and benchmark privacy attacks and defenses in federated learning systems. You'll be working on model poisoning, inference attacks, and their defenses. Ideal for students interested in secure and trustworthy machine learning, I stress this is very important area to explore and be ready for future.</p>
+  
+  <h4>Responsibilities:</h4>
+  <ul>
+    <li>Reproduce attack/defense mechanisms in FL systems</li>
+    <li>Run experiments and evaluate performance/robustness</li>
+    <li>Write clean, maintainable code in PyTorch/TensorFlow</li>
+  </ul>
+  
+  <h4>Requirements:</h4>
+  <ul>
+    <li>understanding of machine learning</li>
+    <li>Python programming and ML frameworks (PyTorch/TensorFlow)</li>
+    <li>Interest in privacy/security aspects of ML</li>
+  </ul>
+
+  <h4>Application:</h4>
+  <p>Send an email to <a href="mailto:hkasyap.cse@iitbhu.ac.in">hkasyap.cse@iitbhu.ac.in</a> with subject <code>Intern - Secure Machine Learning</code>. Include your CV, and a brief motivation statement.</p>
+</div>
+
 <style>
 .job-grid {
   display: flex;
