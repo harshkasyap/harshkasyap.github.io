@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Job Adverts
-permalink: /adverts/
+title: Adverts
 ---
 
 # 💼 Open Intern Positions
