@@ -7,7 +7,7 @@ title: Contact
 
 Email: harshkasyap@gmail.com
 
-Office: -
+Office: - Department of Computer Science and Engineering, IIT (BHU)
 
 <!--h2>Book a Meeting with Me</h2>
 <p>I'm happy to chat! Choose a time that works for you below:</p>
