@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adverts
+title: Positions Available
 ---
 
 # 💼 Open Intern Positions
