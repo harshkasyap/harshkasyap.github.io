@@ -53,6 +53,9 @@ title: Adverts
   <h2>Internship Opportunity: Secure Machine Learning</h2>
   <p><strong>Start Date:</strong> As soon as possible</p>
   <p><strong>Duration:</strong> 3 months (extendable with fellowship)</p>
+  
+  <h4>Description</h4>
+  
   <p>Join a hands-on research project to evaluate and benchmark privacy attacks and defenses in federated learning systems. You'll be working on model poisoning, inference attacks, and their defenses. Ideal for students interested in secure and trustworthy machine learning, I stress this is very important area to explore and be ready for future.</p>
   
   <h4>Responsibilities:</h4>
