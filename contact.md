@@ -5,9 +5,9 @@ title: Contact
 
 # Contact Me
 
-Email: harshkasyap@gmail.com
+Email: hkasyap.cse@iitbhu.ac.in
 
-Office: - Department of Computer Science and Engineering, IIT (BHU)
+Office: - SF-04, Department of Computer Science and Engineering, IIT (BHU).
 
 <!--h2>Book a Meeting with Me</h2>
 <p>I'm happy to chat! Choose a time that works for you below:</p>
