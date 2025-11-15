@@ -51,7 +51,7 @@ The workshop aims to:
   <p><strong>02:10 – 03:10</strong> — <span style="color:#1e1b4b;">Talk I: Importance of Tensors in Scientific Computing and Data Science</span><br>
   <em>Speaker: <a href="https://cds.iisc.ac.in/faculty/ratikanta/" target="#">Dr. Ratikanta Behera</a>, Assistant Professor, CDS, IISc Bangalore</em></p>
 
-  <p><strong>03:10 – 03:30</strong> — Discussion with Speaker</p>
+  <p><strong>03:10 – 03:30</strong> — Discussion with Speaker and Open Questions</p>
 
   <p><strong>03:30 – 04:00</strong> — <span style="color:#1e1b4b;">Tea Break</span></p>
 
