@@ -32,7 +32,7 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
       <strong>📍 Where:</strong>
       <a href="https://sci25.supercomputingindia.org/Conference#program-at-a-glance"
          style="color:#4338ca; font-weight:600;">
-        Manipal Institute of Technology, Bengaluru
+        Supercomputing India SCI2025 at Manipal Institute of Technology, Bengaluru
       </a>
     </p>
 
