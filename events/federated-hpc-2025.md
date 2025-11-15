@@ -74,7 +74,7 @@ The workshop aims to:
 
 ---
 
-<h2 style="margin-top:1rem; color:#1e1b4b;">📅 Tentative Programme (Second Half: 02:00–07:00 PM)</h2>
+<h2 style="margin-top:1rem; color:#1e1b4b;">🗓️ Tentative Programme (Dec 12, 2025: 02:00–07:00 PM)</h2>
 
 <div style="border-left:4px solid #4338ca; padding-left:1rem; margin:1rem 0;">
 
