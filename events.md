@@ -25,10 +25,34 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
     <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop</h2>
   </div>
 
+  <div style="
+  display:flex; 
+  justify-content:space-between; 
+  align-items:center; 
+  margin-top:1rem;
+  margin-bottom:1rem;
+  ">
+
+  <h2 style="margin:0; padding:0;">
+    Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
+  </h2>
+
+  <div style="display:flex; gap:1rem;">
+      <img src="/assets/images/sci2025-logo.png" 
+           alt="SCI 2025 Logo" 
+           style="height:80px; width:auto;">
+
+      <img src="/assets/images/iitbhu.jpg" 
+           alt="IIT BHU Logo" 
+           style="height:80px; width:auto;">
+  </div>
+
+  </div>
+
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
-    <p style="margin:0.4rem 0;">
+  <!--p style="margin:0.4rem 0;">
       <strong>Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing</strong>
-    </p>
+  </p-->
 
     <p style="margin:0.4rem 0;">
       <strong>📍 Where:</strong>
