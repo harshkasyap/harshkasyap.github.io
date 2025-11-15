@@ -75,7 +75,7 @@ Recent advancements in parallel algorithms are driven by the need to handle very
 
 ---
 
-## Talk III: Privacy-Preserving (Collaborative) Machine Learning<img width="471" height="28" alt="image" src="https://github.com/user-attachments/assets/fb5caf74-5b50-422d-a15a-68c1b5f79955" />
+## Talk III: Privacy-Preserving (Collaborative) Machine Learning
 
 Machine learning has been adopted across industries, including the applications directly operated by the end users (individuals). However, users or organisations are reluctant to share data for training. This has also been restricted due to various regulations across demographics, such as GDPR. It may also be due to reasons citing privacy and market competition. However, domains, such as healthcare, finance, etc., demand collaboration to mitigate common challenges, and improve the research. This requires to integrate the privacy enhancing technologies (PETs) with machine learning. PETs include approaches from both machine learning and cryptography. Federated learning (FL) is one of the promising solutions, claiming to provide a privacy-preserving (collaborative) machine learning framework. However, there have been many works, questioning, whether FL is truly privacy-preserving. Therefore, it is time to integrate multiple PETs, such as FL, differential privacy, homomorphic encryption (HE), and secure multi-party computation to achieve a privacy-preserving (collaborative) machine learning solution.
 
