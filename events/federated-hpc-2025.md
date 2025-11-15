@@ -4,8 +4,8 @@ title: Federated HPC Workshop
 ---
 
 # Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
-**Organisers:** Dr. Harsh Kasyap, Prof. Ravi Shankar Singh
-Department of Computer Science and Engineering, 
+**Organisers:** Dr. Harsh Kasyap, Prof. Ravi Shankar Singh  
+Department of Computer Science and Engineering,  
 Indian Institute of Technology (BHU), Varanasi.
 
 <p style="margin:0.4rem 0;">
@@ -78,19 +78,19 @@ The workshop aims to:
 
 ## Talk I: Importance of Tensors in Scientific Computing and Data Science
 
-In the era of BIG data, artificial intelligence, and machine learning, we need to process multiway (tensor-shaped) data. These data are mainly in the three or higher-order dimensions, whose orders of magnitude can reach billions. Vast volumes of multidimensional data pose a significant challenge for processing and analysis; the matrix representation of data analysis is insufficient to represent the complete information content of multiway data across various fields. This talk will discuss tensor factorization as a product of tensors. To address the factorizations, we discuss operations between tensors with the concept of transpose, inverse, and identity of a tensor. We will conclude with a few color image applications in a tensor-structured domain.
+**Abstract:** In the era of BIG data, artificial intelligence, and machine learning, we need to process multiway (tensor-shaped) data. These data are mainly in the three or higher-order dimensions, whose orders of magnitude can reach billions. Vast volumes of multidimensional data pose a significant challenge for processing and analysis; the matrix representation of data analysis is insufficient to represent the complete information content of multiway data across various fields. This talk will discuss tensor factorization as a product of tensors. To address the factorizations, we discuss operations between tensors with the concept of transpose, inverse, and identity of a tensor. We will conclude with a few color image applications in a tensor-structured domain.
 
 ---
 
 ## Talk II: Recent Advancements in Parallel Algorithms.
 
-Recent advancements in parallel algorithms are driven by the need to handle very large datasets and massive computations more efficiently. Parallel algorithms focus on optimizing performance for heterogeneous and specialized hardware, such as multi-core CPUs and many-core GPUs, while addressing critical challenges like communication overhead, synchronization, and scalability. The Parallel Random Access Machine (PRAM) model remains a foundational theoretical tool for designing and analyzing parallel algorithms. Recent advancements have focused on using PRAM principles to develop more practical algorithms for modern hardware. Similarly, hypercube is also a powerful conceptual model  and recent advancements have focused on adapting its principles for real-world applications in areas like quantum computing, AI, and cloud networking.
+**Abstract:** Recent advancements in parallel algorithms are driven by the need to handle very large datasets and massive computations more efficiently. Parallel algorithms focus on optimizing performance for heterogeneous and specialized hardware, such as multi-core CPUs and many-core GPUs, while addressing critical challenges like communication overhead, synchronization, and scalability. The Parallel Random Access Machine (PRAM) model remains a foundational theoretical tool for designing and analyzing parallel algorithms. Recent advancements have focused on using PRAM principles to develop more practical algorithms for modern hardware. Similarly, hypercube is also a powerful conceptual model  and recent advancements have focused on adapting its principles for real-world applications in areas like quantum computing, AI, and cloud networking.
 
 ---
 
 ## Talk III: Privacy-Preserving (Collaborative) Machine Learning
 
-Machine learning has been adopted across industries, including the applications directly operated by the end users (individuals). However, users or organisations are reluctant to share data for training. This has also been restricted due to various regulations across demographics, such as GDPR. It may also be due to reasons citing privacy and market competition. However, domains, such as healthcare, finance, etc., demand collaboration to mitigate common challenges, and improve the research. This requires to integrate the privacy enhancing technologies (PETs) with machine learning. PETs include approaches from both machine learning and cryptography. Federated learning (FL) is one of the promising solutions, claiming to provide a privacy-preserving (collaborative) machine learning framework. However, there have been many works, questioning, whether FL is truly privacy-preserving. Therefore, it is time to integrate multiple PETs, such as FL, differential privacy, homomorphic encryption (HE), and secure multi-party computation to achieve a privacy-preserving (collaborative) machine learning solution.
+**Abstract:** Machine learning has been adopted across industries, including the applications directly operated by the end users (individuals). However, users or organisations are reluctant to share data for training. This has also been restricted due to various regulations across demographics, such as GDPR. It may also be due to reasons citing privacy and market competition. However, domains, such as healthcare, finance, etc., demand collaboration to mitigate common challenges, and improve the research. This requires to integrate the privacy enhancing technologies (PETs) with machine learning. PETs include approaches from both machine learning and cryptography. Federated learning (FL) is one of the promising solutions, claiming to provide a privacy-preserving (collaborative) machine learning framework. However, there have been many works, questioning, whether FL is truly privacy-preserving. Therefore, it is time to integrate multiple PETs, such as FL, differential privacy, homomorphic encryption (HE), and secure multi-party computation to achieve a privacy-preserving (collaborative) machine learning solution.
 
 ---
 
