@@ -1,10 +1,22 @@
----
+<img width="468" height="152" alt="image" src="https://github.com/user-attachments/assets/7eb8f979-828f-492c-86ef-7aa1affb7184" /><img width="471" height="28" alt="image" src="https://github.com/user-attachments/assets/d7acbd36-a79f-41dd-98ec-fcec244ad683" /><img width="468" height="124" alt="image" src="https://github.com/user-attachments/assets/89a7759f-0ff6-45d4-b886-c8c543bed40c" />---
 layout: default
 title: Federated HPC Workshop
 ---
 
 # Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
 **Organisers:** Dr. Harsh Kasyap, Prof. Ravi Shankar Singh from Dept. of CSE, IIT (BHU), Varanasi
+
+<p style="margin:0.4rem 0;">
+  <strong>📍 Where:</strong>
+  <a href="https://sci25.supercomputingindia.org/Conference#program-at-a-glance"
+     style="color:#4338ca; font-weight:600;">
+    Supercomputing India SCI2025 at Manipal Institute of Technology, Bengaluru
+  </a>
+</p>
+
+<p style="margin:0.4rem 0;">
+  <strong>🕒 When:</strong> December 12, 2025 (02:00 PM – 07:00 PM)
+</p>
 
 <strong><a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target = "#">Register for the workshop as a delegate</a></strong>
 
@@ -51,35 +63,32 @@ The workshop aims to:
 
 ---
 
-## Hands-On Session: Federated Learning on HPC
+## Talk I: Importance of Tensors in Scientific Computing and Data Science
 
-The hands-on session will introduce participants to the fundamentals of federated learning and demonstrate how FL can be **simulated across multiple nodes within an HPC environment**.
+In the era of BIG data, artificial intelligence, and machine learning, we need to process multiway (tensor-shaped) data. These data are mainly in the three or higher-order dimensions, whose orders of magnitude can reach billions. Vast volumes of multidimensional data pose a significant challenge for processing and analysis; the matrix representation of data analysis is insufficient to represent the complete information content of multiway data across various fields. This talk will discuss tensor factorization as a product of tensors. To address the factorizations, we discuss operations between tensors with the concept of transpose, inverse, and identity of a tensor. We will conclude with a few color image applications in a tensor-structured domain.
 
-- Deploy a simple federated training experiment where each node acts as a **client** contributing to a shared global model.  
-- Orchestrate the experiment using **Slurm/MPI**, illustrating how FL workflows integrate with HPC schedulers.  
-- Observe how model updates are exchanged and measure **communication overhead** and **convergence behaviour** under non-IID data distributions.  
-- Explore how **privacy-preserving mechanisms** (e.g., secure aggregation, differential privacy) can be incorporated to ensure that sensitive client data remains protected during training.
+---
 
-This session is designed to bridge theory and practice, showing how existing scientific HPC infrastructure can support **scalable and trustworthy federated learning**.
+## Talk II: Recent Advancements in Parallel Algorithms.
+
+Recent advancements in parallel algorithms are driven by the need to handle very large datasets and massive computations more efficiently. Parallel algorithms focus on optimizing performance for heterogeneous and specialized hardware, such as multi-core CPUs and many-core GPUs, while addressing critical challenges like communication overhead, synchronization, and scalability. The Parallel Random Access Machine (PRAM) model remains a foundational theoretical tool for designing and analyzing parallel algorithms. Recent advancements have focused on using PRAM principles to develop more practical algorithms for modern hardware. Similarly, hypercube is also a powerful conceptual model  and recent advancements have focused on adapting its principles for real-world applications in areas like quantum computing, AI, and cloud networking.
+
+---
+
+## Talk III: Privacy-Preserving (Collaborative) Machine Learning<img width="471" height="28" alt="image" src="https://github.com/user-attachments/assets/fb5caf74-5b50-422d-a15a-68c1b5f79955" />
+
+Machine learning has been adopted across industries, including the applications directly operated by the end users (individuals). However, users or organisations are reluctant to share data for training. This has also been restricted due to various regulations across demographics, such as GDPR. It may also be due to reasons citing privacy and market competition. However, domains, such as healthcare, finance, etc., demand collaboration to mitigate common challenges, and improve the research. This requires to integrate the privacy enhancing technologies (PETs) with machine learning. PETs include approaches from both machine learning and cryptography. Federated learning (FL) is one of the promising solutions, claiming to provide a privacy-preserving (collaborative) machine learning framework. However, there have been many works, questioning, whether FL is truly privacy-preserving. Therefore, it is time to integrate multiple PETs, such as FL, differential privacy, homomorphic encryption (HE), and secure multi-party computation to achieve a privacy-preserving (collaborative) machine learning solution.
+
+---
+
+## Hands-On/Demonstration
+
+This session will introduce participants to the fundamentals of FL and demonstrate how FL can be simulated across multiple nodes within an HPC environment. We will learn to deploy a simple federated training experiment where each node acts as a client contributing to a shared global model coordinated by a central server process. The experiment will be orchestrated using a distributed server, enabling participants to understand how FL workflows integrate with HPC scheduling systems. Through this exercise, attendees will observe how model updates are exchanged, measure communication overhead, and analyze convergence behavior under non-IID data distributions. This hands-on activity will bridge theory and practice, illustrating how distributed scientific computing infrastructure can be leveraged to implement scalable and privacy-preserving federated learning. In addition to the basic setup, participants will explore how privacy preserving mechanisms such as secure aggregation and  can be incorporated into the FL process to ensure that sensitive client data remains protected throughout training.
 
 ---
 
 ## Group Activities: Identifying Open Challenges, Future Research Plans and Collaborations
-Participants will work in small groups, to identify **open challenges** in Federated HPC. Discussion themes include:
-
-- Communication bottlenecks and system scalability in federated orchestration.  
-- Robustness and security (e.g., adversarial or Byzantine clients).  
-- Trust and privacy guarantees in multi-institution scientific collaborations.  
-- Data heterogeneity, benchmarking, and energy efficiency.
-
-Each group will summarise and briefly present its conclusions, helping build a **collective map of research problems** in this emerging area.
-
-Then, participants will brainstorm **future research directions and collaboration ideas**. Groups will:
-
-- Sketch potential projects that apply Federated HPC to domains such as climate science, healthcare analytics, and engineering simulations.  
-- Identify opportunities for **cross-institution collaborations**, shared datasets, and open-source tool development.  
-
-The goal is to seed **ongoing working groups and joint proposals** that extend beyond the workshop.
+Participants will engage in structured group discussions and brainstorming activities designed to consolidate learning and inspire future research directions in Federated HPC. In the first activity, “Identifying Open Challenges,” participants will work in small groups to discuss key unsolved problems in this emerging field. Each group will summarize and present its insights to collectively build a taxonomy of current research challenges. The second activity, “Future Research Plans and Collaborations,” will encourage participants to design potential research collaborations and project outlines that extend beyond the workshop. This activity will serve as a platform to connect researchers with complementary expertise, leading to the formation of working groups, proposal ideas, and open-source community efforts that can continue after the workshop.
 
 ---
 
