@@ -49,14 +49,14 @@ The workshop aims to:
   <p><strong>02:00 – 02:10</strong> — <span style="color:#1e1b4b;">Opening and Motivation</span></p>
 
   <p><strong>02:10 – 03:10</strong> — <span style="color:#1e1b4b;">Talk I: Importance of Tensors in Scientific Computing and Data Science</span><br>
-  <em>Speaker: <a href="https://cds.iisc.ac.in/faculty/ratikanta/" target="#">Dr. Ratikanta Behera</a>, Assistant Professor, CDS, IISc Bangalore</em></p>
+  <em>Speaker: <a href="https://cds.iisc.ac.in/faculty/ratikanta/" target="#">Dr. Ratikanta Behera</a>, Department of CDS, IISc Bangalore</em></p>
 
   <p><strong>03:10 – 03:30</strong> — Discussion with Speaker and Open Questions</p>
 
   <p><strong>03:30 – 04:00</strong> — <span style="color:#1e1b4b;">Tea Break</span></p>
 
   <p><strong>04:00 – 04:45</strong> — <span style="color:#1e1b4b;">Talk II: Recent Advancements in Parallel Algorithms</span><br>
-  <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>, Professor, CSE, IIT (BHU)</em></p>
+  <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>, Department of CSE, IIT (BHU)</em></p>
 
   <p><strong>04:45 – 05:30</strong> — <span style="color:#1e1b4b;">Talk III: Privacy-Preserving (Collaborative) Machine Learning</span><br>
   <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, Department of CSE, IIT (BHU)</em></p>
