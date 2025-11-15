@@ -20,7 +20,7 @@ title: Federated HPC Workshop
            alt="SCI 2025 Logo" 
            style="height:55px; width:auto;">
 
-      <img src="/assets/images/iitbhu-logo.png" 
+      <img src="/assets/images/iitbhu.jpg" 
            alt="IIT BHU Logo" 
            style="height:55px; width:auto;">
   </div>
