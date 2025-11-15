@@ -20,7 +20,9 @@ Indian Institute of Technology (BHU), Varanasi.
   <strong>🕒 When:</strong> December 12, 2025 (02:00 PM – 07:00 PM)
 </p>
 
-<strong><a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target = "#">Register for the workshop as a delegate</a></strong>
+<p style="margin:0.6rem 0;">
+  <strong>🔗 <a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target="#">Register for the workshop as a delegate</a></strong>
+</p>
 
 ---
 
@@ -92,18 +94,35 @@ The workshop aims to:
 
 ---
 
-## Hands-On/Demonstration
+## 💻 Hands-On / Demonstration
 
-This session will introduce participants to the fundamentals of FL and demonstrate how FL can be simulated across multiple nodes within an HPC environment. We will learn to deploy a simple federated training experiment where each node acts as a client contributing to a shared global model coordinated by a central server process. The experiment will be orchestrated using a distributed server, enabling participants to understand how FL workflows integrate with HPC scheduling systems. Through this exercise, attendees will observe how model updates are exchanged, measure communication overhead, and analyze convergence behavior under non-IID data distributions. This hands-on activity will bridge theory and practice, illustrating how distributed scientific computing infrastructure can be leveraged to implement scalable and privacy-preserving federated learning. In addition to the basic setup, participants will explore how privacy preserving mechanisms such as secure aggregation and  can be incorporated into the FL process to ensure that sensitive client data remains protected throughout training.
+This session will demonstrate how **federated learning can be run in an HPC-style environment**:
+
+- Simulate multiple clients across nodes, each training on local data.  
+- Use a central coordinating process to aggregate model updates.  
+- Observe communication patterns, convergence behaviour, and the impact of heterogeneous data.  
+- Discuss how **privacy-preserving mechanisms** (e.g., secure aggregation) can be integrated to protect sensitive updates.
+
+The goal is to give participants a concrete feel for how FL maps onto HPC workflows and what practical challenges arise in Federated HPC.
 
 ---
 
-## Group Activities: Identifying Open Challenges, Future Research Plans and Collaborations
-Participants will engage in structured group discussions and brainstorming activities designed to consolidate learning and inspire future research directions in Federated HPC. In the first activity, “Identifying Open Challenges,” participants will work in small groups to discuss key unsolved problems in this emerging field. Each group will summarize and present its insights to collectively build a taxonomy of current research challenges. The second activity, “Future Research Plans and Collaborations,” will encourage participants to design potential research collaborations and project outlines that extend beyond the workshop. This activity will serve as a platform to connect researchers with complementary expertise, leading to the formation of working groups, proposal ideas, and open-source community efforts that can continue after the workshop.
+## 🤝 Group Activities: Open Challenges & Future Collaborations
+
+Participants will engage in two structured group activities:
+
+- **Identifying Open Challenges:**  
+  Small groups will discuss key unsolved problems in Federated HPC (e.g., communication bottlenecks, robustness, benchmarking, energy efficiency). Each group will briefly present their findings, creating a shared map of research challenges.
+
+- **Future Research Plans and Collaborations:**  
+  Groups will sketch possible collaborative projects and ideas, including applications in climate science, healthcare, and engineering. The aim is to connect researchers with complementary expertise and seed future working groups, proposals, and open-source efforts.
 
 ---
 
-<strong><a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target = "#">Register for the workshop as a delegate</a></strong>
+<p style="margin:0.6rem 0;">
+  <strong>🔗 <a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target="#">Register for the workshop as a delegate</a></strong>
+</p>
+
 
 ## Contact
 
