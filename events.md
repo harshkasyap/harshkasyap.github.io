@@ -27,6 +27,8 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
 
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
     <p style="margin:0.4rem 0;">
+      <strong>Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing</strong>
+
       <strong>📍 Where:</strong>
       <a href="https://sci25.supercomputingindia.org/Conference#program-at-a-glance"
          style="color:#4338ca; font-weight:600;">
