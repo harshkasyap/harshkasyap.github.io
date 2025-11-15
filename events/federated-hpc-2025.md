@@ -1,4 +1,4 @@
-<img width="468" height="152" alt="image" src="https://github.com/user-attachments/assets/7eb8f979-828f-492c-86ef-7aa1affb7184" /><img width="471" height="28" alt="image" src="https://github.com/user-attachments/assets/d7acbd36-a79f-41dd-98ec-fcec244ad683" /><img width="468" height="124" alt="image" src="https://github.com/user-attachments/assets/89a7759f-0ff6-45d4-b886-c8c543bed40c" />---
+---
 layout: default
 title: Federated HPC Workshop
 ---
@@ -44,20 +44,35 @@ The workshop aims to:
 
 ## Tentative Programme (Second half, 02:00 - 07:00 PM)
 
-- **02:00 – 02:10** – Opening and Motivation  
-- **02:10 – 03:10** – Talk I - Importance of Tensors in Scientific Computing and Data Science  
-  - **Speaker:** Dr. Ratikanta Behera, Assistant Professor, CDS, IISc Bangalore  
-- **03:10 – 03:30** – Discussion with Speaker
-- **03:30 – 04:00** – Group Activity: Identifying Open Challenges & Discussion with Experts
-- **04:00 – 04:45** – Talk II - Recent Advancements in Parallel Algorithms  
-  - **Speaker:** Prof. Ravi Shankar Singh, Professor, CSE, IIT (BHU)  
-- **04:45 – 05:30** – Talk III - Privacy-Preserving (Collaborative) Machine Learning  
-  - **Speaker:** Dr. Harsh Kasyap, Department of CSE, IIT (BHU)
-- **05:30 – 05:40** – Tea Break
-- **05:40 – 06:40** – Demonstration: Federated Learning on HPC – Simulation and Privacy-Preserving Extensions  
-  - **Speaker:** Dr. Harsh Kasyap, Department of CSE, IIT (BHU)
-- **06:40 – 06:55** – Group Activity: Finalising future problems and collaborations
-- **06:55 – 07:00** – Concluding remarks
+<h2 style="margin-top:1rem; color:#1e1b4b;">📅 Tentative Programme (Second Half: 02:00–07:00 PM)</h2>
+
+<div style="border-left:4px solid #4338ca; padding-left:1rem; margin:1rem 0;">
+
+  <p><strong>02:00 – 02:10</strong> — <span style="color:#1e1b4b;">Opening and Motivation</span></p>
+
+  <p><strong>02:10 – 03:10</strong> — <span style="color:#1e1b4b;">Talk I: Importance of Tensors in Scientific Computing and Data Science</span><br>
+  <em>Speaker: Dr. Ratikanta Behera, Assistant Professor, CDS, IISc Bangalore</em></p>
+
+  <p><strong>03:10 – 03:30</strong> — Discussion with Speaker</p>
+
+  <p><strong>03:30 – 04:00</strong> — <span style="color:#1e1b4b;">Group Activity: Identifying Open Challenges & Discussion with Experts</span></p>
+
+  <p><strong>04:00 – 04:45</strong> — <span style="color:#1e1b4b;">Talk II: Recent Advancements in Parallel Algorithms</span><br>
+  <em>Speaker: Prof. Ravi Shankar Singh, Professor, CSE, IIT (BHU)</em></p>
+
+  <p><strong>04:45 – 05:30</strong> — <span style="color:#1e1b4b;">Talk III: Privacy-Preserving (Collaborative) Machine Learning</span><br>
+  <em>Speaker: Dr. Harsh Kasyap, Department of CSE, IIT (BHU)</em></p>
+
+  <p><strong>05:30 – 05:40</strong> — Tea Break</p>
+
+  <p><strong>05:40 – 06:40</strong> — <span style="color:#1e1b4b;">Demonstration: Federated Learning on HPC – Simulation and Privacy-Preserving Extensions</span><br>
+  <em>Speaker: Dr. Harsh Kasyap, Department of CSE, IIT (BHU)</em></p>
+
+  <p><strong>06:40 – 06:55</strong> — <span style="color:#1e1b4b;">Group Activity: Finalising Future Problems and Collaborations</span></p>
+
+  <p><strong>06:55 – 07:00</strong> — Concluding Remarks</p>
+
+</div>
 
 *(Exact timings and titles may be updated based on the final SCI 2025 schedule.)*
 
