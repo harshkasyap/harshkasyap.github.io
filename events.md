@@ -62,7 +62,7 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
       collaborative group activities.
     </p>
 
-    <a href="{{ 'events/federated-hpc-2025/' | relative_url }}"
+    <a href="events/federated-hpc-2025"
        style="
          display:inline-block;
          padding:0.55rem 1rem;
