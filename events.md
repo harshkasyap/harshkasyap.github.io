@@ -40,16 +40,16 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
 
     <p style="margin:0.4rem 0;">
       <strong>👥 Organisers:</strong>  
-      Dr. Harsh Kasyap · Prof. Ravi Shankar Singh  
+      <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a> · <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>
       <br>
       <span style="font-size:0.9rem; color:#4b5563;">Dept. of CSE, IIT (BHU), Varanasi</span>
     </p>
 
     <p style="margin:0.4rem 0;">
       <strong>🎤 Invited Talk:</strong>  
-      Dr. Ratikanta Behera  
+      <a href="https://cds.iisc.ac.in/faculty/ratikanta/" target="#">Dr. Ratikanta Behera</a>
       <br>
-      <span style="font-size:0.9rem; color:#4b5563;">Dept. of CDS, IISc Bangalore</span>
+      <span style="font-size:0.9rem; color:#4b5563;">Dept. of CDS, IISc Bengaluru</span>
     </p>
 
     <p style="margin:0.7rem 0;">
