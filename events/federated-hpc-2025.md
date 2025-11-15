@@ -3,7 +3,7 @@ layout: default
 title: Federated HPC Workshop
 ---
 
-# Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
+## Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
 **Organisers:** <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>  
 Department of Computer Science and Engineering,  
 Indian Institute of Technology (BHU), Varanasi.
