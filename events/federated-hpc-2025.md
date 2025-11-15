@@ -63,7 +63,7 @@ The workshop aims to:
 
   <p><strong>05:30 – 05:40</strong> — Tea Break</p>
 
-  <p><strong>05:40 – 06:40</strong> — <span style="color:#1e1b4b;">Federated Learning on HPC – Simulation and Privacy-Preserving Extensions</span><br>
+  <p><strong>05:40 – 06:40</strong> — <span style="color:#1e1b4b;">Federated HPC – Simulation and Privacy-Preserving Extensions</span><br>
   <em>Speaker: Dr. Harsh Kasyap, Department of CSE, IIT (BHU)</em></p>
 
   <p><strong>06:40 – 06:55</strong> — <span style="color:#1e1b4b;">Group Activity: Finalising Future Problems and Collaborations</span></p>
