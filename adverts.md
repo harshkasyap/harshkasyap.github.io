@@ -3,7 +3,7 @@ layout: default
 title: Positions Available
 ---
 
-# 💼 Open Intern Positions
+# 💼 Closed Intern Positions [New positions will be open soon in Private ML and GenAI, Data Privacy and Security soon]
 
 <div class="job-grid">
 
