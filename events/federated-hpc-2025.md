@@ -3,17 +3,30 @@ layout: default
 title: Federated HPC Workshop
 ---
 
-<div style="display:flex; justify-content:flex-end; gap:1rem; margin-top:0.5rem; margin-bottom:0.5rem;">
-  <img src="/assets/images/sci2025-logo.png"
-       alt="SCI 2025 Logo"
-       style="height:60px; width:auto;">
+<div style="
+  display:flex; 
+  justify-content:space-between; 
+  align-items:center; 
+  margin-top:1rem;
+  margin-bottom:1rem;
+">
 
-  <img src="/assets/images/iitbhu.jpg"
-       alt="IIT BHU Logo"
-       style="height:60px; width:auto;">
+  <h2 style="margin:0; padding:0;">
+    Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
+  </h2>
+
+  <div style="display:flex; gap:1rem;">
+      <img src="/assets/img/sci2025-logo.png" 
+           alt="SCI 2025 Logo" 
+           style="height:55px; width:auto;">
+
+      <img src="/assets/img/iitbhu-logo.png" 
+           alt="IIT BHU Logo" 
+           style="height:55px; width:auto;">
+  </div>
+
 </div>
 
-## Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing
 **Organisers:** <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>  
 Department of Computer Science and Engineering,  
 Indian Institute of Technology (BHU), Varanasi.
