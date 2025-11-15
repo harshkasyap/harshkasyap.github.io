@@ -37,7 +37,7 @@ This workshop focuses on **scalable, communication-efficient, and privacy-preser
 The workshop aims to:
 
 - Discuss **scientific computing** and Recent Advancements in Parallel Algorithms.
-- Explore **federated learning architectures** and examine **privacy-preserving techniques** for scientific data.  
+- Explore **federated learning architectures** and examine **privacy-preserving techniques**.  
 - Identify **open research challenges** in Federated HPC and foster future collaborations.
 
 ---
