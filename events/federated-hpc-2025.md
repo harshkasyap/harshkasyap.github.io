@@ -53,7 +53,7 @@ The workshop aims to:
 
   <p><strong>03:10 – 03:30</strong> — Discussion with Speaker</p>
 
-  <p><strong>03:30 – 04:00</strong> — <span style="color:#1e1b4b;">Group Activity: Identifying Open Challenges & Discussion with Experts</span></p>
+  <p><strong>03:30 – 04:00</strong> — <span style="color:#1e1b4b;">Tea Break</span></p>
 
   <p><strong>04:00 – 04:45</strong> — <span style="color:#1e1b4b;">Talk II: Recent Advancements in Parallel Algorithms</span><br>
   <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>, Professor, CSE, IIT (BHU)</em></p>
@@ -61,12 +61,10 @@ The workshop aims to:
   <p><strong>04:45 – 05:30</strong> — <span style="color:#1e1b4b;">Talk III: Privacy-Preserving (Collaborative) Machine Learning</span><br>
   <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, Department of CSE, IIT (BHU)</em></p>
 
-  <p><strong>05:30 – 05:40</strong> — Tea Break</p>
+  <p><strong>05:30 – 06:00</strong> — <span style="color:#1e1b4b;">Group Activity: Identifying Open Challenges & Future Collaborations</span></p>
 
-  <p><strong>05:40 – 06:40</strong> — <span style="color:#1e1b4b;">Federated HPC – Simulation and Privacy-Preserving Extensions</span><br>
+  <p><strong>06:00 – 06:55</strong> — <span style="color:#1e1b4b;">Federated HPC – Simulation and Privacy-Preserving Extensions</span><br>
   <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, Department of CSE, IIT (BHU)</em></p>
-
-  <p><strong>06:40 – 06:55</strong> — <span style="color:#1e1b4b;">Group Activity: Finalising Future Problems and Collaborations</span></p>
 
   <p><strong>06:55 – 07:00</strong> — Concluding Remarks</p>
 
