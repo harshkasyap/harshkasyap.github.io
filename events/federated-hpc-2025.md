@@ -34,15 +34,11 @@ This workshop focuses on **scalable, communication-efficient, and privacy-preser
 
 The workshop aims to:
 
-- Enable **collaborative scientific computing** without sharing raw data across institutions.  
-- Explore **scalable federated architectures** on HPC systems and hybrid cloud–HPC environments.  
-- Examine **privacy-preserving techniques** (secure aggregation, differential privacy, cryptographic tools) for scientific data.  
-- Demonstrate **hands-on federated workflows** tailored to HPC environments.  
+- Discuss **scientific computing** and Recent Advancements in Parallel Algorithms.
+- Explore **federated learning architectures** and examine **privacy-preserving techniques** for scientific data.  
 - Identify **open research challenges** in Federated HPC and foster future collaborations.
 
 ---
-
-## Tentative Programme (Second half, 02:00 - 07:00 PM)
 
 <h2 style="margin-top:1rem; color:#1e1b4b;">📅 Tentative Programme (Second Half: 02:00–07:00 PM)</h2>
 
