@@ -17,10 +17,18 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
   border:1px solid #e5e7eb;
 ">
 
+  <div style="
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    padding:1rem 1.2rem;
+    color:white;
+  ">
+    <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop</h2>
+  </div>
+
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
-  <p style="margin:0.4rem 0;">
+    <p style="margin:0.4rem 0;">
       <strong>Federated HPC: Towards Privacy-Preserving and Collaborative High Performance Scientific Computing</strong>
-  </p>
+    </p>
 
     <p style="margin:0.4rem 0;">
       <strong>📍 Where:</strong>
