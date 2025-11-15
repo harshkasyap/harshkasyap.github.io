@@ -47,6 +47,12 @@ Indian Institute of Technology (BHU), Varanasi.
   <strong>🔗 <a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target="#">Register for the workshop as a delegate</a></strong>
 </p>
 
+<p style="margin:0.2rem 0 1rem 0;">
+  <strong>📝 <a href="https://docs.google.com/forms/d/e/1FAIpQLSckN3YoDjXIoSQyeaGE2wnwM0w9F7D3-nTgi1-dIqhd-oGF8g/viewform?usp=publish-editor" target="#">
+    Fill the Workshop Participation Form
+  </a></strong>
+</p>
+
 ---
 
 ## About the Workshop
@@ -144,6 +150,12 @@ Participants will engage in two structured group activities:
 
 <p style="margin:0.6rem 0;">
   <strong>🔗 <a href="https://sci25.supercomputingindia.org/Conference#delegate-tariff" target="#">Register for the workshop as a delegate</a></strong>
+</p>
+
+<p style="margin:0.2rem 0 1rem 0;">
+  <strong>📝 <a href="https://docs.google.com/forms/d/e/1FAIpQLSckN3YoDjXIoSQyeaGE2wnwM0w9F7D3-nTgi1-dIqhd-oGF8g/viewform?usp=publish-editor" target="#">
+    Fill the Workshop Participation Form
+  </a></strong>
 </p>
 
 
