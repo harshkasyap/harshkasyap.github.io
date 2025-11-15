@@ -22,7 +22,7 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
     padding:1rem 1.2rem;
     color:white;
   ">
-    <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop @ SCI 2025</h2>
+    <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop</h2>
   </div>
 
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
