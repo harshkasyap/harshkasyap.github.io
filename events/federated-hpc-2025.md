@@ -74,31 +74,31 @@ The workshop aims to:
 
 ---
 
-<h2 style="margin-top:1rem; color:#1e1b4b;">🗓️ Tentative Programme (Dec 12, 2025: 02:00–07:00 PM)</h2>
+<h2 style="margin-top:1rem; color:#1e1b4b;">🗓️ Tentative Programme (Dec 12, 2025: 11:30–03:30 PM)</h2>
 
 <div style="border-left:4px solid #4338ca; padding-left:1rem; margin:1rem 0;">
 
-  <p><strong>02:00 – 02:10</strong> — <span style="color:#1e1b4b;">Opening and Motivation</span></p>
+  <p><strong>11:30 – 11:40</strong> — <span style="color:#1e1b4b;">Opening and Motivation</span></p>
 
-  <p><strong>02:10 – 03:10</strong> — <span style="color:#1e1b4b;">Talk I: Importance of Tensors in Scientific Computing and Data Science</span><br>
+  <p><strong>11:40 – 12:30</strong> — <span style="color:#1e1b4b;">Talk I: Importance of Tensors in Scientific Computing and Data Science</span><br>
   <em>Speaker: <a href="https://cds.iisc.ac.in/faculty/ratikanta/" target="#">Dr. Ratikanta Behera</a>, Department of CDS, IISc Bangalore</em></p>
 
-  <p><strong>03:10 – 03:30</strong> — Discussion with Speaker and Open Questions</p>
+  <p><strong>12:30 – 12:45</strong> — Discussion with Speaker and Open Questions</p>
 
-  <p><strong>03:30 – 04:00</strong> — <span style="color:#1e1b4b;">Tea Break</span></p>
-
-  <p><strong>04:00 – 04:45</strong> — <span style="color:#1e1b4b;">Talk II: Recent Advancements in Parallel Algorithms</span><br>
+  <p><strong>12:45 – 01:30</strong> — <span style="color:#1e1b4b;">Talk II: Recent Advancements in Parallel Algorithms</span><br>
   <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a>, Department of CSE, IIT (BHU)</em></p>
 
-  <p><strong>04:45 – 05:30</strong> — <span style="color:#1e1b4b;">Talk III: Privacy-Preserving (Collaborative) Machine Learning</span><br>
+  <p><strong>01:30 – 02:20</strong> — <span style="color:#1e1b4b;">L Break</span></p>
+
+  <p><strong>02:20 – 03:10</strong> — <span style="color:#1e1b4b;">Talk III: Privacy-Preserving (Collaborative) Machine Learning</span><br>
   <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, Department of CSE, IIT (BHU)</em></p>
 
-  <p><strong>05:30 – 06:00</strong> — <span style="color:#1e1b4b;">Group Activity: Identifying Open Challenges & Future Collaborations</span></p>
+  <p><strong>03:10 – 03:25</strong> — <span style="color:#1e1b4b;">Group Activity: Identifying Open Challenges & Future Collaborations</span></p>
 
-  <p><strong>06:00 – 06:55</strong> — <span style="color:#1e1b4b;">Federated HPC – Simulation and Privacy-Preserving Extensions</span><br>
-  <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, Department of CSE, IIT (BHU)</em></p>
+  <!--p><strong>06:00 – 06:55</strong> — <span style="color:#1e1b4b;">Federated HPC – Simulation and Privacy-Preserving Extensions</span><br>
+  <em>Speaker: <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a>, Department of CSE, IIT (BHU)</em></p-->
 
-  <p><strong>06:55 – 07:00</strong> — Concluding Remarks</p>
+  <p><strong>03:25 – 03:30</strong> — Concluding Remarks</p>
 
 </div>
 
