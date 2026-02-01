@@ -37,7 +37,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
     </p>
 
     <p style="margin:0.4rem 0;">
-      <strong>📌 Focus:</strong>
+      <strong>📌 Description:</strong>
       Benchmarking data poisoning, model poisoning, and inference attacks
       against federated learning systems.
     </p>
@@ -102,7 +102,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
     </p>
 
     <p style="margin:0.4rem 0;">
-      <strong>📌 Focus:</strong>
+      <strong>📌 Description:</strong>
       Secure fuzzy name matching across organizations using Fully Homomorphic Encryption.
     </p>
 
