@@ -9,50 +9,77 @@ This word cloud highlights the people who have contributed, collaborated, worked
 
 ---
 
-<div id="word-cloud" style="
+<div id="cloud-wrapper">
+  <div id="word-cloud"></div>
+</div>
+
+<style>
+#cloud-wrapper {
+  position: relative;
+  width: 100%;
   max-width: 900px;
+  height: 450px;
   margin: 2rem auto;
-  text-align: center;
-  line-height: 2.2;
-"></div>
+  border-radius: 1rem;
+  background: #f9fafb;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+#word-cloud span {
+  position: absolute;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: default;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#word-cloud span:hover {
+  transform: scale(1.15);
+  opacity: 0.9;
+}
+</style>
 
 <script>
-  const names = [
-    "Harsh Kasyap",
-    "Student A",
-    "Student B",
-    "Research Intern",
-    "Collaborator",
-    "IIT BHU",
-    "Federated Learning",
-    "Privacy",
-    "Security",
-    "GenAI",
-    "FHE",
-    "Trustworthy AI",
-    "Biometrics",
-    "Finance"
-  ];
+const words = [
+  "Harsh Kasyap",
+  "Federated Learning",
+  "Trustworthy AI",
+  "Privacy",
+  "Security",
+  "GenAI",
+  "FHE",
+  "Biometrics",
+  "Finance",
+  "Students",
+  "Collaborators",
+  "IIT BHU",
+  "Research",
+  "Software",
+  "Benchmarks",
+  "Datasets"
+];
 
-  const container = document.getElementById("word-cloud");
+const cloud = document.getElementById("word-cloud");
+const width = cloud.parentElement.offsetWidth;
+const height = cloud.parentElement.offsetHeight;
 
-  names.forEach(name => {
-    const span = document.createElement("span");
+const colors = ["#2563eb", "#7c3aed", "#059669", "#dc2626", "#ca8a04"];
 
-    // Random font size between 14px and 48px
-    const size = Math.floor(Math.random() * 34) + 14;
+words.forEach(word => {
+  const span = document.createElement("span");
 
-    // Random color palette (soft, readable)
-    const colors = ["#2563eb", "#7c3aed", "#059669", "#dc2626", "#ca8a04"];
-    const color = colors[Math.floor(Math.random() * colors.length)];
+  const size = Math.floor(Math.random() * 28) + 16;
+  const x = Math.random() * (width - 120);
+  const y = Math.random() * (height - 40);
+  const color = colors[Math.floor(Math.random() * colors.length)];
 
-    span.textContent = name;
-    span.style.fontSize = size + "px";
-    span.style.color = color;
-    span.style.margin = "0.4rem";
-    span.style.display = "inline-block";
-    span.style.fontWeight = "600";
+  span.textContent = word;
+  span.style.fontSize = size + "px";
+  span.style.left = x + "px";
+  span.style.top = y + "px";
+  span.style.color = color;
 
-    container.appendChild(span);
-  });
+  cloud.appendChild(span);
+});
 </script>
