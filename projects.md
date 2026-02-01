@@ -42,7 +42,7 @@ details summary:hover {
 
 # 🚀 Projects
 
-This page highlights selected **funded research projects**, **international collaborations**, and **academic & industrial projects** in which I have been involved.
+This page highlights **funded research projects**, **international collaborations**, and **academic & industrial projects** in which I have been involved.
 
 ---
 
