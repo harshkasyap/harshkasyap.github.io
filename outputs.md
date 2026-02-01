@@ -33,7 +33,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
     </p>
 
     <p style="margin:0.4rem 0;">
-      <strong>🛠 Output Type:</strong> Research Software / Benchmarking Framework
+      <strong>🛠 Output:</strong> Research Software / Benchmarking Framework
     </p>
 
     <p style="margin:0.4rem 0;">
@@ -98,7 +98,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
     </p>
 
     <p style="margin:0.4rem 0;">
-      <strong>🛠 Output Type:</strong> Secure Algorithm & Prototype
+      <strong>🛠 Output:</strong> Secure Algorithm & Prototype
     </p>
 
     <p style="margin:0.4rem 0;">
