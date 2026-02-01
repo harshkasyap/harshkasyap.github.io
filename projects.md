@@ -58,7 +58,7 @@ This page highlights **funded research projects**, **international collaboration
 </p>
 
 <div class="project-meta">
-Uttar Pradesh Electronics Corporation Ltd. (UPEIDA), Government of Uttar Pradesh<br>
+Uttar Pradesh Expressways Industrial Development Authority (UPEIDA)<br>
 <strong>Duration:</strong> 2026–2027 &nbsp;|&nbsp; <strong>Total Funding:</strong> INR 40 Lakhs
 </div>
 
