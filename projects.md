@@ -42,8 +42,7 @@ details summary:hover {
 
 # 🚀 Projects
 
-This page highlights selected **funded research projects**, **international collaborations**, and **academic & industrial projects** I have worked on.  
-My work spans **trustworthy AI, privacy-preserving machine learning, secure systems, and applied cryptography**.
+This page highlights selected **funded research projects**, **international collaborations**, and **academic & industrial projects** I have been involve in.  
 
 ---
 
@@ -53,6 +52,7 @@ My work spans **trustworthy AI, privacy-preserving machine learning, secure syst
 
 ### 🛡 AI-enabled Indigenous Contactless Multimodal Biometric System  
 **Principal Investigator**
+**Co-PI: Dr. Indra Deep Mastan, IIT (BHU)**
 
 <div class="project-meta">
 Uttar Pradesh Electronics Corporation Ltd. (UPEIDA), Government of Uttar Pradesh  
@@ -116,9 +116,8 @@ International consortium involving **NTU Singapore, EPFL, CMU, Tel Aviv Universi
 IIT Bombay, University of Glasgow**, and other global partners.
 
 **Contribution**
-- Trustworthy AI  
-- AI governance  
-- Digital public infrastructure  
+- Development of Trustworthy AI Framework
+- Designing Policies on AI governance  
 
 </div>
 
@@ -131,7 +130,7 @@ IIT Bombay, University of Glasgow**, and other global partners.
 **Role:** International Collaborator (IIT BHU)
 
 <div class="project-meta">
-University of Warwick × Nanyang Technological University (NTU), Singapore
+University of Warwick, UK and Nanyang Technological University (NTU), Singapore
 </div>
 
 **Focus**
