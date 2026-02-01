@@ -161,7 +161,7 @@ NTU–Warwick Joint Seed Fund, 2026<br>
 ---
 
 <details>
-<summary>🧪 Academic Research Projects (Before Joining IIT BHU)</summary>
+<summary>🧪 Academic Research Projects (The Alan Turing Institute)</summary>
 
 <div class="project-card light">
 
