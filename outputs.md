@@ -5,7 +5,7 @@ title: Outputs
 
 # 🧩 Research (and Engineering) Outputs
 
-This page highlights **software systems, tools, benchmarks, and prototypes** developed by students and collaborators. These outputs reflect hands-on research, engineering effort, and real deliverables.
+This page highlights **software systems, tools, benchmarks, and prototypes** developed by us, including students and collaborators. These outputs reflect hands-on research, engineering effort, and real deliverables.
 
 ---
 
@@ -29,7 +29,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
 
     <p style="margin:0.4rem 0;">
-      <strong>🧑‍🎓 Students:</strong> Undergraduate & Master’s researchers (IIT BHU)
+      <strong>🧑‍🎓 Team:</strong> Names
     </p>
 
     <p style="margin:0.4rem 0;">
@@ -94,7 +94,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
 
     <p style="margin:0.4rem 0;">
-      <strong>🧑‍🎓 Students:</strong> Research Interns (IIT BHU)
+      <strong>🧑‍🎓 Team:</strong> Names
     </p>
 
     <p style="margin:0.4rem 0;">
