@@ -266,5 +266,4 @@ The Alan Turing Institute (Funded by Bill & Melinda Gates Foundation) &nbsp;|&nb
 
 ---
 
-📧 If you would like to collaborate or discuss any of these projects, feel free to  
-<a href="mailto:harshkasyap@gmail.com">get in touch</a>.
+📧 If you would like to collaborate or discuss any of these projects, feel free to <a href="mailto:hkasyap.cse@iitbhu.ac.in">get in touch</a>.
