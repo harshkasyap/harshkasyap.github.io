@@ -25,7 +25,7 @@ title: Projects
 .project-meta {
   font-size: 0.95rem;
   color: #555;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 details summary {
@@ -42,7 +42,7 @@ details summary:hover {
 
 # 🚀 Projects
 
-This page highlights selected **funded research projects**, **international collaborations**, and **academic & industrial projects** I have been involve in.  
+This page highlights selected **funded research projects**, **international collaborations**, and **academic & industrial projects** in which I have been involved.
 
 ---
 
@@ -50,24 +50,31 @@ This page highlights selected **funded research projects**, **international coll
 
 <div class="project-card light">
 
-### 🛡 AI-enabled Indigenous Contactless Multimodal Biometric System  
-**Principal Investigator**
-**Co-PI: Dr. Indra Deep Mastan, IIT (BHU)**
+<h3>🛡 AI-enabled Indigenous Contactless Multimodal Biometric System</h3>
+
+<p>
+<strong>Principal Investigator</strong><br>
+<strong>Co-PI:</strong> Dr. Indra Deep Mastan, IIT (BHU)
+</p>
 
 <div class="project-meta">
-Uttar Pradesh Electronics Corporation Ltd. (UPEIDA), Government of Uttar Pradesh  
-Duration: 2026–2027 | Total Funding: INR 40 Lakhs
+Uttar Pradesh Electronics Corporation Ltd. (UPEIDA), Government of Uttar Pradesh<br>
+<strong>Duration:</strong> 2026–2027 &nbsp;|&nbsp; <strong>Total Funding:</strong> INR 40 Lakhs
 </div>
 
-**Overview**
-- AI-driven, contactless **multimodal biometric authentication system**
-- Applications in **secure defence access control** and **battlefield surveillance**
+<p><strong>Overview</strong></p>
+<ul>
+  <li>AI-driven, contactless <strong>multimodal biometric authentication system</strong></li>
+  <li>Applications in <strong>secure defence access control</strong> and <strong>battlefield surveillance</strong></li>
+</ul>
 
-**Key Focus Areas**
-- Multimodal biometric sensing and fusion  
-- Edge AI devices for real-time inference  
-- UAV-assisted surveillance platforms  
-- Indigenous, scalable, and resilient system design  
+<p><strong>Key Focus Areas</strong></p>
+<ul>
+  <li>Multimodal biometric sensing and fusion</li>
+  <li>Edge AI devices for real-time inference</li>
+  <li>UAV-assisted surveillance platforms</li>
+  <li>Indigenous, scalable, and resilient system design</li>
+</ul>
 
 </div>
 
@@ -75,26 +82,34 @@ Duration: 2026–2027 | Total Funding: INR 40 Lakhs
 
 <div class="project-card alt">
 
-### 🔐 DST INSPIRE Faculty Fellowship  
-**Principal Investigator**
+<h3>🔐 DST INSPIRE Faculty Fellowship</h3>
+
+<p><strong>Principal Investigator</strong></p>
 
 <div class="project-meta">
-Department of Science and Technology (DST), Government of India  
-Duration: 2025–2030 | Funding: INR 7 Lakhs per year
+Department of Science and Technology (DST), Government of India<br>
+<strong>Duration:</strong> 2025–2030 &nbsp;|&nbsp; <strong>Funding:</strong> INR 7 Lakhs / year
 </div>
 
-**Overview**
-- Independent research programme on **Trustworthy and Privacy-Preserving Machine Learning**
+<p><strong>Overview</strong></p>
+<p>
+Independent research programme on <strong>Trustworthy and Privacy-Preserving Machine Learning</strong>,
+with emphasis on secure, robust, fair, and verifiable collaborative learning.
+</p>
 
-**Research Focus**
-- Federated Learning  
-- Homomorphic Encryption, Secure MPC  
-- Differential Privacy  
-- Zero-Knowledge Proofs  
+<p><strong>Research Focus</strong></p>
+<ul>
+  <li>Federated Learning</li>
+  <li>Homomorphic Encryption & Secure MPC</li>
+  <li>Differential Privacy</li>
+  <li>Zero-Knowledge Proofs</li>
+</ul>
 
-**Application Domains**
-- Finance  
-- Sensitive cross-organization data collaboration  
+<p><strong>Application Domains</strong></p>
+<ul>
+  <li>Finance</li>
+  <li>Sensitive cross-organization data collaboration</li>
+</ul>
 
 </div>
 
@@ -104,20 +119,23 @@ Duration: 2025–2030 | Funding: INR 7 Lakhs per year
 
 <div class="project-card light">
 
-### 🌐 Trustworthy AI for All  
-*RAI UK Collaboration Scheme, 2026*
+<h3>🌐 Trustworthy AI for All</h3>
 
 <div class="project-meta">
-Lead Institution: University of Warwick  
-Partner Institution: IIT (BHU) Varanasi
+RAI UK Collaboration Scheme, 2026<br>
+<strong>Lead Institution:</strong> University of Warwick<br>
+<strong>Partner Institution:</strong> IIT (BHU) Varanasi
 </div>
 
-International consortium involving **NTU Singapore, EPFL, CMU, Tel Aviv University,  
-IIT Bombay, University of Glasgow**, and other global partners.
+<p>
+International consortium involving <strong>NTU Singapore, EPFL, CMU, Tel Aviv University,
+IIT Bombay, University of Glasgow</strong>, and other global partners.
+</p>
 
-**Contribution**
-- Development of Trustworthy AI Framework
-- Designing Policies on AI governance  
+<ul>
+  <li>Research on Trustworthy AI foundations</li>
+  <li>AI governance and digital public infrastructure</li>
+</ul>
 
 </div>
 
@@ -125,42 +143,41 @@ IIT Bombay, University of Glasgow**, and other global partners.
 
 <div class="project-card alt">
 
-### 🔐 Mathematical Algorithms for Privacy-Preserving AI to Combat Global Scams  
-*NTU–Warwick Joint Seed Fund, 2026*  
-**Role:** International Collaborator (IIT BHU)
+<h3>🔐 Mathematical Algorithms for Privacy-Preserving AI to Combat Global Scams</h3>
 
 <div class="project-meta">
-University of Warwick, UK and Nanyang Technological University (NTU), Singapore
+NTU–Warwick Joint Seed Fund, 2026<br>
+<strong>Role:</strong> International Collaborator (IIT BHU)
 </div>
 
-**Focus**
-- Federated Learning and Fully Homomorphic Encryption  
-- Privacy-preserving scam detection  
-- Mathematical foundations for secure AI systems  
+<ul>
+  <li>Federated Learning and Fully Homomorphic Encryption</li>
+  <li>Privacy-preserving scam detection</li>
+  <li>Mathematical foundations of secure AI systems</li>
+</ul>
 
 </div>
 
 ---
 
 <details>
-<summary>🧪 Projects Before Joining IIT (BHU)</summary>
+<summary>🧪 Academic Research Projects (Before Joining IIT BHU)</summary>
 
 <div class="project-card light">
 
-### 🔐 FAIR — Responsible Artificial Intelligence in Financial Services  
-*The Alan Turing Institute (with HSBC), 2024–2025*
+<h3>🔐 FAIR — Responsible Artificial Intelligence in Financial Services</h3>
 
-**Focus**
-- Privacy, integrity, and verifiability in collaborative ML for finance
+<div class="project-meta">
+The Alan Turing Institute (with HSBC) &nbsp;|&nbsp; 2024–2025
+</div>
 
-**Key Contributions**
-- Designed a **private fuzzy name-matching scheme** for cross-border entity resolution
-- Integrated **robust aggregation rules** with PETs
-- Ensured integrity of local and global model updates
+<ul>
+  <li>Privacy, integrity, and verifiability in collaborative ML for finance</li>
+  <li>Private fuzzy name matching for cross-border entity resolution</li>
+  <li>Robust aggregation with PETs</li>
+</ul>
 
-**Technologies**
-- Federated Learning  
-- Homomorphic Encryption, Secure MPC, Differential Privacy  
+<p><strong>Technologies:</strong> Federated Learning, Homomorphic Encryption, Secure MPC, Differential Privacy</p>
 
 </div>
 
@@ -168,19 +185,18 @@ University of Warwick, UK and Nanyang Technological University (NTU), Singapore
 
 <div class="project-card alt">
 
-### 🪪 TDI — Trustworthy Digital Identity  
-*The Alan Turing Institute (Funded by Bill & Melinda Gates Foundation), 2024–2025*
+<h3>🪪 TDI — Trustworthy Digital Identity</h3>
 
-**Focus**
-- Technical and societal risks in digital identity systems
+<div class="project-meta">
+The Alan Turing Institute (Funded by Bill & Melinda Gates Foundation) &nbsp;|&nbsp; 2024–2025
+</div>
 
-**Key Contributions**
-- Developed a **private and fairness-aware biometric data sharing framework**
-- Studied privacy leakage and bias risks
+<ul>
+  <li>Privacy and fairness risks in biometric identity systems</li>
+  <li>Private and fairness-aware biometric data sharing</li>
+</ul>
 
-**Technologies**
-- Homomorphic Encryption, Secure MPC  
-- Fairness-aware Machine Learning  
+<p><strong>Technologies:</strong> Homomorphic Encryption, Secure MPC, Fair ML</p>
 
 </div>
 
@@ -193,19 +209,18 @@ University of Warwick, UK and Nanyang Technological University (NTU), Singapore
 
 <div class="project-card light">
 
-### 🔄 DevOps — Continuous Integration & Development | 2018
+<h3>🔄 DevOps — Continuous Integration & Development</h3>
 
-**Focus**
-- Automated build, testing, and deployment pipelines
+<div class="project-meta">
+2018
+</div>
 
-**Key Contributions**
-- Modular repository design for faster builds
-- Jenkins CI pipelines
-- Maintainable and testable build artifacts
+<ul>
+  <li>Automated build, test, and packaging pipelines</li>
+  <li>Jenkins CI pipelines and modular repositories</li>
+</ul>
 
-**Technologies**
-- Git, Jenkins, Nexus  
-- Phoenix PTC, Maven, Gradle, NuGet, WIX  
+<p><strong>Technologies:</strong> Git, Jenkins, Nexus, Maven, Gradle, NuGet, WIX</p>
 
 </div>
 
@@ -213,18 +228,18 @@ University of Warwick, UK and Nanyang Technological University (NTU), Singapore
 
 <div class="project-card alt">
 
-### 💳 NFC-EMV — Contactless ATM Transactions | 2018
+<h3>💳 NFC-EMV — Contactless ATM Transactions</h3>
 
-**Focus**
-- Secure NFC-based ATM transactions compliant with EMV standards
+<div class="project-meta">
+2018
+</div>
 
-**Key Contributions**
-- Application-layer and device-host communication design
-- Secure transaction flow integration
+<ul>
+  <li>Secure NFC-based ATM transactions</li>
+  <li>EMV-compliant device-host communication</li>
+</ul>
 
-**Technologies**
-- C++, Angular, HTML, CSS  
-- ATM emulation tools, speech engines  
+<p><strong>Technologies:</strong> C++, Angular, HTML, CSS</p>
 
 </div>
 
@@ -232,17 +247,18 @@ University of Warwick, UK and Nanyang Technological University (NTU), Singapore
 
 <div class="project-card light">
 
-### 🎯 1:1 Ad — Personalized ATM Marketing | 2017
+<h3>🎯 1:1 Ad — Personalized ATM Marketing</h3>
 
-**Focus**
-- Targeted ATM advertisements based on customer profiles
+<div class="project-meta">
+2017
+</div>
 
-**Key Contributions**
-- Responsive UI for different ATM resolutions
-- Region-wise and bank-wise customer segmentation
+<ul>
+  <li>Customer-specific targeted ATM advertisements</li>
+  <li>Responsive UI across ATM resolutions</li>
+</ul>
 
-**Technologies**
-- C++, Angular, HTML, CSS  
+<p><strong>Technologies:</strong> C++, Angular, HTML, CSS</p>
 
 </div>
 
@@ -251,4 +267,4 @@ University of Warwick, UK and Nanyang Technological University (NTU), Singapore
 ---
 
 📧 If you would like to collaborate or discuss any of these projects, feel free to  
-[get in touch](mailto:harshkasyap@gmail.com).
+<a href="mailto:harshkasyap@gmail.com">get in touch</a>.
