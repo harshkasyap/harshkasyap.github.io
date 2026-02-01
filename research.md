@@ -5,45 +5,70 @@ title: Research
 
 # 🧪 Research
 
-I work broadly in the area of **Trustworthy and Privacy-Preserving Machine Learning**, with a strong focus on making machine learning systems <em>secure, fair, and usable</em> in real-world settings. My research spans both theoretical foundations and practical deployments, and I’m always looking for curious students and motivated collaborators to join in solving open problems.
+My research lies at the intersection of **Trustworthy AI, Privacy, and Security**, with an emphasis on building machine learning systems that are **robust, verifiable, and deployable in real-world settings**. I am also interested in applications of AI in science and engineering.
+
+Below are the **key areas I am currently working on**.
 
 ---
 
-## 🔍 Core Research Areas
+## 🔍 Current Research Focus
 
-### 🧠 Federated Learning (FL)
-- Designing **adaptive FL algorithms** that are secure against data and model poisoning attacks.
-- Exploring **vulnerabilities** in collaborative learning systems and proposing solutions.
-- Developing **inference attack models** to audit information leakage in federated setups.
-- Designing **verifiable schemes** to ensure the integrity of aggregation results.
-- Optimising **computational and communicational** cost in real-time deployments.
-- Study in **cross-silo** (large institutions) and **cross-device** (edge devices) settings.
-
-### 🔐 Privacy-Preserving Machine Learning
-- Leveraging **Differential Privacy**, **Homomorphic Encryption** and **Secure Multi-party Computation** to train models on sensitive data without revealing inputs.
-- Employing **Zero-knowledge Proofs** to ensure integrity on computations.
-
-### ✅ Trustworthy AI
-- Investigating **bias**, **fairness**, and **interpretability** of AI systems.
-- Creating tools to detect **overfitting**, **distributional shifts**, and **model leakage**.
-
-### 🔄 Private Data Sharing & Governance
-- Developing practical data-sharing systems across international boundaries, ensuring regulatory compliance.
+### ✅ Trustworthy AI (Across all verticals)
+- Studying **robustness, privacy, and fairness** in modern AI systems.
+- Evaluating vulnerabilities and defenses in **large models, including LLM-based pipelines**.
 
 ---
 
-## 🎓 Openings for Students
-
-If you're a student [undergraduate, master's, or PhD aspirant] interested in working with me and making me learn, on closely aligned with any of the above topics, please feel free to [email me](mailto:harshkasyap@gmail.com), with a statement of purpose. 
+### 🔐 Fully Homomorphic Encryption (FHE)
+- **Benchmarking existing industrial FHE frameworks**.
+- Designing **practical applications of FHE** for secure data processing.
 
 ---
 
-## 🤝 Looking for Collaborators
+### 🛡 Post-Quantum Cryptography (PQC)
+- Exploring how PQC can be integrated with **machine learning and distributed systems**.
+- Investigating future-proof cryptographic designs for AI-driven applications.
 
-I’m looking forward to new collaborations, especially with:
-- Enthusiasts passionate about the startup ecosystem for innovation
-- Researchers working in TIPS [trust/identity/privacy/security]
-- Industry partners interested in deploying privacy-aware applications  
-- Interdisciplinary teams combining law, policy, and technology
+---
 
-Let’s build safer and more inclusive AI systems together.
+### 🤖 Generative AI (GenAI)
+- Exploring **Generative AI for scientific applications (AI for Science and Engineering)**.
+- Studying **privacy, leakage, and misuse risks** in generative models.
+
+---
+
+### 👁️ Computer Vision (CV)
+- Working on **plant leaf disease detection** using vision-based models.
+- Exploring lightweight and deployable CV solutions for real-world environments.
+
+---
+
+### 🧬 Biometrics
+- Studying **privacy risks, inference attacks, and secure biometric matching**.
+- Exploring cryptography-backed biometric data sharing and verification.
+
+---
+
+### 💰 Finance & Secure Data Analytics
+- Studying **privacy-preserving analytics for financial data**.
+- Designing secure and compliant ML workflows for sensitive financial datasets.
+
+---
+
+## 🎓 Working With Students
+
+I am happy to work with **motivated undergraduate, master’s, and PhD students** interested in working on the above problems.  
+If you enjoy **thinking deeply, experimenting rigorously, and building systems**, feel free to reach out via  
+📧 [email](mailto:harshkasyap@gmail.com) with a short statement of purpose, only if you have already made a little progress in this area.
+
+---
+
+## 🤝 Collaboration
+
+I welcome collaborations with:
+- Researchers in **Trust, Identity, Privacy, and Security (TIPS)**
+- Industry partners deploying **privacy-aware AI systems**
+- Interdisciplinary teams spanning **AI, cryptography, policy, and systems**
+- Interdisciplinary teams working in **Biomedicals, Healthcare and Finance**
+
+Let’s work together to build AI systems we can actually trust.
