@@ -57,7 +57,7 @@ Below are the **key areas I am currently working on**.
 
 ## 🎓 Working With Students
 
-I am happy to work with **motivated undergraduate, master’s, and PhD students** interested in working on the above problems. If you enjoy **thinking deeply, experimenting rigorously, and building systems**, feel free to reach out via 📧 [email](mailto:harshkasyap@gmail.com) with a short statement of purpose, provided you have already made some progress in one of the above-mentioned areas.
+I am happy to work with **motivated undergraduate, master’s, and PhD students** interested in working on the above problems. If you enjoy **thinking deeply, experimenting rigorously, and building systems**, feel free to reach out via 📧 [email](mailto:hkasyap.cse@iitbhu.ac.in) with a short statement of purpose, provided you have already made some progress in one of the above-mentioned areas.
 
 ---
 
