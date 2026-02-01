@@ -3,173 +3,251 @@ layout: default
 title: Projects
 ---
 
+<style>
+.project-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.8rem 0;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  border-left: 6px solid;
+}
+
+.project-card.light {
+  background: #f9fbff;
+  border-color: #4a90e2;
+}
+
+.project-card.alt {
+  background: #fefaf6;
+  border-color: #e67e22;
+}
+
+.project-meta {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.6rem;
+}
+
+details summary {
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 2rem 0 1rem 0;
+}
+
+details summary:hover {
+  color: #4a90e2;
+}
+</style>
+
 # 🚀 Projects
 
-This page highlights selected **funded research projects**, **international research collaborations**, and **academic/industrial projects** I have been involved in.  
+This page highlights selected **funded research projects**, **international collaborations**, and **academic & industrial projects** I have worked on.  
 My work spans **trustworthy AI, privacy-preserving machine learning, secure systems, and applied cryptography**.
 
 ---
 
 ## 💰 Funded Research Projects (Current)
 
+<div class="project-card light">
+
 ### 🛡 AI-enabled Indigenous Contactless Multimodal Biometric System  
-**Principal Investigator**  
-*Uttar Pradesh Electronics Corporation Ltd. (UPEIDA), Government of Uttar Pradesh*
+**Principal Investigator**
 
-**Duration:** 2026–2027  
-**Total Funding:** INR 40 Lakhs
+<div class="project-meta">
+Uttar Pradesh Electronics Corporation Ltd. (UPEIDA), Government of Uttar Pradesh  
+Duration: 2026–2027 | Total Funding: INR 40 Lakhs
+</div>
 
-**Overview:**
-- Design and development of an **AI-driven, contactless multimodal biometric authentication system**.
-- Targeted applications include **secure defence access control** and **battlefield surveillance**.
+**Overview**
+- AI-driven, contactless **multimodal biometric authentication system**
+- Applications in **secure defence access control** and **battlefield surveillance**
 
-**Key Focus Areas:**
+**Key Focus Areas**
 - Multimodal biometric sensing and fusion  
 - Edge AI devices for real-time inference  
 - UAV-assisted surveillance platforms  
-- Scalable, resilient, and indigenous system design  
+- Indigenous, scalable, and resilient system design  
+
+</div>
 
 ---
 
+<div class="project-card alt">
+
 ### 🔐 DST INSPIRE Faculty Fellowship  
-**Principal Investigator**  
-*Department of Science and Technology (DST), Government of India*
+**Principal Investigator**
 
-**Duration:** 2025–2030  
-**Funding:** INR 7 Lakhs per year
+<div class="project-meta">
+Department of Science and Technology (DST), Government of India  
+Duration: 2025–2030 | Funding: INR 7 Lakhs per year
+</div>
 
-**Overview:**
-- Independent research programme on **Trustworthy and Privacy-Preserving Machine Learning**.
+**Overview**
+- Independent research programme on **Trustworthy and Privacy-Preserving Machine Learning**
 
-**Research Focus:**
-- Secure, robust, fair, and verifiable **collaborative learning frameworks**
-- Emphasis on **Federated Learning** and **Privacy-Enhancing Technologies (PETs)**:
-  - Homomorphic Encryption  
-  - Secure Multi-party Computation  
-  - Differential Privacy  
-  - Zero-Knowledge Proofs  
+**Research Focus**
+- Federated Learning  
+- Homomorphic Encryption, Secure MPC  
+- Differential Privacy  
+- Zero-Knowledge Proofs  
 
-**Application Domains:**
+**Application Domains**
 - Finance  
-- Sensitive data collaboration across organizations  
+- Sensitive cross-organization data collaboration  
+
+</div>
 
 ---
 
 ## 🌍 International Research Collaborations & Consortia
 
+<div class="project-card light">
+
 ### 🌐 Trustworthy AI for All  
-*RAI UK Collaboration Scheme, 2026*  
-**Partner Institution:** IIT (BHU) Varanasi  
+*RAI UK Collaboration Scheme, 2026*
 
-An international consortium led by the **University of Warwick**, involving:
-- NTU Singapore  
-- EPFL  
-- Carnegie Mellon University  
-- Tel Aviv University  
-- IIT Bombay  
-- University of Glasgow  
-- and other global partners  
+<div class="project-meta">
+Lead Institution: University of Warwick  
+Partner Institution: IIT (BHU) Varanasi
+</div>
 
-**Contribution:**
-- Research on **trustworthy AI**, **AI governance**, and **digital public infrastructure**.
-- Collaborative efforts on policy-aware and societally responsible AI systems.
+International consortium involving **NTU Singapore, EPFL, CMU, Tel Aviv University,  
+IIT Bombay, University of Glasgow**, and other global partners.
+
+**Contribution**
+- Trustworthy AI  
+- AI governance  
+- Digital public infrastructure  
+
+</div>
 
 ---
+
+<div class="project-card alt">
 
 ### 🔐 Mathematical Algorithms for Privacy-Preserving AI to Combat Global Scams  
 *NTU–Warwick Joint Seed Fund, 2026*  
 **Role:** International Collaborator (IIT BHU)
 
-A joint research initiative between the **University of Warwick** and **Nanyang Technological University (NTU), Singapore**.
+<div class="project-meta">
+University of Warwick × Nanyang Technological University (NTU), Singapore
+</div>
 
-**Research Focus:**
-- Privacy-preserving scam detection using:
-  - **Federated Learning**
-  - **Fully Homomorphic Encryption (FHE)**
-- Mathematical foundations for secure and scalable AI systems.
+**Focus**
+- Federated Learning and Fully Homomorphic Encryption  
+- Privacy-preserving scam detection  
+- Mathematical foundations for secure AI systems  
+
+</div>
 
 ---
 
-## 🧪 Projects Before Joining IIT (BHU)
+<details>
+<summary>🧪 Projects Before Joining IIT (BHU)</summary>
+
+<div class="project-card light">
 
 ### 🔐 FAIR — Responsible Artificial Intelligence in Financial Services  
-*The Alan Turing Institute (in collaboration with HSBC), 2024–2025*
+*The Alan Turing Institute (with HSBC), 2024–2025*
 
-**Focus:**
-- Privacy, integrity, and verifiability in collaborative machine learning for financial systems.
+**Focus**
+- Privacy, integrity, and verifiability in collaborative ML for finance
 
-**Key Contributions:**
-- Designed a **private and secure fuzzy name-matching scheme** for approximate entity resolution across borders.
-- Integrated **robust aggregation rules** with PETs.
-- Ensured integrity of both **local and global model updates**.
+**Key Contributions**
+- Designed a **private fuzzy name-matching scheme** for cross-border entity resolution
+- Integrated **robust aggregation rules** with PETs
+- Ensured integrity of local and global model updates
 
-**Technologies:**
+**Technologies**
 - Federated Learning  
-- PETs: Homomorphic Encryption, Secure MPC, Differential Privacy  
+- Homomorphic Encryption, Secure MPC, Differential Privacy  
+
+</div>
 
 ---
+
+<div class="project-card alt">
 
 ### 🪪 TDI — Trustworthy Digital Identity  
-*The Alan Turing Institute (Funded by the Bill & Melinda Gates Foundation), 2024–2025*
+*The Alan Turing Institute (Funded by Bill & Melinda Gates Foundation), 2024–2025*
 
-**Focus:**
-- Identifying and mitigating technical, social, and systemic risks in digital identity systems.
+**Focus**
+- Technical and societal risks in digital identity systems
 
-**Key Contributions:**
-- Developed a **private and fairness-aware biometric data sharing framework**.
-- Studied privacy and bias risks in identity verification pipelines.
+**Key Contributions**
+- Developed a **private and fairness-aware biometric data sharing framework**
+- Studied privacy leakage and bias risks
 
-**Technologies:**
-- PETs: Homomorphic Encryption, Secure MPC  
+**Technologies**
+- Homomorphic Encryption, Secure MPC  
 - Fairness-aware Machine Learning  
+
+</div>
+
+</details>
 
 ---
 
-## 🏭 Industrial Projects — Diebold Nixdorf (2017–2019)
+<details>
+<summary>🏭 Industrial Projects — Diebold Nixdorf (2017–2019)</summary>
+
+<div class="project-card light">
 
 ### 🔄 DevOps — Continuous Integration & Development | 2018
 
-**Focus:**
-- Automation of build, testing, and deployment pipelines.
+**Focus**
+- Automated build, testing, and deployment pipelines
 
-**Key Contributions:**
-- Designed modular repositories to improve build efficiency.
-- Built Jenkins pipelines for automated CI workflows.
-- Developed scripts for testable and maintainable build artifacts.
+**Key Contributions**
+- Modular repository design for faster builds
+- Jenkins CI pipelines
+- Maintainable and testable build artifacts
 
-**Technologies:**
+**Technologies**
 - Git, Jenkins, Nexus  
-- Phoenix PTC  
-- Maven, Gradle, NuGet, WIX  
+- Phoenix PTC, Maven, Gradle, NuGet, WIX  
+
+</div>
 
 ---
+
+<div class="project-card alt">
 
 ### 💳 NFC-EMV — Contactless ATM Transactions | 2018
 
-**Focus:**
-- Secure contactless ATM transactions using NFC-EMV standards.
+**Focus**
+- Secure NFC-based ATM transactions compliant with EMV standards
 
-**Key Contributions:**
-- Designed application-layer components for secure ATM transactions.
-- Implemented device-to-host communication compliant with EMV protocols.
+**Key Contributions**
+- Application-layer and device-host communication design
+- Secure transaction flow integration
 
-**Technologies:**
+**Technologies**
 - C++, Angular, HTML, CSS  
 - ATM emulation tools, speech engines  
 
+</div>
+
 ---
+
+<div class="project-card light">
 
 ### 🎯 1:1 Ad — Personalized ATM Marketing | 2017
 
-**Focus:**
-- Targeted customer-specific marketing advertisements on ATMs.
+**Focus**
+- Targeted ATM advertisements based on customer profiles
 
-**Key Contributions:**
-- Developed responsive UI designs for different ATM resolutions.
-- Supported region-wise, bank-wise, and customer-based ad classification.
+**Key Contributions**
+- Responsive UI for different ATM resolutions
+- Region-wise and bank-wise customer segmentation
 
-**Technologies:**
+**Technologies**
 - C++, Angular, HTML, CSS  
+
+</div>
+
+</details>
 
 ---
 
