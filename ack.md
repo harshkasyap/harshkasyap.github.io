@@ -5,7 +5,7 @@ title: Word Cloud
 
 # ☁️ Acknowledgement
 
-This word cloud highlights the people who have contributed, collaborated, worked with, and shaped me. There are many more, actually - I must have missed. Also, I am looking for a cleaner code to create this - your help is appreciated again!
+This word cloud highlights the people who have contributed, collaborated, worked with, and shaped me. There are many more, actually - I must have missed. Also, I am looking for cleaner code to create this - your help is appreciated again!
 
 ---
 
