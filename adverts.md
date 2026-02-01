@@ -48,11 +48,11 @@ title: Positions Available
     <strong>“Intern – Generative AI / LLM Systems”</strong>
   </p>
 
-  <p>
+  <!--p>
     <strong>Mentor:</strong><br>
     Dr. Harsh Kasyap (IIT (BHU), India) –
     <a href="mailto:hkasyap.cse@iitbhu.ac.in">hkasyap.cse@iitbhu.ac.in</a>
-  </p>
+  </p-->
 </div>
 
 <style>
