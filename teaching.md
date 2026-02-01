@@ -5,12 +5,10 @@ title: Teaching
 
 # Teaching
 
-I am teaching/have taught following courses:
+I am teaching/have taught the following courses:
 
-### CSO-101: Computer Programming - Theory and Lab [Even Sem, 2025-26]
-### CSO-102: Data Structures - Theory and Lab [Even Sem, 2025-26]
-### CSO-101: Computer Programming - Theory and Lab [Odd Sem, 2025-26]
-### CSO-432: Artificial Intelligence (AI) for Programmers - Lab [Odd Sem, 2025-26]
+### CSO-101: Computer Programming - Theory and Lab [Jul'25, Jan'26][Slides](https://drive.google.com/drive/folders/1vJ_jGl-pzEXiUF8WqmBIraKtmjBtQ5ms?usp=sharing)
+### CSO-314: Powers of AI [Jan'26]
 
 
 <!-- Machine Learning- Operating Systems- Data Structures -->
