@@ -40,7 +40,7 @@ Indian Institute of Technology (BHU), Varanasi.
 </p>
 
 <p style="margin:0.4rem 0;">
-  <strong>🕒 When:</strong> December 12, 2025 (02:00 PM – 07:00 PM)
+  <strong>🕒 When:</strong> December 12, 2025 (11:30–03:30 PM)
 </p>
 
 <p style="margin:0.6rem 0;">
