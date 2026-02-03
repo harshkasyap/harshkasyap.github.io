@@ -50,7 +50,7 @@ This page highlights **funded research projects**, **international collaboration
 
 <div class="project-card light">
 
-<h3>🛡 AI-enabled Indigenous Contactless Multimodal Biometric System</h3>
+<h3>🛡 AI-enabled Indigenous Contactless Multimodal Biometric System for Secure Defence Access and Battlefield Surveillance</h3>
 
 <p>
 <strong>Principal Investigator</strong><br>
