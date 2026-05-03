@@ -3,7 +3,7 @@ layout: default
 title: Lab
 ---
 
-# 🧪 My Research Group
+# High-Performance and Trustworthy AI Systems Lab
 
 This page highlights the amazing students I work with — their energy, curiosity, and ideas shape everything we build together.
 
@@ -35,7 +35,7 @@ This page highlights the amazing students I work with — their energy, curiosit
 <!-- ☁️ STUDENT CLOUD -->
 <!-- ===================== -->
 
-<h2 style="text-align:center; margin-top:3rem;">👩‍🎓 Students Team</h2>
+<h2 style="text-align:center; margin-top:3rem;">👨‍🏫👩‍🎓 Students Team</h2>
 
 <div id="student-cloud-wrapper">
   <div id="student-cloud"></div>
@@ -135,7 +135,7 @@ students.forEach(name=>{
 <!-- 💬 STUDENT WORK -->
 <!-- ===================== -->
 
-<h2 style="text-align:center; margin-top:3rem;">💬 Few <h2 style="text-align:center; margin-top:3rem;">💬 Few Students Say What They Are Working On</h2>
+<h2 style="text-align:center; margin-top:3rem;">💬 Few Students Say What They Are Working On</h2>
 
 <div id="student-grid" class="student-grid"></div>
 
@@ -197,7 +197,7 @@ const studentData = [
   },
   {
     name: "Aaditya Raj",
-    img: "/assets/images/students/AadityaRaj.jpg",
+    img: "/assets/images/students/AADITYARAJ.jpg",
     text: "Building an AI-driven secure access system using YOLO and Deep SORT for real-time tracking and facial recognition."
   },
   {
