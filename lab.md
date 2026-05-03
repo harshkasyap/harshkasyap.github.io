@@ -17,7 +17,7 @@ This page highlights the amazing students I work with — their energy, curiosit
 
   <div style="text-align:center;">
     <img src="/assets/images/profile.JPG" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
-    <h3 style="margin:0.5rem 0 0;">Harsh Kasyap</h3>
+    <h3 style="margin:0.5rem 0 0;">Dr. Harsh Kasyap</h3>
     <p style="color:#555;">Lab Incharge</p>
   </div>
 
@@ -35,7 +35,7 @@ This page highlights the amazing students I work with — their energy, curiosit
 <!-- ☁️ STUDENT CLOUD -->
 <!-- ===================== -->
 
-<h2 style="text-align:center; margin-top:3rem;">👩‍🎓 Students</h2>
+<h2 style="text-align:center; margin-top:3rem;">👩‍🎓 Students Team</h2>
 
 <div id="student-cloud-wrapper">
   <div id="student-cloud"></div>
@@ -135,46 +135,9 @@ students.forEach(name=>{
 <!-- 💬 STUDENT WORK -->
 <!-- ===================== -->
 
-<h2 style="text-align:center; margin-top:3rem;">💬 What Students Are Working On</h2>
+<h2 style="text-align:center; margin-top:3rem;">💬 Few <h2 style="text-align:center; margin-top:3rem;">💬 Few Students Say What They Are Working On</h2>
 
-<div class="student-grid">
-
-  <div class="student-card">
-    <h3>Aaditya Agarwal</h3>
-    <p>Working on Kyber and Dilithium implementations with MOSIP, and exploring secure federated learning and zero-knowledge proofs.</p>
-  </div>
-
-  <div class="student-card">
-    <h3>Aadi Sharma</h3>
-    <p>Developing secure inference pipelines using Fully Homomorphic Encryption for medical AI systems using TenSEAL and PyTorch.</p>
-  </div>
-
-  <div class="student-card">
-    <h3>Aaditya Raj</h3>
-    <p>Building an AI-driven secure access system using YOLO and Deep SORT for real-time tracking and facial recognition.</p>
-  </div>
-
-  <div class="student-card">
-    <h3>Shreyansh Solanki</h3>
-    <p>Studying membership inference attacks and extending them to transformer models for privacy risk evaluation.</p>
-  </div>
-
-  <div class="student-card">
-    <h3>Drish Menghani</h3>
-    <p>Working on differential privacy-based defenses for transformer models and LLMs.</p>
-  </div>
-
-  <div class="student-card">
-    <h3>Dhanish Shetty</h3>
-    <p>Exploring privacy leakage and reconstruction attacks in deep learning and transformer architectures.</p>
-  </div>
-
-  <div class="student-card">
-    <h3>Garvita Gigras</h3>
-    <p>Building an AI system for automated question generation and evaluation with feedback.</p>
-  </div>
-
-</div>
+<div id="student-grid" class="student-grid"></div>
 
 <style>
 .student-grid {
@@ -186,18 +149,104 @@ students.forEach(name=>{
 
 .student-card {
   background:#ffffff;
-  border-radius:10px;
+  border-radius:12px;
   padding:1rem;
-  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  box-shadow:0 6px 14px rgba(0,0,0,0.06);
   border-left:4px solid #4f46e5;
+  display:flex;
+  gap:0.8rem;
+  align-items:flex-start;
+  transition: transform 0.2s ease;
 }
 
-.student-card h3 {
-  margin:0 0 0.5rem 0;
+.student-card:hover {
+  transform: translateY(-4px);
 }
 
-.student-card p {
-  font-size:0.95rem;
+.student-card img {
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  object-fit:cover;
+  flex-shrink:0;
+}
+
+.student-content h3 {
+  margin:0;
+  font-size:1rem;
+}
+
+.student-content p {
+  font-size:0.9rem;
   color:#444;
+  margin-top:0.3rem;
 }
 </style>
+
+<script>
+const studentData = [
+  {
+    name: "Aaditya Agarwal",
+    img: "/assets/images/students/AadityaAgarwal.jpg",
+    text: "Working on Kyber and Dilithium implementations with MOSIP, and exploring secure federated learning and zero-knowledge proofs."
+  },
+  {
+    name: "Aadi Sharma",
+    img: "/assets/images/students/AadiSharma.jpg",
+    text: "Developing secure inference pipelines using Fully Homomorphic Encryption for medical AI systems using TenSEAL and PyTorch."
+  },
+  {
+    name: "Aaditya Raj",
+    img: "/assets/images/students/AadityaRaj.jpg",
+    text: "Building an AI-driven secure access system using YOLO and Deep SORT for real-time tracking and facial recognition."
+  },
+  {
+    name: "Shreyansh Solanki",
+    img: "/assets/images/students/Shreyansh.jpg",
+    text: "Working on membership inference attacks and extending them to transformer models for privacy evaluation."
+  },
+  {
+    name: "Drish Menghani",
+    img: "/assets/images/students/Drish.jpg",
+    text: "Exploring differential privacy-based defenses for transformer models and LLMs."
+  },
+  {
+    name: "Dhanish Shetty",
+    img: "/assets/images/students/DhanishShetty.jpg",
+    text: "Studying privacy leakage and reconstruction attacks in deep learning and transformer architectures."
+  },
+  {
+    name: "Garvita Gigras",
+    img: "/assets/images/students/GarvitaGigras.jpg",
+    text: "Building an AI system for automated question generation and evaluation with feedback."
+  }
+];
+
+// 🔀 Shuffle function
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+// Shuffle every load
+shuffle(studentData);
+
+const grid = document.getElementById("student-grid");
+
+studentData.forEach(s => {
+  const card = document.createElement("div");
+  card.className = "student-card";
+
+  card.innerHTML = `
+    <img src="${s.img}" alt="${s.name}">
+    <div class="student-content">
+      <h3>${s.name}</h3>
+      <p>${s.text}</p>
+    </div>
+  `;
+
+  grid.appendChild(card);
+});
+</script>
