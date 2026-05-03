@@ -6,6 +6,8 @@ title: Positions Available
 <div class="job-card">
   <h2>Internship Opportunity: Trustworthy ML & LLM Security (Attacks & Defenses)</h2>
 
+  <h1>If you are sending email - make sure you have some expertise in this area, you already know about some attacks and defenses.</h1>
+
   <p><strong>Start Date:</strong> As soon as possible</p>
   <p><strong>Duration:</strong> 3–6 months (extendable based on performance)</p>
 
