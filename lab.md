@@ -20,6 +20,8 @@ title: Lab
 
 </div>
 
+---
+
 This page highlights the amazing students I work with — their energy, curiosity, and ideas shape everything we build together.
 
 ---
@@ -89,7 +91,7 @@ const students = [
   "Shreyansh Solanki","Amit Kumar Maurya","Parteek Yadav",
   "Pranjul Malpani","Yash Sharma","Navneet","Thansen",
   "Anubhav Kumar","Himanshi Bansal",
-  "Suryansh","Aadi Sharma","Aaditya Raj", "AND MANY MORE"
+  "Suryansh","Aadi Sharma","Aaditya Raj", "MANY MORE"
 ];
 
 const cloud = document.getElementById("student-cloud");
