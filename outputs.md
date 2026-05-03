@@ -29,7 +29,7 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
 
     <p style="margin:0.4rem 0;">
-      <strong>🧑‍🎓 Team:</strong> Piyush Jaiswal, Aaditya Pratap, Shreyansh Saraswati, Harsh Kashyap, Somanath Tripathy
+      <strong>🧑‍🎓 Team:</strong> Piyush Jaiswal, Aaditya Pratap, Shreyansh Saraswati, Harsh Kasyap, Somanath Tripathy
     </p>
 
     <p style="margin:0.4rem 0;">
@@ -50,19 +50,42 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
       Large Language Models Python PyTorch Hugging Face Transformers DeepSeek Phi Mistral LLAMA Qwen Gemma
     </p>
 
-    <p>
-    1. Injection Results 
-    Link: https://drive.google.com/file/d/1D6Diz0rTgT8OV5rMp0EOZTvzhwDrQo30/view
-    How to use: This repository contains the raw output logs and classification data from our attacks. You can download the results to verify our findings, analyze the "vulnerable" classifications, or perform your own statistical analysis on model failure rates. 
-    
-    2. Jailbreak Prompt 
-    Link: https://drive.google.com/drive/folders/1xc3ypxgYJowmxjHj_Bdq945DiAa0Y4RI 
-    How to use: This document contains the results of the best performing prompts listed in the Internal Prompt dataset across the various LLM models we tested. It also contains a summary of the results from our analysis. Researchers can use these prompts to benchmark the safety alignment of models by testing whether the model refuses or complies with the input. 
-    
-    3. Internal Prompts 
-    Link: https://drive.google.com/file/d/1R4hzuzy4gEYJeykjytzfkXRCfmaMvxj9/view 
-    How to use: This section contains some of the highest-performing system instructions and meta-prompts we collected from various sources, in which we further refined and engineered some for optimal results. You can adapt these prompts to create new variants of adversarial inputs.
-    </p>
+    <div style="margin-top:1rem;">
+
+      <div style="margin-bottom:1rem;">
+        <strong>1. Injection Results</strong><br>
+        <a href="https://drive.google.com/file/d/1D6Diz0rTgT8OV5rMp0EOZTvzhwDrQo30/view" target="_blank"
+          style="color:#2563eb; font-weight:600; text-decoration:none;">
+          🔗 View Dataset
+        </a>
+        <p style="margin:0.3rem 0;">
+          Raw output logs and classification data from attacks. Useful for verifying results and analyzing model failure rates.
+        </p>
+      </div>
+
+      <div style="margin-bottom:1rem;">
+        <strong>2. Jailbreak Prompts</strong><br>
+        <a href="https://drive.google.com/drive/folders/1xc3ypxgYJowmxjHj_Bdq945DiAa0Y4RI" target="_blank"
+          style="color:#2563eb; font-weight:600; text-decoration:none;">
+          🔗 Open Prompt Collection
+        </a>
+        <p style="margin:0.3rem 0;">
+          Best-performing jailbreak prompts across multiple LLMs. Can be used to benchmark alignment and safety.
+        </p>
+      </div>
+
+      <div style="margin-bottom:1rem;">
+        <strong>3. Internal Prompts</strong><br>
+        <a href="https://drive.google.com/file/d/1R4hzuzy4gEYJeykjytzfkXRCfmaMvxj9/view" target="_blank"
+          style="color:#2563eb; font-weight:600; text-decoration:none;">
+          🔗 View Prompts
+        </a>
+        <p style="margin:0.3rem 0;">
+          Curated system instructions and meta-prompts for generating adversarial inputs and testing robustness.
+        </p>
+      </div>
+
+    </div>
 
     <a href="https://github.com/your-repo-link"
        target="_blank"
@@ -80,10 +103,6 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
 
   </div>
 </div>
-<!-- ===== OUTPUT CARD END ===== -->
-
----
-
 <!-- ===== OUTPUT CARD END ===== -->
 
 ---
