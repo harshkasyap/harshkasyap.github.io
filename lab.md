@@ -3,7 +3,22 @@ layout: default
 title: Lab
 ---
 
-# High-Performance and Trustworthy AI Systems Lab
+<div style="text-align:center; margin-top:1.5rem;">
+
+  <h1 style="margin-bottom:0.3rem;">
+    High-Performance and Trustworthy AI Systems Lab
+  </h1>
+
+  <p style="
+    font-size:1.3rem;
+    color:#555;
+    font-weight:500;
+    margin-top:0;
+  ">
+    उच्च प्रदर्शन एवं विश्वसनीय कृत्रिम बुद्धिमत्ता प्रणाली प्रयोगशाला
+  </p>
+
+</div>
 
 This page highlights the amazing students I work with — their energy, curiosity, and ideas shape everything we build together.
 
@@ -74,7 +89,7 @@ const students = [
   "Shreyansh Solanki","Amit Kumar Maurya","Parteek Yadav",
   "Pranjul Malpani","Yash Sharma","Navneet","Thansen",
   "Anubhav Kumar","Himanshi Bansal",
-  "Suryansh","Aadi Sharma","Aaditya Raj"
+  "Suryansh","Aadi Sharma","Aaditya Raj", "AND MANY MORE"
 ];
 
 const cloud = document.getElementById("student-cloud");
