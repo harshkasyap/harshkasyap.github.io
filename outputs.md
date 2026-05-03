@@ -85,6 +85,17 @@ This page highlights **software systems, tools, benchmarks, and prototypes** dev
         </p>
       </div>
 
+      <div style="margin-bottom:1rem;">
+        <strong>4. Research Paper</strong><br>
+        <a href="https://arxiv.org/abs/2602.22242" target="_blank"
+          style="color:#2563eb; font-weight:600; text-decoration:none;">
+          📄 View Paper
+        </a>
+        <p style="margin:0.3rem 0;">
+          This paper presents a comprehensive study of prompt injection and jailbreak attacks on large language models, including benchmarking methodologies, empirical analysis, and insights into model vulnerabilities under realistic deployment scenarios.
+        </p>
+      </div>
+
     </div>
 
     <!--a href="https://github.com/your-repo-link"
