@@ -33,15 +33,15 @@ This page highlights the amazing students I work with — their energy, curiosit
 <div style="display:flex; justify-content:center; gap:3rem; flex-wrap:wrap; margin-top:2rem;">
 
   <div style="text-align:center;">
-    <img src="/assets/images/profile.JPG" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
-    <h3 style="margin:0.5rem 0 0;">Dr. Harsh Kasyap</h3>
-    <p style="color:#555;">Lab Incharge</p>
+    <img src="/assets/images/ravi.jpg" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
+    <h3 style="margin:0.5rem 0 0;">Prof. Ravi Shankar Singh</h3>
+    <p style="color:#555;">Professor</p>
   </div>
 
   <div style="text-align:center;">
-    <img src="/assets/images/ravi.jpg" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
-    <h3 style="margin:0.5rem 0 0;">Prof. Ravi Shankar Singh</h3>
-    <p style="color:#555;">Mentor</p>
+    <img src="/assets/images/profile.JPG" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
+    <h3 style="margin:0.5rem 0 0;">Dr. Harsh Kasyap</h3>
+    <p style="color:#555;">Assistant Professor</p>
   </div>
 
 </div>
