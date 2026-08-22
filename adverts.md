@@ -5,13 +5,13 @@ title: Positions Available
 
 <div class="job-card">
   <h2>JRF Opportunity (3 Years): Will be advertised shortly in a few weeks, and expected joining is Oct 1.</h2>
-</div>
-  
+
   <p><strong>Project:</strong> Privacy-Preserving Federated Fraud Detection in Finance</p>
 
   <p>
     Email (and later apply) only if you know how to work on synthetic data generation, have some experience working with financial data, and are interested in converting to a PhD.
   </p>
+</div>
 
 <div class="job-card">
   <h2>Internship Opportunity: Trustworthy ML & LLM Security (Attacks & Defenses)</h2>
