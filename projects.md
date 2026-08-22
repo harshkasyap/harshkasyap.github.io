@@ -82,7 +82,7 @@ Uttar Pradesh Expressways Industrial Development Authority (UPEIDA)<br>
 
 <div class="project-card alt">
 
-<h3>🔐 DST INSPIRE Faculty Fellowship</h3>
+<h3>🔐 Privacy-Preserving Federated Fraud Detection in Finance (DST INSPIRE Faculty Fellowship)</h3>
 
 <p><strong>Principal Investigator</strong></p>
 
