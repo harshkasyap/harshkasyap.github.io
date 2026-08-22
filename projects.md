@@ -88,7 +88,7 @@ Uttar Pradesh Expressways Industrial Development Authority (UPEIDA)<br>
 
 <div class="project-meta">
 Department of Science and Technology (DST), Government of India<br>
-<strong>Duration:</strong> 2025–2030 &nbsp;|&nbsp; <strong>Funding:</strong> INR 7 Lakhs / year
+<strong>Duration:</strong> 2025–2030 &nbsp;|&nbsp; <strong>Funding:</strong> INR 35 Lakhs
 </div>
 
 <p><strong>Overview</strong></p>
