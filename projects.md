@@ -115,6 +115,38 @@ with emphasis on secure, robust, fair, and verifiable collaborative learning.
 
 ---
 
+<div class="project-card light">
+
+<h3>🛡 Design and development of AI-based chatbot for loco pilot's assistance</h3>
+
+<p>
+<strong>Co-Principal Investigator</strong><br>
+<strong>PI:</strong> Prof. Ravi Shankar Singh, IIT (BHU)
+</p>
+
+<div class="project-meta">
+Council of Science and Technology,U.P. (CST,U.P.))<br>
+<strong>Duration:</strong> 2026–2027 &nbsp;|&nbsp; <strong>Total Funding:</strong> INR 16.08 Lakhs
+</div>
+
+<!--p><strong>Overview</strong></p>
+<ul>
+  <li>AI-driven, contactless <strong>multimodal biometric authentication system</strong></li>
+  <li>Applications in <strong>secure defence access control</strong> and <strong>battlefield surveillance</strong></li>
+</ul>
+
+<p><strong>Key Focus Areas</strong></p>
+<ul>
+  <li>Multimodal biometric sensing and fusion</li>
+  <li>Edge AI devices for real-time inference</li>
+  <li>UAV-assisted surveillance platforms</li>
+  <li>Indigenous, scalable, and resilient system design</li>
+</ul-->
+
+</div>
+
+---
+
 ## 🌍 International Research Collaborations & Consortia
 
 <div class="project-card light">
