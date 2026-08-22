@@ -9,7 +9,7 @@ title: Positions Available
   <p><strong>Project:</strong> Privacy-Preserving Federated Fraud Detection in Finance</p>
 
   <p>
-    Email (and later apply) only if you know how to work on synthetic data generation, have some experience working with financial data, and are interested in converting to a PhD.
+    <strong>Email (and later apply) only if you know how to work on synthetic data generation, have some experience working with financial data, and are interested in converting to a PhD.</strong>
   </p>
 </div>
 
