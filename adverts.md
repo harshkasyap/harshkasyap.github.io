@@ -4,7 +4,7 @@ title: Positions Available
 ---
 
 <div class="job-card">
-  <h2>JRF Opportunity (3 Years): Will be advertised shortly in a few weeks, and expected joining is Oct 1.</h2>
+  <h2>JRF Opportunity (3 Years): Will be advertised shortly in a few weeks, and expected joining is Oct 1, 2026.</h2>
 
   <p><strong>Project:</strong> Privacy-Preserving Federated Fraud Detection in Finance</p>
 
@@ -16,7 +16,7 @@ title: Positions Available
 <div class="job-card">
   <h2>Internship Opportunity: Trustworthy ML & LLM Security (Attacks & Defenses)</h2>
 
-  <h1>If you are sending an email, make sure you have some expertise in this area, and you already know about some attacks and defenses.</h1>
+  <p><strong>If you are sending an email, make sure you have some expertise in this area, and you already know about some attacks and defenses.</p>strong></p>
 
   <p><strong>Start Date:</strong> As soon as possible</p>
   <p><strong>Duration:</strong> 3–6 months (extendable based on performance)</p>
