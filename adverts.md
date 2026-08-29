@@ -4,12 +4,12 @@ title: Positions Available
 ---
 
 <div class="job-card">
-  <h2>JRF Opportunity (3 Years): Will be advertised shortly in a few weeks, and expected joining is Oct 1, 2026.</h2>
+  <h2>JRF Opportunity (3 Years): Expected joining is Oct 1, 2026.</h2>
 
   <p><strong>Project:</strong> Privacy-Preserving Federated Fraud Detection in Finance</p>
 
   <p>
-    <strong>Email (and later apply) only if you know how to work on synthetic data generation, have some experience working with financial data, and are interested in converting to a PhD.</strong>
+    <strong>Fill this form (https://forms.gle/jLemRGfMbBWECiJA7) if you are willing to work on synthetic data generation, model explainability, and a trustworthy AI system, also have some experience working with financial data, and further interested in converting to a PhD.</strong>
   </p>
 </div>
 
