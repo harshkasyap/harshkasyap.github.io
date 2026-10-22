@@ -3,7 +3,7 @@ layout: default
 title: Positions Available
 ---
 
-<div class="job-card">
+<!--div class="job-card">
   <h2>JRF Opportunity (3 Years): Expected joining is Oct 1, 2026.</h2>
 
   <p><strong>Project:</strong> Privacy-Preserving Federated Fraud Detection in Finance</p>
@@ -69,7 +69,7 @@ title: Positions Available
     <strong>“Intern – Trustworthy ML / LLM Security”</strong>
   </p>
 
-</div>
+<--/div>
 
 <style>
 .job-card {
