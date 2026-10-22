@@ -73,7 +73,7 @@ title: Positions Available
     <strong>“Intern – Trustworthy ML / LLM Security”</strong>
   </p>
 
-<--/div>
+</div-->
 
 <style>
 .job-card {
