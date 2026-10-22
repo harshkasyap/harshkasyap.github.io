@@ -3,7 +3,7 @@ layout: default
 title: Positions Available
 ---
 
-<!--div class="job-card">
+<div class="job-card">
 <h2>No positions available atm. Exceptional candidates with prior results/methods in Trustworthy AI can email about the topic only if interested in working for 6 months.</h2>
 </div>
 
