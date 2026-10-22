@@ -4,7 +4,7 @@ title: Positions Available
 ---
 
 <div class="job-card">
-<h2>No positions available atm. Exceptional candidates with prior results/methods in Trustworthy AI can email about the topic only if interested in working for 6 months.</h2>
+<h2>No positions available atm. Highly motivated candidates with prior results/methods in Trustworthy AI can email about the topic only if interested in working for atleast 6 months.</h2>
 </div>
 
 <!--div class="job-card">
