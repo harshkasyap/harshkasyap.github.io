@@ -4,6 +4,10 @@ title: Positions Available
 ---
 
 <!--div class="job-card">
+<h2>No positions available atm. Exceptional candidates with prior results/methods in Trustworthy AI can email about the topic only if interested in working for 6 months.</h2>
+</div>
+
+<!--div class="job-card">
   <h2>JRF Opportunity (3 Years): Expected joining is Oct 1, 2026.</h2>
 
   <p><strong>Project:</strong> Privacy-Preserving Federated Fraud Detection in Finance</p>
