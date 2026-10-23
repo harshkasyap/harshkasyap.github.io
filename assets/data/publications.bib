@@ -1,3 +1,11 @@
+@article{tabflowm_lightweight_flow_matching_for_m_30,
+    abstract = {Generative modeling for mixed-type tabular data has recently been dominated by diffusion-based methods, but their gains often come with schedule design, time dependent score parameterization, and multi-step solvers that increase computational overhead and tuning difficulty. We present \textbf{TabFlowM}, a lightweight framework that asks a more targeted question: once mixed-type records are mapped into a decoder compatible continuous transport space, is diffusion style score learning still necessary? TabFlowM answers this by training a single time conditioned velocity field via flow matching to deterministically transport Gaussian noise to the latent token space data distribution, replacing diffusion specific score estimation and scheduling machinery with direct velocity regression on a closed form coupling path. Experiments on six real world benchmark datasets show that TabFlowM attains the best average rank in composite distributional fidelity, jointly accounting for marginal and pairwise divergence. It further achieves the strongest column-wise MLE on 5 out of 6 datasets. Across the UCI suite, TabFlowM also trains in markedly less time than the strongest diffusion baselines, avoiding the severe training-time scaling they exhibit on larger datasets. Finally, on a million-scale fraud dataset with class ratios exceeding 100:1, where unconditional fidelity can decouple from rare event predictive utility, TabFlowM achieves the strongest average AUC-PR while maintaining competitive fidelity and runtime. These findings suggest that, under an appropriate transport interface for mixed-type data, a minimalist flow matching generator can recover much …},
+    author = {Yankin Chi and Andre Gunawan and Suryansh Maurya and Harsh Kasyap and Raymond K Wong},
+    journal = {Transactions on Machine Learning Research},
+    title = {TabFlowM: Lightweight flow matching for Mixed-Type Tabular Data Synthesis in Latent Space},
+    url = {https://openreview.net/forum?id=t5kygrpSIz}
+}
+
 @article{collaborative_learning_based_effective_m_9,
     abstract = {Malware is overgrowing, causing severe loss to different institutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convolution Neural Network (CNN) based model extracting relevant features using call …},
     author = {Narendra Singh and Harsh Kasyap and Somanath Tripathy},
@@ -5,17 +13,6 @@
     publisher = {Springer International Publishing},
     title = {Collaborative learning based effective malware detection system},
     url = {https://link.springer.com/chapter/10.1007/978-3-030-65965-3_13},
-    year = {2020}
-}
-
-@article{dnet_an_efficient_privacy_preserving_26,
-    abstract = {Medical data held in silos by institutions, makes it challeng-ing to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a lower communication latency and provides an upper bound.},
-    author = {Parth Parag Kulkarni and Harsh Kasyap and Somanath Tripathy},
-    journal = {Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings},
-    pages = {145},
-    publisher = {Springer Nature},
-    title = {DNet: An Efficient Privacy-Preserving},
-    url = {https://books.google.com/books?hl=en&lr=&id=VYkOEAAAQBAJ&oi=fnd&pg=PA145&dq=info:gBbtijIFISgJ:scholar.google.com&ots=Oovvtt80ZY&sig=wOTDDMEjbBY9WXKgS-rL7TRIVco},
     year = {2020}
 }
 
@@ -27,17 +24,6 @@
     title = {Dnet: an efficient privacy-preserving distributed learning framework for healthcare systems},
     url = {https://link.springer.com/chapter/10.1007/978-3-030-65621-8_9},
     year = {2020}
-}
-
-@article{collaborative_learning_based_effective_25,
-    abstract = {Malware is overgrowing, causing severe loss to different insti-tutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convo-lution Neural Network (CNN) based model extracting relevant features using call graph, n-gram, and image transformations. Further, Auxiliary Classifier Generative Adversarial Network (AC-GAN) is used for generating unseen data for training purposes. The model is extended for federated setup to build an effective malware detection system. We have used the Microsoft malware dataset for training and evaluation. The result shows that the federated approach achieves the accuracy closer to centralized training while preserving data privacy at an individual organization.},
-    author = {Narendra Singh and Harsh Kasyap and Somanath Tripathy},
-    journal = {ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings},
-    pages = {205},
-    publisher = {Springer Nature},
-    title = {Collaborative Learning Based Effective},
-    url = {https://books.google.com/books?hl=en&lr=&id=nhUZEAAAQBAJ&oi=fnd&pg=PA205&dq=info:H2wwrPFtclUJ:scholar.google.com&ots=MiC1z5hZE0&sig=ApQwj0yFOdbBfROsW9503Zl-fVc},
-    year = {2021}
 }
 
 @article{moat_model_agnostic_defense_against_targ_5,
@@ -83,11 +69,11 @@
     pages = {263-268},
     publisher = {IEEE},
     title = {Hidden vulnerabilities in cosine similarity based poisoning defense},
-    url = {https://ieeexplore.ieee.org/abstract/document/9751167/},
+    url = {https://ieeexplore.ieee.org/document/9751167/},
     year = {2022}
 }
 
-@article{milsa_model_interpretation_based_label_s_10,
+@article{milsa_model_interpretation_based_label_s_11,
     abstract = {Federated learning allows multiple participants to come together and collaboratively train an intelligent model. It allows local model training, while keeping the data in-place to preserve privacy. In contrast, deep learning models learn by observing the training data. Consequently, local models produced by participants are not presumed to be secure and are susceptible to inference attacks. Existing inference attacks require training multiple shadow models, white-box knowledge of training models and auxiliary data preparation, which makes these attacks to be ineffective and infeasible. This paper proposes a model interpretation based label sniffing attack called MILSA, which does not interfere with learning of the main task but learns about the presence of a particular label in the target (participant’s) training model. MILSA uses Shapley based value functions for interpreting the training models to frame inference …},
     author = {Debasmita Manna and Harsh Kasyap and Somanath Tripathy},
     pages = {139-154},
@@ -110,7 +96,7 @@
     year = {2022}
 }
 
-@article{hdfl_private_and_robust_federated_learni_12,
+@article{hdfl_private_and_robust_federated_learni_13,
     abstract = {Machine learning (ML) has seen widespread adoption across different domains and is used to make critical decisions. However, with profuse and diverse data available, collaboration is indispensable for ML. The traditional centralized ML for collaboration is susceptible to data theft and inference attacks. Federated learning (FL) promises secure collaborative machine learning by moving the model to the data. However, FL faces the challenge of data and model poisoning attacks. This is because FL provides autonomy to the participants. Many Byzantine-robust aggregation schemes exist to identify such poisoned model updates from participants. But, these schemes require raw access to the local model updates, which exposes them to inference attacks. Thus, the existing FL is still insecure to be adopted.This paper proposes the very first generic FL framework, which is both resistant to inference attacks and robust to …},
     author = {Harsh Kasyap and Somanath Tripathy and Mauro Conti},
     conference = {2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
@@ -133,19 +119,19 @@
     year = {2024}
 }
 
-@article{mitigating_bias_model_pruning_for_enhanc_16,
-    abstract = {Machine learning models have been instrumental in making decisions across domains, like mortgage lending and risk assessment in finance. However, these models have been found susceptible to biases, causing unfair decisions for a specific group of individuals. Such bias is generally based on some protected (or sensitive) attributes, such as age, sex, or race, and is still prevalent due to historical context or algorithmic bias. There have been several efforts to ensure equal opportunities for each individual/group, based on creditworthiness, rather than any social bias. Several pre-, in-and postprocessing bias mitigation techniques have been proposed. However, these techniques perform data transformation or design new constraint/cost functions, which are task-specific, to achieve a fair prediction. Such techniques even require further access to the complete training/testing data.This paper proposes a novel post-processing bias mitigation technique that employs a model interpretation strategy to find the responsible model weights causing the bias. Pruning only a few model weights exhibits group fairness in model predictions while maintaining competitive accuracy levels, thus aligning with the goals of fairness and efficiency in decision-making. The proposed scheme requires access to only a few data samples representing the protected attributes, without exposing the complete training data. Through extensive experiments with multiple census datasets/methods, we demonstrate the efficacy of our approach, achieving up to a significant 50% reduction in bias while preserving the overall accuracy.},
+@article{mitigating_bias_model_pruning_for_enhanc_17,
+    abstract = {Machine learning models have been instrumental in making decisions across domains, like mortgage lending and risk assessment in finance. However, these models have been found susceptible to biases, causing unfair decisions for a specific group of individuals. Such bias is generally based on some protected (or sensitive) attributes, such as age, sex, or race, and is still prevalent due to historical context or algorithmic bias. There have been several efforts to ensure equal opportunities for each individual/group, based on creditworthiness, rather than any social bias. Several pre-, in- and post-processing bias mitigation techniques have been proposed. However, these techniques perform data transformation or design new constraint/cost functions, which are task-specific, to achieve a fair prediction. Such techniques even require further access to the complete training/testing data.This paper proposes a novel …},
     author = {Harsh Kasyap and Ugur Atmaca and Michela Iezzi and Toby Walsh and Carsten Maple},
     conference = {27th European Conference on Artificial Intelligence (ECAI 2024),19-24 October 2024, Santiago de Compostela, Spain},
     pages = {995 - 1002},
     publisher = {https://ebooks.iospress.nl/doi/10.3233/FAIA240589},
     title = {Mitigating Bias: Model Pruning for Enhanced Model Fairness and Efficiency},
-    url = {https://drive.google.com/file/d/1opLESPAJzMHGD1Z0V4nV9A-JduQxFVNp/view},
+    url = {https://journals.sagepub.com/doi/abs/10.3233/FAIA240589},
     volume = {392},
     year = {2024}
 }
 
-@article{patch_based_adversarial_attack_against_d_24,
+@article{patch_based_adversarial_attack_against_d_29,
     abstract = {Deep neural networks (DNNs) have revolutionized machine learning with their remarkable capabilities in various applications. However, their vulnerability to adversarial attacks, where subtle perturbations can lead to misclassification, raises significant concerns regarding their reliability and security. In this paper, we study adversarial attacks by implementing a sophisticated patch-based methodology to assess the vulnerability of DNNs. Our approach involves freezing the weights of trained classification models and introducing a patch parameter that is strategically placed on images from diverse datasets such as MNIST, CIFAR-100, and a transportation dataset comprising 43 categories. The primary objective is to evaluate the impact of these patches on DNNs’ classification accuracy, particularly focusing on their robustness against white-box and black-box attacks. Our results demonstrate high attack success rates …},
     author = {Nemichand Rinwa and Harsh Kasyap and Somanath Tripathy},
     conference = {2024 Conference on Building a Secure & Empowered Cyberspace (BuildSEC)},
@@ -168,7 +154,7 @@
     year = {2024}
 }
 
-@article{privacy_preserving_fuzzy_name_matching_f_13,
+@article{privacy_preserving_fuzzy_name_matching_f_12,
     abstract = {Financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision-making, including identifying money laundering and fraud. However, modern data privacy regulations impose restrictions on data sharing. For this reason, privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to determine individuals that hold accounts in both datasets. The names of account holders may be recorded differently in each dataset. We introduce a novel privacy-preserving scheme for fuzzy name matching across institutions, employing fully homomorphic encryption over MinHash signatures. The efficiency of the proposed scheme is enhanced using a clustering mechanism. Our scheme ensures privacy by only revealing the possibility of a potential match to the querying party. The practicality and effectiveness are evaluated using different datasets, and compared against state-of-the-art schemes. It takes around 100 and 1000 seconds to search 1000 names from 10k and 100k names, respectively, meeting the requirements of financial institutions. Furthermore, it exhibits significant performance improvement in reducing communication overhead by 30-300 times.},
     author = {Harsh Kasyap and Ugur Ilker Atmaca and Carsten Maple and Graham Cormode and Jiancong He},
     journal = {arXiv preprint arXiv:2407.19979},
@@ -177,7 +163,7 @@
     year = {2024}
 }
 
-@article{privacy_preserving_personalised_federate_11,
+@article{privacy_preserving_personalised_federate_10,
     abstract = {Financial institutions increasingly utilise AI-based applications to enhance fraud detection. However, in today's highly interconnected world with higher access to information and technology, fraudulent activities are also becoming increasingly sophisticated. Thus, models trained only on local historical data may struggle to identify such complex transactions effectively. To address this challenge, the institutions may share their data with each other. However, such data sharing activity is constrained by regulatory compliance and institutional trust requirements. We propose adopting Federated Learning (FL) with Privacy Enhancing Technologies (PET) as a state-of-the-art solution to bolster fraud detection capabilities while addressing concerns related to data privacy and competition. Financial institutions face the dual mandate of improving fraud prevention and maintaining the security and privacy of customer …},
     author = {Harsh Kasyap and Ugur Ilker Atmaca and Carsten Maple},
     conference = {International Conference on AI and the Digital Economy (CADE 2024)},
@@ -202,45 +188,47 @@
     year = {2024}
 }
 
-@article{an_improved_vector_commitment_constructi_22,
-    abstract = {All-but-one Vector Commitments (AVCs) randomly opens all but one of the committed vector values. Typically AVCs are instantiated using Goldwasser-Goldreich-Micali (GGM) trees. Generating these trees comprises a significant computational cost for AVCs due to a large number of hash function calls. Correlated GGM (cGGM) trees have been proposed to halve the number of hash calls and Batched AVCs (BAVCs) using a single GGM tree were integrated in the FAEST signature scheme, which improves efficiency and reduces the signature sizes. This paper proposes BACON, a BAVC with aborts that leverages a single cGGM tree. BACON executes multiple instances of AVC in a single batch and enables an abort mechanism to probabilistically reduce the commitment size. We prove that BACON is secure under the ideal cipher model and the random oracle model. We also discuss the possible application of the proposed BACON and show the theoretical efficiency compared to state-of-the-art.},
+@article{an_improved_vector_commitment_constructi_28,
+    abstract = {All-but-one Vector Commitments (AVCs) randomly opens all but one of the committed vector values. Typically AVCs are instantiated using Goldwasser-Goldreich-Micali (GGM) trees. Generating these trees comprises a significant computational cost for AVCs due to a large number of hash function calls. Correlated GGM (cGGM) trees have been proposed to halve the number of hash calls and Batched AVCs (BAVCs) using a single GGM tree were integrated in the FAEST signature scheme, which improves efficiency and reduces the signature sizes. This paper proposes BACON, a BAVC with aborts that leverages a single cGGM tree. BACON executes multiple instances of AVC in a single batch and enables an abort mechanism to probabilistically reduce the commitment size. We prove that BACON is secure under the ideal cipher model and the random oracle model. We also discuss the possible application of the …},
     author = {Yalan Wang and Bryan Kumara and Harsh Kasyap and Liqun Chen and Sumanta Sarkar and Christopher JP Newton and Carsten Maple and Ugur Ilker Atmaca},
     conference = {2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
     pages = {1634-1639},
     publisher = {IEEE},
     title = {An Improved Vector Commitment Construction with Applications to Signatures},
-    url = {https://brykumara.github.io/files/2025_TrustCom.pdf},
+    url = {https://ieeexplore.ieee.org/abstract/document/11354736/},
     year = {2025}
 }
 
-@article{bacon_an_improved_vector_commitment_cons_14,
+@article{bacon_an_improved_vector_commitment_cons_15,
     abstract = {All-but-one Vector Commitments (AVCs) allow a committed vector to be verified by randomly opening all but one of the committed values. Typically, AVCs are instantiated using Goldwasser-Goldreich-Micali (GGM) trees. Generating these trees comprises a significant computational cost for AVCs due to a large number of hash function calls. Recently, correlated GGM (cGGM) trees were proposed to halve the number of hash calls and Batched AVCs (BAVCs) using one large GGM tree were integrated to FAEST to form the FAEST version 2 signature scheme, which improves efficiency and reduces the signature size. However, further optimizations on BAVC schemes remain possible. Inspired by the large-GGM based BAVC and the cGGM tree, this paper proposes BACON, a BAVC with aborts scheme by leveraging a large cGGM tree. BACON executes multiple instances of AVC in a single batch and enables an abort mechanism to probabilistically reduce the commitment size. We prove that BACON is secure under the ideal cipher model and the random oracle model. We also discuss the possible application of the proposed BACON, ie, FAEST version 2. Furthermore, because the number of hash calls in a large cGGM tree is halved compared with that used in a large GGM tree, theoretically, our BACON is more efficient than the state-of-the-art BAVC scheme.},
     author = {Yalan Wang and Bryan Kumara and Harsh Kasyap and Liqun Chen and Sumanta Sarkar and Christopher JP Newton and Carsten Maple and Ugur Ilker Atmaca},
     journal = {Cryptology ePrint Archive},
-    title = {BACON: An Improved Vector Commitment Construction with Applications to Signatures},
+    title = {BACON: an improved vector commitment construction with applications to signatures},
     url = {https://eprint.iacr.org/2025/1411},
     year = {2025}
 }
 
-@article{fairness_constrained_optimization_attack_23,
-    abstract = {Federated learning (FL) is a privacy-preserving machine learning technique that facilitates collaboration among participants across demographics. FL enables model sharing, while restricting the movement of data. Since FL provides participants with independence over their training data, it becomes susceptible to poisoning attacks. Such collaboration also propagates bias among the participants, even unintentionally, due to different data distribution or historical bias present in the data. This paper proposes an intentional fairness attack, where a client maliciously sends a biased model, by increasing the fairness loss while training, even considering homogeneous data distribution. The fairness loss is calculated by solving an optimization problem for fairness metrics such as demographic parity and equalized odds. The attack is insidious and hard to detect, as it maintains global accuracy even after increasing the bias. We evaluate our attack against the state-of-the-art Byzantine-robust and fairness-aware aggregation schemes over different datasets, in various settings. The empirical results demonstrate the attack efficacy by increasing the bias up to 90\%, even in the presence of a single malicious client in the FL system.},
+@article{fairness_constrained_optimization_attack_19,
+    abstract = {Federated learning (FL) is a privacy-preserving machine learning technique that facilitates collaboration among participants across demographics. FL enables model sharing, while restricting the movement of data. Since FL provides participants with independence over their training data, it becomes susceptible to poisoning attacks. Such collaboration also propagates bias among the participants, even unintentionally, due to different data distribution or historical bias present in the data. This paper proposes an intentional fairness attack, where a client maliciously sends a biased model, by increasing the fairness loss while training, even considering homogeneous data distribution. The fairness loss is calculated by solving an optimization problem for fairness metrics such as demographic parity and equalized odds. The attack is insidious and hard to detect, as it maintains global accuracy even after increasing the …},
     author = {Harsh Kasyap and Minghong Fang and Zhuqing Liu and Carsten Maple and Somanath Tripathy},
-    journal = {arXiv preprint arXiv:2510.12143},
+    conference = {2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
+    pages = {2060-2065},
+    publisher = {IEEE},
     title = {Fairness-Constrained Optimization Attack in Federated Learning},
-    url = {https://arxiv.org/abs/2510.12143},
+    url = {https://ieeexplore.ieee.org/abstract/document/11354644/},
     year = {2025}
 }
 
-@article{federated_learning_security_and_privacy_21,
-    abstract = {As data becomes more abundant and widespread across personal devices, the need for secure, privacy-aware machine learning is growing. Federated Learning (FL) offers a promising solution, enabling smart devices to collaboratively train models without sharing raw data. Yet, despite its benefits, FL faces serious risks from poisoning and inference attacks. This book begins by introducing the fundamentals of machine learning, along with core deep learning architectures. Based on this foundation, it introduces the concept of Federated Learning (FL), which is a decentralised approach that enables collaborative model training without sharing raw data. The book provides an in-depth exploration of FL’s various forms, system architectures, and practical applications. A significant emphasis is placed on the growing security and privacy concerns in FL, particularly poisoning (both data poisoning and model poisoning …},
+@article{federated_learning_security_and_privacy_18,
+    abstract = {As data becomes more abundant and widespread across personal devices, the need for secure, privacy-aware machine learning is growing. Federated Learning (FL) offers a promising solution, enabling smart devices to collaboratively train models without sharing raw data. Yet, despite its benefits, FL faces serious risks from poisoning and inference attacks. This book begins by introducing the fundamentals of machine learning, along with core deep learning architectures. Based on this foundation, it introduces the concept of Federated Learning (FL), which is a decentralised approach that enables collaborative model training without sharing raw data. The book provides an in-depth exploration of FL’s various forms, system architectures, and practical applications. A significant emphasis is placed on the growing security and privacy concerns in FL, particularly poisoning (both data poisoning and model poisoning) and inference attacks. It discusses state-of-the-art mitigation strategies, such as Byzantine-robust aggregation and inference-resistant techniques, supported with practical implementation insights. This book uniquely bridges foundational concepts with advanced topics in Federated Learning, offering a comprehensive view of its vulnerabilities and their mitigation. By combining theory with practical implementation of attacks and mitigation techniques, it serves as a valuable resource for researchers, practitioners, and students aiming to build secure, privacy-preserving collaborative machine learning systems. This book is unique due to its end-to-end coverage of Federated Learning (FL), from foundational machine and deep learning …},
     author = {Somanath Tripathy and Harsh Kasyap and Minghong Fang},
     publisher = {CRC Press},
     title = {Federated Learning: Security and Privacy},
-    url = {https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/9781003688570&type=googlepdf},
+    url = {https://books.google.com/books?hl=en&lr=&id=a4iaEQAAQBAJ&oi=fnd&pg=PA8&dq=info:Zy1DuycI9eQJ:scholar.google.com&ots=VRyDVxlDOG&sig=QC3Q-bK2OySwpRvdExAH8Xf_DQc},
     year = {2025}
 }
 
-@article{ohws_an_integrated_offloading_and_hybrid_20,
+@article{ohws_an_integrated_offloading_and_hybrid_27,
     abstract = {Efficient workflow scheduling in heterogeneous fog-cloud environments is essential for minimizing latency, reducing operational costs, and ensuring optimal resource utilization in modern distributed computing systems. This paper presents a novel two-phase workflow scheduling framework that seamlessly integrates task offloading and scheduling optimization. In the first phase, offloading decisions are determined using a modified Resource Utilisation-aware Technique for Order Preference by Similarity to Ideal Solution (RU-TOPSIS), which evaluates candidate fog or cloud resources for task execution based on heterogeneous criteria, including execution time, cost, network load, and energy consumption. In the second phase, a hybrid metaheuristic approach, combining the Artificial Hummingbird Algorithm (AHA) with Opposition Based Learning (OBL) and a modified Adaptive Nelder-Mead (ANM) search, is …},
     author = {Vvd Prasad Chelluri and Ravi Shankar Singh and Harsh Kasyap and Prasanth Kumar Bevara and Shwetha Kushwaha and Garima Singh and Devashish Raj},
     conference = {2025 Supercomputing India (SCI)},
@@ -251,7 +239,7 @@
     year = {2025}
 }
 
-@article{private_fairness_aware_aggregation_in_fe_15,
+@article{private_fairness_aware_aggregation_in_fe_20,
     abstract = {Rapid adoption of artificial intelligence in financial systems has ushered in a new era of credit allocation, low-value loan risk assessment, and fraud detection, allowing banks and financial institutions to offer more personalized services. However, developing models in silos has its limitations due to unavailability of diverse data. This motivates collaboration among the financial institutions to develop a more intelligent model. However, collaboration among these institutions often introduces or amplifies existing biases, leading to unfair decision-making. In this paper, we discuss the development of a privacy-preserving personalized fairness-aware aggregation framework aimed at mitigating bias in models across different financial institutions while maintaining the inherent features they want to preserve, along with respecting their privacy. Specifically, we discuss a scenario in which the participating institutions carry …},
     author = {Harsh Kasyap and Ugur Ilker Atmaca and Carsten Maple},
     journal = {IET Conference Proceedings CP940},
@@ -264,30 +252,77 @@
     year = {2025}
 }
 
-@article{analysis_of_llms_against_prompt_injectio_19,
-    abstract = {Large Language Models (LLMs) are widely deployed in real-world systems. Given their broader applicability, prompt engineering has become an efficient tool for resource-scarce organizations to adopt LLMs for their own purposes. At the same time, LLMs are vulnerable to prompt-based attacks. Thus, analyzing this risk has become a critical security requirement. This work evaluates prompt-injection and jailbreak vulnerability using a large, manually curated dataset across multiple open-source LLMs, including Phi, Mistral, DeepSeek-R1, Llama 3.2, Qwen, and Gemma variants. We observe significant behavioural variation across models, including refusal responses and complete silent non-responsiveness triggered by internal safety mechanisms. Furthermore, we evaluated several lightweight, inference-time defence mechanisms that operate as filters without any retraining or GPU-intensive fine-tuning. Although these defences mitigate straightforward attacks, they are consistently bypassed by long, reasoning-heavy prompts.},
+@article{analysis_of_llms_against_prompt_injectio_14,
+    abstract = {Large Language Models (LLMs) are widely deployed in real-world systems. Given their broader applicability, prompt engineering has become an efficient tool for resource-scarce organizations to adopt LLMs for their own purposes. At the same time, LLMs are vulnerable to prompt-based attacks. Thus, analyzing this risk has become a critical security requirement. This work evaluates prompt injection and jailbreak vulnerabilities using a large, manually curated dataset across multiple open-source LLMs, including Phi, Mistral, DeepSeek-R1, Llama 3.2, Qwen, and Gemma variants. We observe significant behavioural variation across models, including refusal responses and complete silent non-responsiveness triggered by internal safety mechanisms. Furthermore, we evaluated several lightweight, inference-time defence mechanisms that operate as filters without any retraining or GPU-intensive fine-tuning. Although …},
     author = {Piyush Jaiswal and Aaditya Pratap and Shreyansh Saraswati and Harsh Kasyap and Somanath Tripathy},
-    journal = {arXiv preprint arXiv:2602.22242},
+    pages = {10-21},
     title = {Analysis of LLMs Against Prompt Injection and Jailbreak Attacks},
-    url = {https://arxiv.org/abs/2602.22242},
+    url = {https://dl.acm.org/doi/abs/10.1145/3803628.3807972},
     year = {2026}
 }
 
-@article{cqsa_byzantine_robust_clustered_quantum__18,
-    abstract = {Federated Learning (FL) enables collaborative model training without sharing raw data. However, shared local model updates remain vulnerable to inference and poisoning attacks. Secure aggregation schemes have been proposed to mitigate these attacks. In this work, we aim to understand how these techniques are implemented in quantum-assisted FL. Quantum Secure Aggregation (QSA) has been proposed, offering information-theoretic privacy by encoding client updates into the global phase of multipartite entangled states. Existing QSA protocols, however, rely on a single global Greenberger-Horne-Zeilinger (GHZ) state shared among all participating clients. This design poses fundamental challenges: fidelity of large-scale GHZ states deteriorates rapidly with the increasing number of clients; and (ii) the global aggregation prevents the detection of Byzantine clients. We propose Clustered Quantum Secure Aggregation (CQSA), a modular aggregation framework that reconciles the physical constraints of near-term quantum hardware along with the need for Byzantine-robustness in FL. CQSA randomly partitions the clients into small clusters, each performing local quantum aggregation using high-fidelity, low-qubit GHZ states. The server analyzes statistical relationships between cluster-level aggregates employing common statistical measures such as cosine similarity and Euclidean distance to identify malicious contributions. Through theoretical analysis and simulations under depolarizing noise, we demonstrate that CQSA ensures stable model convergence, achieves superior state fidelity over global QSA.},
+@article{breaking_the_assumptions_auditing_input__21,
+    abstract = {Locally deployed Large Language Models (LLMs) via inference engines such as Ollama run without the moderation and abuse detection present in API-served models. Therefore, the safety of LLMs depends on the defense mechanisms used, and their effectiveness depends on the assumptions on which they were designed. This paper does an audit of defense mechanisms under jailbreak attacks on locally deployed models. Some defenses provide formal guarantees (SmoothLLM, Erase-and-Check, Sequential Monitors), while others rely on empirical detection results (Semantic Smoothing, Self-Denoised Smoothing, Perplexity Filtering). Instead of merely observing that defenses fail, we trace each failure back to the specific assumption: for every defense, we extract the condition it relies on, derive the empirical pattern a violation should produce, and test that prediction on six open-weight models (14B to 35B parameters) with a corpus of 100 jailbreak prompts taken from more than 40 public sources, totalling 13,800 evaluation records.},
+    author = {Aaditya Pratap and Harsh Kasyap and Somanath Tripathy},
+    journal = {arXiv preprint arXiv:2608.21895},
+    title = {Breaking the Assumptions: Auditing Input-Side Jailbreak Defenses Against Semantic Attacks},
+    url = {https://arxiv.org/abs/2608.21895},
+    year = {2026}
+}
+
+@article{cqsa_byzantine_robust_clustered_quantum__16,
+    abstract = {Federated Learning (FL) enables collaborative model training without sharing raw data. However, shared local model updates remain vulnerable to inference and poisoning attacks. Secure aggregation schemes have been proposed to mitigate these attacks. In this work, we aim to understand how these techniques are implemented in quantum-assisted FL. Quantum Secure Aggregation (QSA) has been proposed, offering information-theoretic privacy by encoding client updates into the global phase of multipartite entangled states. Existing QSA protocols, however, rely on a single global Greenberger–Horne–Zeilinger (GHZ) state shared among all participating clients. This design poses fundamental challenges: fidelity of large-scale GHZ states deteriorates rapidly with the increasing number of clients; and (ii) the global aggregation prevents the detection of Byzantine clients. We propose Clustered Quantum Secure …},
     author = {Arnab Nath and Harsh Kasyap},
-    journal = {arXiv preprint arXiv:2602.22269},
+    pages = {1-6},
     title = {CQSA: Byzantine-robust Clustered Quantum Secure Aggregation in Federated Learning},
-    url = {https://arxiv.org/abs/2602.22269},
+    url = {https://dl.acm.org/doi/abs/10.1145/3803630.3809169},
     year = {2026}
 }
 
-@article{fairweight_private_fairness_aware_aggreg_17,
+@article{crushing_the_evidence_a_dual_penalty_eva_22,
+    abstract = {Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare. This ensures the model's transparency and acceptability. However, a few studies have examined potential attacks in the explainability pipeline. Adversaries can attempt to conceal algorithmic biases or backdoors using adversarial explanation attacks. These attacks have relied on scaffolding out-of-distribution (OOD) detectors that toggle predictions when queried by an explainer. Consequently, defenses have been developed to successfully neutralize these black-box attacks by identifying their anomalous perturbation footprints. In this paper, we demonstrate a critical vulnerability by introducing a more potent white-box, gradient-regularized evasion attack framework. By employing a continuous-embedding dual-penalty framework, we directly penalize trigger feature gradients during training on in-distribution data. Since our approach embeds the evasion logic natively into the model parameters, without relying on OOD scaffolding wrappers, it generates smooth, in-distribution predictions that leave no anomaly footprint. Empirical evaluations across four benchmark tabular datasets (COMPAS, German Credit, IEEE-CIS, and Communities & Crime) confirm that our method systematically crushes target feature attribution to near-zero (<0.02), maintains >90% Attack Success Rates, and fundamentally bypasses Conditional Anomaly Detection.},
+    author = {Niraj Kumar and Harsh Kasyap},
+    journal = {arXiv preprint arXiv:2608.00566},
+    title = {Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors},
+    url = {https://arxiv.org/abs/2608.00566},
+    year = {2026}
+}
+
+@article{efficient_private_set_intersection_and_s_26,
+    abstract = {Existing encrypted search and private set intersection (PSI) protocols struggle to reconcile post-quantum security with practical efficiency, often leaking search and access patterns or requiring prohibitively deep fully homomorphic encryption (FHE) circuits. We address these limitations by introducing a new Homomorphic Bloom Filters (HBF) framework, a quantum-resilient framework that embeds length- Bloom filters directly into the plaintext space of an RLWE-based FHE scheme, enabling shallow homomorphic evaluation and matching without structural leakage. Building on HBF, we construct a searchable encryption (SE) scheme and a private set intersection (PSI) protocol, both based on a depth-1 homomorphic missing-bit circuit. The SE scheme requires no rotations or bootstrapping at server side and incurs no additional computational cost as the number of query keywords increases. The PSI protocol reduces …},
+    author = {Anil Kumar Pradhan and Killari Nandini and Harsh Kasyap and Sayantan Mukherjee},
+    journal = {Cryptology ePrint Archive},
+    title = {Efficient Private Set Intersection and Searchable Encryption using Homomorphic Bloom Filters},
+    url = {https://eprint.iacr.org/2026/1267},
+    year = {2026}
+}
+
+@article{fairweight_private_fairness_aware_aggreg_25,
     abstract = {Federated learning (FL) has been adopted as a promising solution for collaborative privacy-preserving machine learning. FL provides independence over the training data, but this can lead to statistical heterogeneity, which may result in issues such as bias and class imbalance. Thus, a global model, even with high accuracy, may be prone to discrimination and perform well only for certain sensitive attributes and classes. Global accuracy is not a perfect measure of the model's effectiveness; it should be reported in terms of balanced accuracy and fairness. Existing solutions attempt to mitigate bias using local or global debiasing techniques. However, local debiasing results in poor performance with increasing heterogeneity, and global debiasing is either designed only for achieving fairness, ignoring balanced accuracy, or costly in terms of finding an optimal solution. We present a novel model interpretation based …},
     author = {Harsh Kasyap and Ugur Ilker Atmaca and Carsten Maple and Nic Lane},
     journal = {IEEE Transactions on Services Computing},
     publisher = {IEEE},
     title = {FairWeight: Private Fairness-aware Aggregation using Model Interpretation based Weightage in Federated Learning},
     url = {https://ieeexplore.ieee.org/abstract/document/11489531/},
+    year = {2026}
+}
+
+@article{provefl_private_robust_and_verifiable_ag_23,
+    abstract = {Federated Learning (FL) enables multiple clients to collaboratively train machine learning models while retaining data locality, thereby enhancing user privacy. However, traditional FL frameworks rely on a centralized aggregation server and assume honest-but-curious clients, making them susceptible to both server-side inference and client-side poisoning attacks. Although recent work has explored secure and Byzantine-resilient FL protocols, they face a fundamental trade-off among privacy, integrity, and verifiability, and incur substantial computational and communication overhead due to the heavy use of cryptographic primitives. In this work, we propose PRoVeFL-a novel, modular FL framework that is Privacy-preserving, Byzantine-Robust, and ensures Verifiable aggregation. PRoVeFL employs multiple servers leveraging multi-key fully homomorphic encryption. Each client encrypts its local model updates and distributes encrypted shares to all servers. This design enables a hybrid computation model in which ciphertext operations are carefully offloaded to the plaintext domain under strict privacy constraints to efficiently evaluate complex statistical aggregation rules. PRoVeFL is compatible with a wide range of state-of-the-art Byzantine-robust aggregation algorithms (e.g., Krum, Trimmed Mean, FLTrust, norm clipping, MESAS, and more) and further enhances them with verifiability mechanisms that require minimal trust in at least one honest server. We evaluate it across different settings and demonstrate its scalability with varying numbers of parameters and participants. PRoVeFL improves runtime over the prior works, Prio and ELSA, based …},
+    author = {Harsh Kasyap and Anil Kumar Pradhan and Ugur Ilker Atmaca and Graham Cormode and Carsten Maple},
+    journal = {arXiv preprint arXiv:2607.06612},
+    title = {PRoVeFL: Private Robust and Verifiable Aggregation in Federated Learning},
+    url = {https://arxiv.org/abs/2607.06612},
+    year = {2026}
+}
+
+@article{threat_landscape_of_edge_ai_assisted_con_24,
+    abstract = {onnected Autonomous Vehicles (CAVs) powered by Edge Artificial Intelligence (Edge-AI) are revolutionising intelligent transportation systems through real-time data processing for obstacle avoidance, adaptive learning of dynamic traffic patterns, and improved decision-making in safety-critical tasks like traffic sign recognition. However, deploying machine learning (ML) models directly at the vehicle level introduces new security vulnerabilities, making CAVs susceptible to adversarial attacks that can compromise system integrity, reliability, and safety. These attacks primarily target onboard ML systems, highlighting the need for a structured threat modelling approach to identify and mitigate risks. This paper investigates the threat landscape of Edge-AI-assisted CAVs, focusing on the CAV layer as a critical attack surface within the hierarchical system architecture. Employing the STRIDE framework, we analyse …},
+    author = {Mahshid Mehr Nezhad and Ugur Ilker Atmaca and Harsh Kasyap and Carsten Maple and Ligang He},
+    journal = {Internet of Things},
+    pages = {101973},
+    publisher = {Elsevier},
+    title = {Threat Landscape of Edge-AI-assisted Connected Autonomous Vehicles (CAV)},
+    url = {https://www.sciencedirect.com/science/article/pii/S2542660526001034},
     year = {2026}
 }
