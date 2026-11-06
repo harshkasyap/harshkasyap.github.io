@@ -117,7 +117,7 @@ with emphasis on secure, robust, fair, and verifiable collaborative learning.
 
 <div class="project-card light">
 
-<h3>🛡 Design and development of AI-based chatbot for loco pilot's assistance</h3>
+<h3>🔐 Design and development of AI-based chatbot for loco pilot's assistance</h3>
 
 <p>
 <strong>Co-Principal Investigator</strong><br>
@@ -142,6 +142,62 @@ Council of Science and Technology,U.P. (CST,U.P.))<br>
   <li>UAV-assisted surveillance platforms</li>
   <li>Indigenous, scalable, and resilient system design</li>
 </ul-->
+
+</div>
+
+---
+
+<div class="project-card alt">
+
+<h3>🛡 AI-Guided Design of Scalable Synthetic Polypeptides for Broad-Spectrum Antibacterial Therapy</h3>
+
+<p>
+<strong>Principal Investigator</strong><br>
+<strong>Co-PI:</strong> Dr. Juhi Singh, IISc Bengaluru
+</p>
+
+<div class="project-meta">
+I-DAPT-Hub Foundation, IIT (BHU)<br>
+<strong>Duration:</strong> 2026–2027 &nbsp;|&nbsp; <strong>Total Funding:</strong> INR 14.85 Lakhs
+</div>
+
+</div>
+
+---
+
+<div class="project-card light">
+
+<h3>🔐 UDAAN (Urban Delivery Analytics and Accountability Network): An Open-Data Geospatial Platform for Mapping Urban Freight Pressure and Infrastructure Planning</h3>
+
+<p>
+<strong>Co-Principal Investigator</strong><br>
+<strong>PI:</strong> Dr. Agnivesh Pani, IIT (BHU)
+</p>
+
+<div class="project-meta">
+I-DAPT-Hub Foundation, IIT (BHU)<br>
+<strong>Duration:</strong> 2026–2027 &nbsp;|&nbsp; <strong>Total Funding:</strong> INR 14.85 Lakhs
+</div>
+
+</div>
+
+---
+
+---
+
+<div class="project-card alt">
+
+<h3>🔐 PRAGYA-AIEd Laboratory</h3>
+
+<p>
+<strong>Co-Principal Investigator</strong><br>
+<strong>PI:</strong> Dr. Prateek Chaurasia, Faculty of Education, Banaras Hindu University
+</p>
+
+<div class="project-meta">
+Committee for Modernization of Teaching Laboratories (CMTL), BHU<br>
+<strong>Duration:</strong> 2026–2027 &nbsp;|&nbsp; <strong>Total Funding:</strong> INR 125 Lakhs
+</div>
 
 </div>
 
