@@ -105,7 +105,7 @@ title: Lab
       <div class="people-number">04</div>
       <div class="people-details">
         <strong>Ritesh Mishra</strong>
-        <small>Co-supervised with Dr. Indra Deep Mastan</small>
+        <small>Co-supervising with Dr. Indra Deep Mastan</small>
       </div>
       <span class="people-status">Ph.D. Scholar</span>
     </div>
@@ -114,7 +114,7 @@ title: Lab
       <div class="people-number">05</div>
       <div class="people-details">
         <strong>Utkarsh Singh</strong>
-        <small>Co-supervised with Prof. Ravi Shankar Singh</small>
+        <small>Co-supervising with Prof. Ravi Shankar Singh</small>
       </div>
       <span class="people-status">Ph.D. Scholar</span>
     </div>
