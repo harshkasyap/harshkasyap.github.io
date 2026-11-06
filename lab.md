@@ -12,7 +12,7 @@ title: Lab
   intelligence through research, innovation, and collaboration.
   <br><br>
   <em>Note:</em> This page lists scholars and students working primarily with me.
-  Our lab also hosts scholars and students working with
+  Our lab also hosts scholars and students working with the mentor of the lab
   <a href="https://www.iitbhu.ac.in/dept/cse/people/ravicse"
      target="_blank" rel="noopener">Prof. Ravi Shankar Singh</a>.
   </p>
