@@ -8,7 +8,13 @@ title: Lab
   <h1>High-Performance and Trustworthy AI Systems Lab</h1>
   <p class="lab-hindi">उच्च प्रदर्शन एवं विश्वसनीय कृत्रिम बुद्धिमत्ता प्रणाली प्रयोगशाला</p>
   <p class="lab-about">
-    Advancing secure, privacy-preserving, robust, and trustworthy artificial intelligence through research, innovation, and collaboration. Note: This page lists scholars and students working primarily with me. Our lab hosts more scholars and students working with Prof. Ravi Shankar Singh <a target="#" href="https://www.iitbhu.ac.in/dept/cse/people/ravicse"></a>.
+  Advancing secure, privacy-preserving, robust, and trustworthy artificial
+  intelligence through research, innovation, and collaboration.
+  <br><br>
+  <em>Note:</em> This page lists scholars and students working primarily with me.
+  Our lab also hosts scholars and students working with
+  <a href="https://www.iitbhu.ac.in/dept/cse/people/ravicse"
+     target="_blank" rel="noopener">Prof. Ravi Shankar Singh</a>.
   </p>
 </header>
 
