@@ -10,73 +10,69 @@ title: Lab
     उच्च प्रदर्शन एवं विश्वसनीय कृत्रिम बुद्धिमत्ता प्रणाली प्रयोगशाला
   </p>
   <p class="lab-intro">
-    We are a research group working towards building secure, 
-    privacy-preserving, robust, and trustworthy AI systems. 
-    Our lab brings together researchers and students at different 
-    academic levels to explore challenging problems in artificial 
-    intelligence, machine learning, and cybersecurity.
+    Our research focuses on developing secure, privacy-preserving,
+    robust, and trustworthy artificial intelligence systems.
+    The lab brings together students and researchers working on
+    fundamental and applied problems in machine learning,
+    cybersecurity, and trustworthy AI.
   </p>
 </div>
 
 <hr>
 
-<!-- FACULTY AND MENTORS -->
+<!-- FACULTY -->
 
-<h2 class="section-title">Faculty and Mentors</h2>
+<h2 class="section-title">Faculty</h2>
 
-<div class="mentor-grid">
+<div class="faculty-container">
 
-  <div class="mentor-card">
+  <div class="faculty-member">
     <img src="/assets/images/ravi.jpg" alt="Prof. Ravi Shankar Singh">
-    <h3>Prof. Ravi Shankar Singh</h3>
-    <p>Professor</p>
+    <div>
+      <h3>Prof. Ravi Shankar Singh</h3>
+      <p>Professor</p>
+    </div>
   </div>
 
-  <div class="mentor-card">
+  <div class="faculty-member">
     <img src="/assets/images/profile.JPG" alt="Dr. Harsh Kasyap">
-    <h3>Dr. Harsh Kasyap</h3>
-    <p>Assistant Professor</p>
+    <div>
+      <h3>Dr. Harsh Kasyap</h3>
+      <p>Assistant Professor</p>
+    </div>
   </div>
 
 </div>
 
 <hr>
 
-<!-- PHD SCHOLARS -->
+<!-- PhD SCHOLARS -->
 
 <h2 class="section-title">Ph.D. Scholars</h2>
 
-<div class="student-list">
+<div class="academic-list">
 
-  <div class="student-item">
-    <span class="student-name">Kumar Anubhav</span>
-    <span class="student-category">Ph.D. Scholar</span>
+  <div class="academic-row">
+    <span class="person-name">Kumar Anubhav</span>
   </div>
 
-  <div class="student-item">
-    <span class="student-name">Himanshi Bansal</span>
-    <span class="student-category">
-      Ph.D. Scholar · Co-supervisor: Dr. Indra Deep Mastan
-    </span>
+  <div class="academic-row">
+    <span class="person-name">Himanshi Bansal</span>
+    <span class="person-detail">Co-supervisor: Dr. Indra Deep Mastan</span>
   </div>
 
-  <div class="student-item">
-    <span class="student-name">Nitin Chauhan</span>
-    <span class="student-category">Ph.D. Scholar</span>
+  <div class="academic-row">
+    <span class="person-name">Nitin Chauhan</span>
   </div>
 
-  <div class="student-item">
-    <span class="student-name">Ritesh Mishra</span>
-    <span class="student-category">
-      Ph.D. Scholar · Supervisor: Dr. Indra Deep Mastan
-    </span>
+  <div class="academic-row">
+    <span class="person-name">Ritesh Mishra</span>
+    <span class="person-detail">Co-supervised with Dr. Indra Deep Mastan</span>
   </div>
 
-  <div class="student-item">
-    <span class="student-name">Utkarsh Singh</span>
-    <span class="student-category">
-      Ph.D. Scholar · Supervisor: Prof. Ravi Shankar Singh
-    </span>
+  <div class="academic-row">
+    <span class="person-name">Utkarsh Singh</span>
+    <span class="person-detail">Co-supervised with Prof. Ravi Shankar Singh</span>
   </div>
 
 </div>
@@ -85,46 +81,71 @@ title: Lab
 
 <!-- JRF -->
 
-<h2 class="section-title">Junior Research Fellow (JRF)</h2>
+<h2 class="section-title">Junior Research Fellow</h2>
 
-<div class="student-list">
-
-  <div class="student-item">
-    <span class="student-name">Mohit</span>
-    <span class="student-category">Junior Research Fellow</span>
+<div class="academic-list">
+  <div class="academic-row">
+    <span class="person-name">Mohit Kumar Attri (Nov 2026 - )</span>
+    <span class="person-detail">JRF</span>
   </div>
-
 </div>
 
 <hr>
 
-<!-- BTP STUDENTS -->
-
-<h2 class="section-title">B.Tech. Project Students</h2>
-<p class="section-subtitle">Academic Year 2026</p>
-
-<div class="name-grid">
-  <div class="name-card">Shreyansh</div>
-  <div class="name-card">Drish</div>
-  <div class="name-card">Dhanish</div>
-  <div class="name-card">Aaditya</div>
-  <div class="name-card">Mansi</div>
-  <div class="name-card">Kush</div>
-  <div class="name-card">Nandini</div>
-</div>
-
-<hr>
-
-<!-- MTP STUDENTS -->
+<!-- MTP 2026-27 -->
 
 <h2 class="section-title">M.Tech. Project Students</h2>
-<p class="section-subtitle">Academic Year 2026–27</p>
+<p class="academic-year">Academic Year 2026–27</p>
 
-<div class="name-grid">
-  <div class="name-card">Amit</div>
-  <div class="name-card">Yash</div>
-  <div class="name-card">Parteek</div>
-  <div class="name-card">Pranjul</div>
+<div class="name-list">
+  <span>Amit Kumar Maurya</span>
+  <span>Yash Sharma</span>
+  <span>Parteek Yadav</span>
+  <span>Pranjul Malpani</span>
+</div>
+
+<!-- MTP 2025-26 -->
+
+<p class="academic-year">Academic Year 2025–26</p>
+
+<div class="name-list">
+  <span>Thansen Dhrit Lahare</span>
+  <span>Navneet Panchayan</span>
+</div>
+
+<hr>
+
+<!-- BTP -->
+
+<h2 class="section-title">B.Tech. Project Students</h2>
+<p class="academic-year">Academic Year 2026</p>
+
+<div class="name-list">
+  <span>Shreyansh Solanki</span>
+  <span>Drish Menghani</span>
+  <span>Dhanish Shetty</span>
+  <span>Aaditya Agarwal</span>
+  <span>Mansi Jamwal</span>
+  <span>Kush</span>
+  <span>Killari Nandini</span>
+</div>
+
+<hr>
+
+<!-- EXPLORATORY STUDENTS -->
+
+<h2 class="section-title">Exploratory Students</h2>
+<p class="academic-year">Academic Year 2026</p>
+
+<div class="name-list">
+  <span>Anju</span>
+  <span>Garvita Gigras</span>
+  <span>Geetanjali</span>
+  <span>Ghanendar</span>
+  <span>Hansraj</span>
+  <span>Haraskumar</span>
+  <span>Himani Prakash</span>
+  <span>Kamlesh Kumawat</span>
 </div>
 
 <hr>
@@ -134,235 +155,223 @@ title: Lab
 <h2 class="section-title">Research Interns</h2>
 
 <p class="section-description">
-  Students who are actively and consistently contributing to 
-  ongoing research activities and projects in the lab.
+  Students who are regularly involved in ongoing research
+  activities and projects at the lab.
 </p>
 
-<div class="name-grid">
-  <div class="name-card">Aadi</div>
-  <div class="name-card">Aaditya</div>
-  <div class="name-card">Suryansh</div>
-  <div class="name-card">Shreyansh</div>
+<div class="name-list">
+  <span>Aadi</span>
+  <span>Aaditya</span>
+  <span>Suryansh</span>
+  <span>Shreyansh</span>
 </div>
 
 <div class="lab-note">
-  <strong>Have we missed someone?</strong>
-  <p>
-    This list highlights the students and researchers currently 
-    associated with our lab. I may have missed a few names, 
-    particularly among students who are regularly contributing 
-    to ongoing research activities. Please feel free to reach out 
-    if someone should be added, and I will be happy to update the list.
-  </p>
+  <strong>Note:</strong>
+  This page lists students and researchers currently associated
+  with the lab. The list may not be exhaustive, particularly
+  in the case of students contributing to ongoing research
+  activities. Please get in touch if any name has been missed
+  or needs to be added.
 </div>
 
 <hr>
 
 <style>
 
-/* GENERAL */
+/* GENERAL PAGE STYLING */
 
 .lab-header {
-  text-align: center;
-  margin: 2rem auto 2.5rem;
   max-width: 850px;
+  margin: 2rem auto 2.5rem;
+  text-align: center;
 }
 
 .lab-header h1 {
   font-size: 2rem;
+  font-weight: 600;
+  color: #252525;
   margin-bottom: 0.5rem;
-  color: #222;
 }
 
 .lab-hindi {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #666;
   margin-top: 0;
 }
 
 .lab-intro {
-  font-size: 1.02rem;
+  max-width: 780px;
+  margin: 1.5rem auto 0;
+  font-size: 1rem;
   line-height: 1.8;
-  color: #555;
-  margin-top: 1.5rem;
+  color: #444;
+  text-align: justify;
 }
+
+/* SECTION HEADINGS */
 
 .section-title {
-  text-align: center;
-  font-size: 1.65rem;
-  margin-top: 2.8rem;
-  margin-bottom: 0.5rem;
-  color: #252525;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #292929;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dcdcdc;
 }
 
-.section-subtitle {
-  text-align: center;
-  color: #777;
-  margin-top: 0.2rem;
-  margin-bottom: 1.5rem;
+.academic-year {
   font-size: 0.95rem;
+  font-weight: 600;
+  color: #555;
+  margin: 1.2rem 0 0.8rem;
 }
 
 .section-description {
-  text-align: center;
-  max-width: 750px;
-  margin: 0.8rem auto 1.5rem;
-  color: #666;
+  color: #555;
   line-height: 1.7;
+  margin: 0.5rem 0 1rem;
 }
 
-/* MENTORS */
+/* FACULTY */
 
-.mentor-grid {
+.faculty-container {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  gap: 4rem;
   flex-wrap: wrap;
-  gap: 2rem;
   margin: 2rem auto;
 }
 
-.mentor-card {
-  text-align: center;
-  width: 220px;
-  padding: 1.5rem 1rem;
-  background: #fafafa;
-  border: 1px solid #e8e8e8;
-  border-radius: 10px;
+.faculty-member {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  min-width: 260px;
 }
 
-.mentor-card img {
-  width: 125px;
-  height: 125px;
+.faculty-member img {
+  width: 105px;
+  height: 105px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #eee;
 }
 
-.mentor-card h3 {
+.faculty-member h3 {
   font-size: 1.05rem;
-  margin: 0.8rem 0 0.3rem;
+  margin: 0 0 0.4rem;
+  font-weight: 600;
 }
 
-.mentor-card p {
-  color: #777;
+.faculty-member p {
+  color: #666;
   margin: 0;
   font-size: 0.9rem;
 }
 
-/* PHD AND JRF LIST */
+/* PHD AND JRF LISTS */
 
-.student-list {
+.academic-list {
   max-width: 850px;
-  margin: 1.5rem auto 2rem;
+  margin: 0 auto 1.5rem;
 }
 
-.student-item {
+.academic-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   gap: 1rem;
-  padding: 1rem 1.2rem;
-  margin-bottom: 0.7rem;
-  background: #fafafa;
-  border: 1px solid #ededed;
-  border-left: 3px solid #526b8a;
-  border-radius: 5px;
+  padding: 0.85rem 0.5rem;
+  border-bottom: 1px solid #ededed;
 }
 
-.student-name {
-  font-weight: 600;
+.academic-row:last-child {
+  border-bottom: none;
+}
+
+.person-name {
+  font-weight: 500;
   color: #292929;
-  font-size: 1rem;
 }
 
-.student-category {
-  color: #777;
+.person-detail {
   font-size: 0.88rem;
+  color: #666;
   text-align: right;
 }
 
-/* BTP, MTP AND INTERNS */
+/* PROJECT STUDENTS AND EXPLORATORY STUDENTS */
 
-.name-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: 0.9rem;
+.name-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
   max-width: 850px;
-  margin: 1.5rem auto 2rem;
+  margin: 0.5rem auto 1.5rem;
 }
 
-.name-card {
-  padding: 1rem;
-  text-align: center;
-  background: #fafafa;
-  border: 1px solid #e8e8e8;
-  border-radius: 7px;
-  font-weight: 600;
-  color: #383838;
-  transition: all 0.2s ease;
+.name-list span {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0.7rem 0.5rem;
+  color: #333;
+  font-size: 0.97rem;
+  border-bottom: 1px solid #ededed;
 }
 
-.name-card:hover {
-  background: #f0f3f7;
-  border-color: #b7c5d5;
-  transform: translateY(-2px);
-}
-
-/* NOTE */
+/* FINAL NOTE */
 
 .lab-note {
-  max-width: 850px;
-  margin: 2.5rem auto;
-  padding: 1.3rem 1.5rem;
-  background: #f7f8fa;
-  border-left: 4px solid #526b8a;
-  border-radius: 5px;
+  margin: 2.5rem auto 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid #888;
+  background: #f8f8f8;
   color: #555;
+  font-size: 0.92rem;
   line-height: 1.7;
 }
 
 .lab-note strong {
   color: #333;
-  font-size: 1.02rem;
 }
 
-.lab-note p {
-  margin-bottom: 0;
-}
+/* RESPONSIVE DESIGN */
 
-/* MOBILE RESPONSIVENESS */
-
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
   .lab-header h1 {
     font-size: 1.55rem;
   }
 
-  .lab-hindi {
-    font-size: 1rem;
-  }
-
-  .section-title {
-    font-size: 1.4rem;
-  }
-
-  .student-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.35rem;
-  }
-
-  .student-category {
+  .lab-intro {
     text-align: left;
   }
 
-  .name-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .faculty-container {
+    gap: 1.5rem;
+    justify-content: flex-start;
   }
 
-  .mentor-grid {
-    gap: 1rem;
+  .faculty-member {
+    min-width: 100%;
+  }
+
+  .academic-row {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .person-detail {
+    text-align: left;
+  }
+
+  .name-list span {
+    width: 50%;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
   }
 
 }
