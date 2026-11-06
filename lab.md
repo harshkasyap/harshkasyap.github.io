@@ -1,269 +1,370 @@
+
 ---
 layout: default
 title: Lab
 ---
 
-<div style="text-align:center; margin-top:1.5rem;">
-
-  <h1 style="margin-bottom:0.3rem;">
-    High-Performance and Trustworthy AI Systems Lab
-  </h1>
-
-  <p style="
-    font-size:1.3rem;
-    color:#555;
-    font-weight:500;
-    margin-top:0;
-  ">
+<div class="lab-header">
+  <h1>High-Performance and Trustworthy AI Systems Lab</h1>
+  <p class="lab-hindi">
     उच्च प्रदर्शन एवं विश्वसनीय कृत्रिम बुद्धिमत्ता प्रणाली प्रयोगशाला
   </p>
-
+  <p class="lab-intro">
+    We are a research group working towards building secure, 
+    privacy-preserving, robust, and trustworthy AI systems. 
+    Our lab brings together researchers and students at different 
+    academic levels to explore challenging problems in artificial 
+    intelligence, machine learning, and cybersecurity.
+  </p>
 </div>
 
----
+<hr>
 
-This page highlights the amazing students I work with — their energy, curiosity, and ideas shape everything we build together.
+<!-- FACULTY AND MENTORS -->
 
----
+<h2 class="section-title">Faculty and Mentors</h2>
 
-<!-- ===================== -->
-<!-- 👨‍🏫 MENTORS -->
-<!-- ===================== -->
+<div class="mentor-grid">
 
-<div style="display:flex; justify-content:center; gap:3rem; flex-wrap:wrap; margin-top:2rem;">
-
-  <div style="text-align:center;">
-    <img src="/assets/images/ravi.jpg" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
-    <h3 style="margin:0.5rem 0 0;">Prof. Ravi Shankar Singh</h3>
-    <p style="color:#555;">Professor</p>
+  <div class="mentor-card">
+    <img src="/assets/images/ravi.jpg" alt="Prof. Ravi Shankar Singh">
+    <h3>Prof. Ravi Shankar Singh</h3>
+    <p>Professor</p>
   </div>
 
-  <div style="text-align:center;">
-    <img src="/assets/images/profile.JPG" style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
-    <h3 style="margin:0.5rem 0 0;">Dr. Harsh Kasyap</h3>
-    <p style="color:#555;">Assistant Professor</p>
+  <div class="mentor-card">
+    <img src="/assets/images/profile.JPG" alt="Dr. Harsh Kasyap">
+    <h3>Dr. Harsh Kasyap</h3>
+    <p>Assistant Professor</p>
   </div>
 
 </div>
 
----
+<hr>
 
-<!-- ===================== -->
-<!-- ☁️ STUDENT CLOUD -->
-<!-- ===================== -->
+<!-- PHD SCHOLARS -->
 
-<h2 style="text-align:center; margin-top:3rem;">👨‍🏫👩‍🎓 Students Team</h2>
+<h2 class="section-title">Ph.D. Scholars</h2>
 
-<div id="student-cloud-wrapper">
-  <div id="student-cloud"></div>
+<div class="student-list">
+
+  <div class="student-item">
+    <span class="student-name">Kumar Anubhav</span>
+    <span class="student-category">Ph.D. Scholar</span>
+  </div>
+
+  <div class="student-item">
+    <span class="student-name">Himanshi Bansal</span>
+    <span class="student-category">
+      Ph.D. Scholar · Co-supervisor: Dr. Indra Deep Mastan
+    </span>
+  </div>
+
+  <div class="student-item">
+    <span class="student-name">Nitin Chauhan</span>
+    <span class="student-category">Ph.D. Scholar</span>
+  </div>
+
+  <div class="student-item">
+    <span class="student-name">Ritesh Mishra</span>
+    <span class="student-category">
+      Ph.D. Scholar · Supervisor: Dr. Indra Deep Mastan
+    </span>
+  </div>
+
+  <div class="student-item">
+    <span class="student-name">Utkarsh Singh</span>
+    <span class="student-category">
+      Ph.D. Scholar · Supervisor: Prof. Ravi Shankar Singh
+    </span>
+  </div>
+
 </div>
+
+<hr>
+
+<!-- JRF -->
+
+<h2 class="section-title">Junior Research Fellow (JRF)</h2>
+
+<div class="student-list">
+
+  <div class="student-item">
+    <span class="student-name">Mohit</span>
+    <span class="student-category">Junior Research Fellow</span>
+  </div>
+
+</div>
+
+<hr>
+
+<!-- BTP STUDENTS -->
+
+<h2 class="section-title">B.Tech. Project Students</h2>
+<p class="section-subtitle">Academic Year 2026</p>
+
+<div class="name-grid">
+  <div class="name-card">Shreyansh</div>
+  <div class="name-card">Drish</div>
+  <div class="name-card">Dhanish</div>
+  <div class="name-card">Aaditya</div>
+  <div class="name-card">Mansi</div>
+  <div class="name-card">Kush</div>
+  <div class="name-card">Nandini</div>
+</div>
+
+<hr>
+
+<!-- MTP STUDENTS -->
+
+<h2 class="section-title">M.Tech. Project Students</h2>
+<p class="section-subtitle">Academic Year 2026–27</p>
+
+<div class="name-grid">
+  <div class="name-card">Amit</div>
+  <div class="name-card">Yash</div>
+  <div class="name-card">Parteek</div>
+  <div class="name-card">Pranjul</div>
+</div>
+
+<hr>
+
+<!-- RESEARCH INTERNS -->
+
+<h2 class="section-title">Research Interns</h2>
+
+<p class="section-description">
+  Students who are actively and consistently contributing to 
+  ongoing research activities and projects in the lab.
+</p>
+
+<div class="name-grid">
+  <div class="name-card">Aadi</div>
+  <div class="name-card">Aaditya</div>
+  <div class="name-card">Suryansh</div>
+  <div class="name-card">Shreyansh</div>
+</div>
+
+<div class="lab-note">
+  <strong>Have we missed someone?</strong>
+  <p>
+    This list highlights the students and researchers currently 
+    associated with our lab. I may have missed a few names, 
+    particularly among students who are regularly contributing 
+    to ongoing research activities. Please feel free to reach out 
+    if someone should be added, and I will be happy to update the list.
+  </p>
+</div>
+
+<hr>
 
 <style>
-#student-cloud-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  height: 420px;
+
+/* GENERAL */
+
+.lab-header {
+  text-align: center;
+  margin: 2rem auto 2.5rem;
+  max-width: 850px;
+}
+
+.lab-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.lab-hindi {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 0;
+}
+
+.lab-intro {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: #555;
+  margin-top: 1.5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.65rem;
+  margin-top: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: #252525;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #777;
+  margin-top: 0.2rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.section-description {
+  text-align: center;
+  max-width: 750px;
+  margin: 0.8rem auto 1.5rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* MENTORS */
+
+.mentor-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
   margin: 2rem auto;
+}
+
+.mentor-card {
+  text-align: center;
+  width: 220px;
+  padding: 1.5rem 1rem;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+
+.mentor-card img {
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
-  background: radial-gradient(circle, #ffffff, #f3f4f6);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  overflow: hidden;
+  object-fit: cover;
+  border: 3px solid #eee;
 }
 
-#student-cloud span {
-  position: absolute;
+.mentor-card h3 {
+  font-size: 1.05rem;
+  margin: 0.8rem 0 0.3rem;
+}
+
+.mentor-card p {
+  color: #777;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* PHD AND JRF LIST */
+
+.student-list {
+  max-width: 850px;
+  margin: 1.5rem auto 2rem;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.7rem;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  border-left: 3px solid #526b8a;
+  border-radius: 5px;
+}
+
+.student-name {
   font-weight: 600;
-  white-space: nowrap;
-  transition: transform 0.2s ease;
+  color: #292929;
+  font-size: 1rem;
 }
 
-#student-cloud span:hover {
-  transform: scale(1.2);
+.student-category {
+  color: #777;
+  font-size: 0.88rem;
+  text-align: right;
 }
+
+/* BTP, MTP AND INTERNS */
+
+.name-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.9rem;
+  max-width: 850px;
+  margin: 1.5rem auto 2rem;
+}
+
+.name-card {
+  padding: 1rem;
+  text-align: center;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 7px;
+  font-weight: 600;
+  color: #383838;
+  transition: all 0.2s ease;
+}
+
+.name-card:hover {
+  background: #f0f3f7;
+  border-color: #b7c5d5;
+  transform: translateY(-2px);
+}
+
+/* NOTE */
+
+.lab-note {
+  max-width: 850px;
+  margin: 2.5rem auto;
+  padding: 1.3rem 1.5rem;
+  background: #f7f8fa;
+  border-left: 4px solid #526b8a;
+  border-radius: 5px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.lab-note strong {
+  color: #333;
+  font-size: 1.02rem;
+}
+
+.lab-note p {
+  margin-bottom: 0;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+  .lab-header h1 {
+    font-size: 1.55rem;
+  }
+
+  .lab-hindi {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .student-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .student-category {
+    text-align: left;
+  }
+
+  .name-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mentor-grid {
+    gap: 1rem;
+  }
+
+}
+
 </style>
-
-<script>
-const students = [
-  "Anju","Garvita","Geetanjali","Ghanendar","Hansraj","Haraskumar",
-  "Himani Prakash","Kamlesh Kumawat","Aaditya Agarwal","Dhanish Shetty",
-  "Drish Menghani","Killari Nandini","Kush","Mansi Jamwal",
-  "Shreyansh Solanki","Amit Kumar Maurya","Parteek Yadav",
-  "Pranjul Malpani","Yash Sharma","Navneet","Thansen",
-  "Anubhav Kumar","Himanshi Bansal",
-  "Suryansh","Aadi Sharma","Aaditya Raj", "MANY MORE"
-];
-
-const cloud = document.getElementById("student-cloud");
-const wrapper = cloud.parentElement;
-
-const W = wrapper.offsetWidth;
-const H = wrapper.offsetHeight;
-const cx = W/2, cy = H/2;
-
-const placed = [];
-
-function intersects(a,b){
-  return !(a.right<b.left || a.left>b.right || a.bottom<b.top || a.top>b.bottom);
-}
-
-students.forEach(name=>{
-  const span = document.createElement("span");
-  span.innerText = name;
-
-  const size = Math.floor(Math.random()*14)+16;
-  span.style.fontSize = size+"px";
-
-  cloud.appendChild(span);
-
-  const rect = span.getBoundingClientRect();
-  const w = rect.width;
-  const h = rect.height;
-
-  for(let t=0;t<1500;t++){
-    const angle = t*0.3;
-    const r = 0.2*t;
-
-    const x = cx + r*Math.cos(angle) - w/2;
-    const y = cy + r*Math.sin(angle) - h/2;
-
-    if(x<0 || y<0 || x+w>W || y+h>H) continue;
-
-    const box = {left:x, top:y, right:x+w, bottom:y+h};
-
-    let collide=false;
-    for(const p of placed){
-      if(intersects(box,p)){collide=true; break;}
-    }
-
-    if(!collide){
-      span.style.left = x+"px";
-      span.style.top = y+"px";
-      placed.push(box);
-      break;
-    }
-  }
-});
-</script>
-
----
-
-<!-- ===================== -->
-<!-- 💬 STUDENT WORK -->
-<!-- ===================== -->
-
-<h2 style="text-align:center; margin-top:3rem;">💬 Few Students Say What They Are Working On</h2>
-
-<div id="student-grid" class="student-grid"></div>
-
-<style>
-.student-grid {
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-  gap:1.5rem;
-  margin-top:2rem;
-}
-
-.student-card {
-  background:#ffffff;
-  border-radius:12px;
-  padding:1rem;
-  box-shadow:0 6px 14px rgba(0,0,0,0.06);
-  border-left:4px solid #4f46e5;
-  display:flex;
-  gap:0.8rem;
-  align-items:flex-start;
-  transition: transform 0.2s ease;
-}
-
-.student-card:hover {
-  transform: translateY(-4px);
-}
-
-.student-card img {
-  width:60px;
-  height:60px;
-  border-radius:50%;
-  object-fit:cover;
-  flex-shrink:0;
-}
-
-.student-content h3 {
-  margin:0;
-  font-size:1rem;
-}
-
-.student-content p {
-  font-size:0.9rem;
-  color:#444;
-  margin-top:0.3rem;
-}
-</style>
-
-<script>
-const studentData = [
-  {
-    name: "Aaditya Agarwal",
-    img: "/assets/images/students/AadityaAgarwal.jpg",
-    text: "Working on Kyber and Dilithium implementations with MOSIP, and exploring secure federated learning and zero-knowledge proofs."
-  },
-  {
-    name: "Aadi Sharma",
-    img: "/assets/images/students/AadiSharma.jpg",
-    text: "Developing secure inference pipelines using Fully Homomorphic Encryption for medical AI systems using TenSEAL and PyTorch."
-  },
-  {
-    name: "Aaditya Raj",
-    img: "/assets/images/students/AADITYARAJ.jpg",
-    text: "Building an AI-driven secure access system using YOLO and Deep SORT for real-time tracking and facial recognition."
-  },
-  {
-    name: "Shreyansh Solanki",
-    img: "/assets/images/students/Shreyansh.jpg",
-    text: "Working on membership inference attacks and extending them to transformer models for privacy evaluation."
-  },
-  {
-    name: "Drish Menghani",
-    img: "/assets/images/students/Drish.jpg",
-    text: "Exploring differential privacy-based defenses for transformer models and LLMs."
-  },
-  {
-    name: "Dhanish Shetty",
-    img: "/assets/images/students/DhanishShetty.jpg",
-    text: "Studying privacy leakage and reconstruction attacks in deep learning and transformer architectures."
-  },
-  {
-    name: "Garvita Gigras",
-    img: "/assets/images/students/GarvitaGigras.jpg",
-    text: "Building an AI system for automated question generation and evaluation with feedback."
-  }
-];
-
-// 🔀 Shuffle function
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
-
-// Shuffle every load
-shuffle(studentData);
-
-const grid = document.getElementById("student-grid");
-
-studentData.forEach(s => {
-  const card = document.createElement("div");
-  card.className = "student-card";
-
-  card.innerHTML = `
-    <img src="${s.img}" alt="${s.name}">
-    <div class="student-content">
-      <h3>${s.name}</h3>
-      <p>${s.text}</p>
-    </div>
-  `;
-
-  grid.appendChild(card);
-});
-</script>
