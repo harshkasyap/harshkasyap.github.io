@@ -168,6 +168,7 @@ title: Lab
   <ul class="name-list">
     <li>Aadi</li>
     <li>Aaditya</li>
+    <li>Harshit</li>
     <li>Suryansh</li>
     <li>Shreyansh</li>
   </ul>
