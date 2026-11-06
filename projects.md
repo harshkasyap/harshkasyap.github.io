@@ -6,7 +6,7 @@ title: Projects
 <header class="proj-header">
   <h1>Projects</h1>
   <p>
-    Funded research projects, international collaborations, and earlier
+    Funded research projects, international collaborations, earlier
     academic and industrial work.
   </p>
   <nav class="proj-nav" aria-label="Page sections">
