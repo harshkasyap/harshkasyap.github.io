@@ -12,7 +12,7 @@ title: Lab
   </p>
 </header>
 
-<!-- FACULTY -->
+<!-- FACULTY 
 <section class="lab-section">
   <h2>Faculty and Mentors</h2>
 
@@ -35,7 +35,7 @@ title: Lab
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <!-- PHD SCHOLARS -->
 <section class="lab-section">
