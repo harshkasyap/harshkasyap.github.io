@@ -1,4 +1,4 @@
-<img width="1266" height="63" alt="image" src="https://github.com/user-attachments/assets/6e04f56f-eca3-45c3-bb5b-196aeee95ac4" />---
+---
 layout: default
 title: Events
 ---
