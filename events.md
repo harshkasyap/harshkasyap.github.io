@@ -9,6 +9,8 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
 
 ---
 
+## Workshops
+
 <div style="
   border-radius: 1rem;
   overflow:hidden;
@@ -137,3 +139,184 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
   </div>
 
 </div>
+
+
+## Talks
+
+<p class="talks-intro">
+  Invited talks, lectures and faculty development programmes (FDP), most recent first.
+</p>
+
+<h3 class="talks-year">2026</h3>
+<ul class="talk-list">
+  <li>
+    <span class="talk-date">23 Oct 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">Federated Learning</span>
+      <span class="talk-venue">Gachon University, Korea</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">24 Sep 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">FairWeight: Privacy-preserving fairness-aware aggregation for federated AI</span>
+      <span class="talk-venue">NASSCOM, Bengaluru</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">27 Jun 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">Classes on Federated Learning</span>
+      <span class="talk-venue">IIT Jodhpur</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">14 May 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">Byzantin-robust Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">FDP on Responsible AI, TKM College of Engineering</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">01 Apr 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">Byzantin-robust Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">Mahindra University, Hyderabad</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">22 Feb 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">FDP, IIT Patna</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">19 Feb 2026</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">FDP, KNIT Sultanpur, UP</span>
+    </div>
+  </li>
+</ul>
+
+<h3 class="talks-year">2025</h3>
+<ul class="talk-list">
+  <li>
+    <span class="talk-date">21 Dec 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">IndoML ECR Forum Talk, BITS Hyderabad</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">17 Dec 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-preserving Federated Learning for UAV-assisted Applications</span>
+      <span class="talk-venue">PES, Bengaluru</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">14 Dec 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-Friendly Machine Learning</span>
+      <span class="talk-venue">Coding Ninjas (online)</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">12 Dec 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">Federated HPC Workshop'25, Manipal Institute of Technology, Bengaluru</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">08 Dec 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-preserving (Collaborative) Machine Learning</span>
+      <span class="talk-venue">FDP, REC Sonbhadra</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">18 Nov 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy-Preserving Machine Learning (PPML)</span>
+      <span class="talk-venue">Indo-Japan Symposium, IIT (BHU)</span>
+    </div>
+  </li>
+  <li>
+    <span class="talk-date">22 Jul 2025</span>
+    <div class="talk-info">
+      <span class="talk-title">Privacy, Robustness and Fairness in Federated Learning</span>
+      <span class="talk-venue">FDP, IIITDM Kancheepuram</span>
+    </div>
+  </li>
+</ul>
+
+
+<style>
+
+.talks-intro {
+  margin: 0 0 0.5rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.talks-year {
+  margin: 2rem 0 0.4rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #4338ca;
+  color: #4338ca;
+  font-size: 1.2rem;
+}
+
+.talk-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.talk-list li {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.talk-list li:last-child {
+  border-bottom: none;
+}
+
+.talk-date {
+  padding-top: 0.1rem;
+  color: #4b5563;
+  font-size: 0.92rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.talk-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.talk-title {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.talk-venue {
+  color: #4b5563;
+  font-size: 0.93rem;
+}
+
+@media (max-width: 560px) {
+  .talk-list li {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
+</style>
