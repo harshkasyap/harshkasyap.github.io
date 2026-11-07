@@ -22,7 +22,60 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
     padding:1rem 1.2rem;
     color:white;
   ">
-    <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop</h2>
+    <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop'26</h2>
+  </div>
+
+  <div style="padding:1.1rem 1.2rem; background:#ffffff;">
+    <p style="margin:0.4rem 0;">
+      <strong>International Workshop on Privacy-Preserving & Collaborative High-Performance Computing</strong>
+    </p>
+
+    <p style="margin:0.4rem 0;">
+      <strong>📍 Where:</strong>
+      <a href="https://hpc-tai.github.io/FederatedHPC/" target="#"
+         style="color:#4338ca; font-weight:600;">
+        In conjuction with 33rd IEEE International Conference on High Performance Computing, Bengaluru
+      </a>
+    </p>
+
+    <p style="margin:0.4rem 0;">
+      <strong>🕒 When:</strong> December 16, 2026
+    </p>
+
+    <p style="margin:0.4rem 0;">
+      <strong>👥 Organisers:</strong>  
+      <a href="https://iitbhu.ac.in/dept/cse/people/ravicse" target="#">Prof. Ravi Shankar Singh</a> . <a href="https://iitbhu.ac.in/dept/cse/people/hkasyapcse" target="#">Dr. Harsh Kasyap</a> . <a href="https://www.gvpcew.ac.in/ChVVDPrasad.pdf" target="#">Mr. VVD Prasad Challuri</a>
+      <br>
+      <span style="font-size:0.9rem; color:#4b5563;">Dept. of CSE, IIT (BHU), Varanasi</span>
+    </p>
+
+    <p style="margin:0.7rem 0;">
+      Join us for an intensive half-day workshop on Federated Learning, High-Performance Computing (HPC), 
+      and Privacy-Preserving Scientific Computing — with accepted paper presentations, technical talks, and 
+      collaborative group activities.
+    </p>
+
+    <a href="events/federated-hpc-2025"
+       style="
+         display:inline-block;
+         padding:0.55rem 1rem;
+         background:#4338ca;
+         color:white;
+         font-weight:600;
+         border-radius:0.5rem;
+         text-decoration:none;
+       ">
+      View Details & Register →
+    </a>
+  </div>
+
+
+  <div style="
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    padding:1rem 1.2rem;
+    color:white;
+  ">
+    <h2 style="margin:0; font-size:1.35rem;">Federated HPC Workshop'25</h2>
   </div>
 
   <div style="padding:1.1rem 1.2rem; background:#ffffff;">
