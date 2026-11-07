@@ -83,11 +83,8 @@ Welcome to my events page. Here you can find workshops, talks, and academic even
   <li>
     <span class="talk-date"><b>30</b>Oct</span>
     <div class="talk-info">
-      <span class="talk-title">Efficient Private Set Intersection and Searchable Encryption using Homomorphic Bloom Filters<img width="1266" height="63" alt="image" src="https://github.com/user-attachments/assets/b26683a0-1683-4f71-9ed7-c110acc03322" />
- </span>
-      <span class="talk-venue">28th International Conference on Information and Communications Security (ICICS), 2026, Fukui, Japan.
-<img width="1452" height="76" alt="image" src="https://github.com/user-attachments/assets/9188172b-32a0-4b83-8dd3-8700098657e4" />
-</span>
+      <span class="talk-title">Efficient Private Set Intersection and Searchable Encryption using Homomorphic Bloom Filters</span>
+      <span class="talk-venue">28th International Conference on Information and Communications Security (ICICS), 2026, Fukui, Japan.</span>
     </div>
   </li>
   <li>
